@@ -1,9 +1,9 @@
 ﻿Imports MySql.Data.MySqlClient
 Imports System.ComponentModel
-Imports System.IO
-
-Imports Microsoft.Office.Interop.Excel
-
+Imports System.Windows.Forms.Application
+'Imports Microsoft.Office.Interop.Excel
+'Imports Microsoft.Office.Interop
+Imports Excel = Microsoft.Office.Interop.Excel
 
 Public Class Formprincipal
     Dim ACT_PASS As String

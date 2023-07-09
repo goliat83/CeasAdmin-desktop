@@ -2,6 +2,9 @@
 Imports System.ComponentModel
 Imports System.IO
 
+Imports Microsoft.Office.Interop.Excel
+
+
 Public Class Formprincipal
     Dim ACT_PASS As String
     Dim NEW_PASS As String
@@ -11,6 +14,8 @@ Public Class Formprincipal
 
     Dim DT_ASESORES As DataTable
     Dim DA_ASESORES As MySqlDataAdapter
+
+
 
     'Cursos - Acceso/Consulta
 
@@ -999,5 +1004,54 @@ left join alumnos al on c.alumno_doc = al.documento where"
     Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
         FormAsignarInstructores.Show()
 
+    End Sub
+
+    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
+        ExportarExcel(DataGridViewCursos)
+
+    End Sub
+
+    Private Sub ExportarExcel(ByVal dataGridView As DataGridView)
+        ' Crea una instancia de Excel
+
+        Dim excelApp As New Excel.Application()
+        excelApp.Visible = True
+
+        ' Crea un nuevo libro de trabajo de Excel
+        Dim excelWorkbook As Excel.Workbook = excelApp.Workbooks.Add()
+
+        ' Agrega una nueva hoja de trabajo al libro de trabajo
+        Dim excelWorksheet As Excel.Worksheet = excelWorkbook.Sheets.Add()
+
+        ' Define un índice de columna para el bucle
+        Dim columnIndex As Integer = 1
+
+        ' Exporta los encabezados de columna al archivo de Excel
+        For Each column As DataGridViewColumn In dataGridView.Columns
+            excelWorksheet.Cells(1, columnIndex) = column.HeaderText
+            columnIndex += 1
+        Next
+
+        ' Define un índice de fila para el bucle
+        Dim rowIndex As Integer = 2
+
+        ' Exporta los datos de las filas al archivo de Excel
+        For Each row As DataGridViewRow In dataGridView.Rows
+            columnIndex = 1
+
+            For Each cell As DataGridViewCell In row.Cells
+                excelWorksheet.Cells(rowIndex, columnIndex) = cell.Value
+                columnIndex += 1
+            Next
+
+            rowIndex += 1
+        Next
+
+        ' Guarda el libro de trabajo de Excel y lo cierra
+        excelWorkbook.SaveAs("ruta/del/archivo.xlsx")
+        excelWorkbook.Close()
+
+        ' Cierra la instancia de Excel
+        excelApp.Quit()
     End Sub
 End Class

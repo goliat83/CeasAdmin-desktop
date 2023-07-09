@@ -1,0 +1,420 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CEASadminCOMPETENCIAS
+</name>
+</assembly>
+<members>
+<member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.abri8">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.administraencia">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.alumnos">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.alumnos1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.asesor">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.background1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.botadj">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.busca">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.buscar">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.calculador123">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.Cambioclave">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.CANCEL">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.carro">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.charIconpay">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.cuadrofac">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.curso">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.D11">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.delete">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.diskette">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.documentos">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.E101">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.E1ins">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.E367333331">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.econocolom">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.edit">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.emaillogo1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.empleados">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.empleados1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.empresa_home">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.estudiantelogo">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.farmaci">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.filterdata">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.firmaazul">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.fondo">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.fondo_azul">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.G111">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.gastos">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.gastos1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.grado">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.grado1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.horario">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.horarios">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.hqrunt">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.icono_automovil">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.icono_bolsa_de_trabajo">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.icono_calendario1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.icono_carro">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.Icono_contable1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.icono_documentos">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.icono_documentos1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.icono_revalidacion">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.icono6">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.iconoexcel">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.iconquickpay">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.iconquickpayEE">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.impresora2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.informes">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.informes1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.inscripcion">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.instructores">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.lics">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.listados">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.listados1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.logi8">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.logi81">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.login">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.login1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.logo">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.LOGO_COMPETENCIAS">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.logoaca">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.logoalumnos">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.LOGOCONT">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.LOGOCONT1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.logodos">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.logoformulatres">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.logoformulatrestransp">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.LOGOUTOCLUB">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.LOGOUTOCLUB1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.LOGOUTOCLUB2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.LogoWord">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.loOOOgin">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.MATRICULA_wall">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.Mavi">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.Mavi1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.minussymbol">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.mitos">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.Nnew">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.opciones">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.Pasescom">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.pictureefault">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.precios">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.print99362">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.renaul">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.runt_personal">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.runtciudadanos">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.SJGHJHG64">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.wallloginorigin">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.whitesimple">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_COMPETENCIAS.My.Resources.Resources.Zinupport">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="T:CEASadmin_COMPETENCIAS.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+</members>
+</doc>

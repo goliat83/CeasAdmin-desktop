@@ -1,0 +1,11 @@
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\ceasAdmin2021\bin\Debug\ceasAdmin2021.exe.config
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\ceasAdmin2021\bin\Debug\ceasAdmin2021.exe
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\ceasAdmin2021\bin\Debug\ceasAdmin2021.pdb
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\ceasAdmin2021\obj\Debug\ceasAdmin2021.csprojAssemblyReference.cache
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\ceasAdmin2021\obj\Debug\ceasAdmin2021.Properties.Resources.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\ceasAdmin2021\obj\Debug\ceasAdmin2021.csproj.GenerateResource.cache
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\ceasAdmin2021\obj\Debug\ceasAdmin2021.csproj.CoreCompileInputs.cache
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\ceasAdmin2021\obj\Debug\ceasAdmin2021.exe
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\ceasAdmin2021\obj\Debug\ceasAdmin2021.pdb
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\ceasAdmin2021\obj\Debug\ceasAdmin2021.frmLogin.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\ceasAdmin2021\obj\Debug\ceasAdmin2021.frmPrincipal.resources

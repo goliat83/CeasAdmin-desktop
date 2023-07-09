@@ -1,0 +1,227 @@
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.exe.config
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.exe.manifest
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.application
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.exe
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.pdb
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.xml
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.vbprojResolveAssemblyReference.cache
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.vbproj.ResolveComReference.cache
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formalumnos.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formalumnos_foto.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formasesores.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursonuevo.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursonuevo_buscaralumno.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_abono.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_abono_gestor.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_descuento.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_ver.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_veradjuntar.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_verprogclase.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formempleados.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formlogin.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formopciones_runt.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formprincipal.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formrunt_programar.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formservicios.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formvehiculos.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_egreso_nomina.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_egreso_nomina_ver.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_ingreso.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_main.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_nomina.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_SIET.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_contrato2.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_factura_ingreso.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_about.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_caja.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_egreso.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_empresa.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_factura.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_factura_asesor.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_factura_egreso.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_horario.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_instructores.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_mail.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_opcionesadmin.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Forminformes_admin.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Resources.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.vbproj.GenerateResource.Cache
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\RdlCompile.cache
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\RdlCompile.compiled
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.TrustInfo.xml
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.exe.manifest
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.application
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.exe
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.xml
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.pdb
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.exe.config
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.vbproj.ResolveComReference.cache
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.exe
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.xml
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.pdb
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.vbprojResolveAssemblyReference.cache
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.exe.manifest
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.application
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.exe
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.pdb
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.xml
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formalumnos.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formalumnos_foto.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formasesores.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursonuevo.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursonuevo_buscaralumno.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_abono.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_abono_gestor.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_descuento.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_ver.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_veradjuntar.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_verprogclase.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formempleados.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formlogin.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formopciones_runt.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formprincipal.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formrunt_programar.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formservicios.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formvehiculos.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_egreso_nomina.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_egreso_nomina_ver.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_ingreso.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_main.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_nomina.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_SIET.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_contrato2.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_factura_ingreso.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_about.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_caja.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_egreso.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_empresa.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_factura.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_factura_asesor.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_factura_egreso.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_horario.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_instructores.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_mail.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_opcionesadmin.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Forminformes_admin.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Resources.resources
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.vbproj.GenerateResource.Cache
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\RdlCompile.cache
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\RdlCompile.compiled
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.TrustInfo.xml
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.exe.manifest
+C:\Users\David M\Documents\Visual Studio 2015\Projects\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.application
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.exe.config
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.vbproj.ResolveComReference.cache
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.exe
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.xml
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.pdb
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.exe.manifest
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.application
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.exe
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.pdb
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.xml
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formalumnos.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formalumnos_foto.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formasesores.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursonuevo.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_abono.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_abono_gestor.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_descuento.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_ver.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_veradjuntar.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_verprogclase.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formempleados.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formlogin.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formopciones_runt.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formprincipal.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formrunt_programar.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formservicios.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formvehiculos.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_egreso_nomina.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_egreso_nomina_ver.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_ingreso.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_main.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_nomina.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_SIET.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_contrato2.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_factura_ingreso.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_about.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_caja.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_egreso.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_empresa.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_factura.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_factura_asesor.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_factura_egreso.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_horario.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_instructores.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_mail.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_opcionesadmin.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Forminformes_admin.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Resources.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.vbproj.GenerateResource.Cache
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.TrustInfo.xml
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.exe.manifest
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.application
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_update.resources
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.vbprojAssemblyReference.cache
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.vbproj.CoreCompileInputs.cache
+D:\backups\Projects COPIA 2\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.vbproj.CopyComplete
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.exe.config
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.exe.manifest
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.application
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.exe
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.pdb
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\bin\Debug\CEASadmin_AUTOCAR.xml
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.vbprojAssemblyReference.cache
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.vbproj.ResolveComReference.cache
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formalumnos.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formalumnos_foto.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formasesores.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursonuevo.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_abono.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_abono_gestor.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_descuento.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_ver.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_veradjuntar.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formcursos_verprogclase.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formempleados.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formlogin.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formopciones_runt.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formprincipal.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formrunt_programar.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formservicios.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Formvehiculos.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_egreso_nomina.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_egreso_nomina_ver.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_ingreso.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_nomina.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_SIET.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_update.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_contrato2.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_factura_ingreso.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_about.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_caja.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_egreso.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_empresa.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_factura.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_factura_asesor.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_factura_egreso.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_horario.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_instructores.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_mail.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Form_opcionesadmin.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Forminformes_admin.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.Resources.resources
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.vbproj.GenerateResource.cache
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.vbproj.CoreCompileInputs.cache
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.TrustInfo.xml
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.exe.manifest
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.application
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.vbproj.CopyComplete
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.exe
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.xml
+D:\Documents\Mis Proyectos VS\CEAS_AUTOCAR\CEASadmin\obj\Debug\CEASadmin_AUTOCAR.pdb

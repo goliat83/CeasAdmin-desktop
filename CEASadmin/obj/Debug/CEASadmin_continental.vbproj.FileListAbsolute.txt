@@ -1,0 +1,58 @@
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin_continental.vbproj.ResolveComReference.cache
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Formalumnos.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Formasesores.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Formcursonuevo.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Formcursonuevo_buscaralumno.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Formcursos.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Formcursos_abono.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Formcursos_abono_gestor.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Formcursos_descuento.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Formcursos_ver.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Formcursos_veradjuntar.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Formcursos_verprogclase.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Formempleados.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Formlogin.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Formopciones_runt.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Formprincipal.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Formrunt_programar.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Formservicios.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Formvehiculos.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Form_caja.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Form_egreso.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Form_factura.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Form_factura_asesor.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Form_factura_egreso.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Form_instructores.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Form_opcionesadmin.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Forminformes_admin.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Resources.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin_continental.vbproj.GenerateResource.Cache
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin_continental.vbprojResolveAssemblyReference.cache
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\bin\Debug\CEASadmin Continental.exe.config
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\bin\Debug\CEASadmin Continental.exe
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\bin\Debug\CEASadmin Continental.pdb
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\bin\Debug\CEASadmin Continental.xml
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Form_empresa.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin Continental.exe
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin Continental.xml
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin Continental.pdb
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Form_horario.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Form_mail.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Form_about.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\bin\Debug\CEASadmin Continental.exe.manifest
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\bin\Debug\CEASadmin Continental.application
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin Continental.TrustInfo.xml
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin Continental.exe.manifest
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin Continental.application
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Form_ingreso.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Form_factura_ingreso.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\CONTINENTAL\CEASadmin\obj\Debug\CEASadmin.Form_SIET.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COLOMBIANA\CEASadmin\bin\Debug\CEASadmin Continental.exe.config
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COLOMBIANA\CEASadmin\obj\Debug\CEASadmin_continental.vbproj.ResolveComReference.cache
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COLOMBIANA\CEASadmin\obj\Debug\CEASadmin Continental.exe
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COLOMBIANA\CEASadmin\obj\Debug\CEASadmin Continental.xml
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COLOMBIANA\CEASadmin\obj\Debug\CEASadmin Continental.pdb
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COLOMBIANA\CEASadmin\bin\Debug\CEASadmin Colombiana.exe.config
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COLOMBIANA\CEASadmin\obj\Debug\CEASadmin Colombiana.exe
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COLOMBIANA\CEASadmin\obj\Debug\CEASadmin Colombiana.xml
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COLOMBIANA\CEASadmin\obj\Debug\CEASadmin Colombiana.pdb

@@ -1,0 +1,352 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CEASadminFORMULA3
+</name>
+</assembly>
+<members>
+<member name="P:CEASadmin_FORMULA3.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.abri8">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.administraencia">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.alumnos">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.asesor">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.botadj">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.busca">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.buscar">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.calculador123">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.Cambioclave">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.CANCEL">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.carro">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.charIconpay">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.cuadrofac">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.curso">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.D11">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.delete">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.diskette">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.documentos">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.E101">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.E1ins">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.E367333331">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.econocolom">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.edit">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.emaillogo1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.empleados">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.empleados1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.empresa_home">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.estudiantelogo">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.farmaci">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.filterdata">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.fondo">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.G111">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.gastos">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.gastos1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.grado">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.horario">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.horarios">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.hqrunt">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.iconoexcel">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.iconquickpay">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.iconquickpayEE">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.impresora2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.informes">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.informes1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.inscripcion">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.instructores">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.lics">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.listados">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.listados1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.logi8">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.logi81">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.login">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.logo">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.logoaca">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.logoalumnos">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.LOGOCONT">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.LOGOCONT1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.logodos">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.logoformulatres">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.logoformulatrestransp">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.LOGOUTOCLUB">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.LOGOUTOCLUB1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.LOGOUTOCLUB2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.LogoWord">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.loOOOgin">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.MATRICULA_wall">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.Mavi">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.Mavi1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.minussymbol">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.mitos">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.Nnew">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.opciones">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.Pases_com_002">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.precios">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.print99362">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.renaul">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.runt_personal">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.runtciudadanos">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.SJGHJHG64">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.wallloginorigin">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.white_simple_00241558">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CEASadmin_FORMULA3.My.Resources.Resources.Zinupport">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="T:CEASadmin_FORMULA3.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+</members>
+</doc>

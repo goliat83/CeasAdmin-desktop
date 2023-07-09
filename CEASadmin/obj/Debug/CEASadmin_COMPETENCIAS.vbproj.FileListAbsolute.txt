@@ -1,0 +1,114 @@
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\bin\Debug\CEASadmin COMPETENCIAS.exe.config
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\bin\Debug\CEASadmin COMPETENCIAS.exe.manifest
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\bin\Debug\CEASadmin COMPETENCIAS.application
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\bin\Debug\CEASadmin COMPETENCIAS.exe
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\bin\Debug\CEASadmin COMPETENCIAS.pdb
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\bin\Debug\CEASadmin COMPETENCIAS.xml
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.vbprojResolveAssemblyReference.cache
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.vbproj.ResolveComReference.cache
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formalumnos.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formalumnos_foto.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formasesores.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formcursonuevo.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formcursonuevo_buscaralumno.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formcursos.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formcursos_abono.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formcursos_abono_gestor.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formcursos_descuento.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formcursos_ver.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formcursos_veradjuntar.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formcursos_verprogclase.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formempleados.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formlogin.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formopciones_runt.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formprincipal.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formrunt_programar.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formservicios.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formvehiculos.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_egreso_nomina.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_egreso_nomina_ver.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_ingreso.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_nomina.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_SIET.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_contrato2.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_factura_ingreso.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_about.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_caja.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_egreso.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_empresa.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_factura.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_factura_asesor.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_factura_egreso.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_horario.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_instructores.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_mail.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_opcionesadmin.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Forminformes_admin.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Resources.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.vbproj.GenerateResource.Cache
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\RdlCompile.cache
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\RdlCompile.compiled
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin COMPETENCIAS.TrustInfo.xml
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin COMPETENCIAS.exe.manifest
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin COMPETENCIAS.application
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin COMPETENCIAS.exe
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin COMPETENCIAS.xml
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin COMPETENCIAS.pdb
+C:\Users\David M\Documents\Visual Studio 2012\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_main.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\bin\Debug\CEASadmin COMPETENCIAS.exe.config
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.vbproj.ResolveComReference.cache
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin COMPETENCIAS.exe
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin COMPETENCIAS.xml
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin COMPETENCIAS.pdb
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\bin\Debug\CEASadmin COMPETENCIAS.exe.manifest
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\bin\Debug\CEASadmin COMPETENCIAS.application
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\bin\Debug\CEASadmin COMPETENCIAS.exe
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\bin\Debug\CEASadmin COMPETENCIAS.pdb
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\bin\Debug\CEASadmin COMPETENCIAS.xml
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.vbprojResolveAssemblyReference.cache
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formalumnos.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formalumnos_foto.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formasesores.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formcursonuevo.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formcursonuevo_buscaralumno.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formcursos.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formcursos_abono.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formcursos_abono_gestor.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formcursos_descuento.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formcursos_ver.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formcursos_veradjuntar.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formcursos_verprogclase.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formempleados.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formlogin.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formopciones_runt.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formprincipal.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formrunt_programar.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formservicios.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Formvehiculos.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_egreso_nomina.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_egreso_nomina_ver.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_ingreso.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_main.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_nomina.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_SIET.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_contrato2.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_factura_ingreso.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_about.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_caja.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_egreso.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_empresa.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_factura.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_factura_asesor.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_factura_egreso.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_horario.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_instructores.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_mail.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Form_opcionesadmin.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Forminformes_admin.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.Resources.resources
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin_COMPETENCIAS.vbproj.GenerateResource.Cache
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\RdlCompile.cache
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\RdlCompile.compiled
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin COMPETENCIAS.TrustInfo.xml
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin COMPETENCIAS.exe.manifest
+C:\Users\David M\Documents\Visual Studio 2012\Projects\Projects\CEAS\COMPETENCIAS\CEASadmin\obj\Debug\CEASadmin COMPETENCIAS.application

@@ -10,7 +10,7 @@ Module Modulobase
     'Public conex As New MySqlConnection("data source=localhost; user id=root; password='Radiobemba';database=ceas_continental; port=3306; sslmode=none")
     Public ind As Integer
     Public conex As New MySqlConnection("")
-    Public conex_miclick As New MySqlConnection("data source=75.102.22.98; user id=bhhurjmu_root; password='Radiob3mba@_';database=bhhurjmu_infovictimas; port=3306; Sslmode=none;")
+    Public conex_miclick As New MySqlConnection("data source=75.102.22.98; user id=bhhurjmu_root; password='Radiob3mba@_';database=bhhurjmu_mydata; port=3306; Sslmode=none;")
     Public conex_conti As New MySqlConnection("data source=75.102.22.98; user id=bhhurjmu_contiroot; password='_rWas663';database=bhhurjmu_contibd; port=3306; Sslmode=none;")
     Public conex_contisas As New MySqlConnection("data source=75.102.22.98; user id=bhhurjmu_contiroot; password='_rWas663';database=bhhurjmu_contibd_sas; port=3306; Sslmode=none;")
     Public conex_conti_dev As New MySqlConnection("data source=75.102.22.98; user id=bhhurjmu_contiroot; password='_rWas663';database=bhhurjmu_contibd_dev; port=3306; Sslmode=none;")

@@ -5,6 +5,7 @@ Imports System.Windows.Forms.Application
 'Imports Microsoft.Office.Interop
 Imports Excel = Microsoft.Office.Interop.Excel
 
+
 Public Class Formprincipal
     Dim ACT_PASS As String
     Dim NEW_PASS As String
@@ -1013,9 +1014,11 @@ left join alumnos al on c.alumno_doc = al.documento where"
 
     Private Sub ExportarExcel(ByVal dataGridView As DataGridView)
         ' Crea una instancia de Excel
+        Cursor = Cursors.WaitCursor
 
         Dim excelApp As New Excel.Application()
-        excelApp.Visible = True
+        excelApp.Visible = False
+        excelApp.DisplayAlerts = False
 
         ' Crea un nuevo libro de trabajo de Excel
         Dim excelWorkbook As Excel.Workbook = excelApp.Workbooks.Add()
@@ -1047,11 +1050,17 @@ left join alumnos al on c.alumno_doc = al.documento where"
             rowIndex += 1
         Next
 
-        ' Guarda el libro de trabajo de Excel y lo cierra
-        excelWorkbook.SaveAs("ruta/del/archivo.xlsx")
-        excelWorkbook.Close()
+        Dim escritorio As String = Environment.GetFolderPath(Environment.SpecialFolder.Desktop)
+        Dim rutaArchivo As String = System.IO.Path.Combine(escritorio, "archivoceasadmin" & DateTime.Now.ToShortDateString.Replace("/", "") & ((DateTime.Now.ToShortTimeString.Replace(".", "")).Replace(":", "")).Replace(" ", "") & ".xlsx")
 
-        ' Cierra la instancia de Excel
+        excelWorkbook.SaveAs(rutaArchivo)
+        excelWorkbook.Close()
+        excelApp.Visible = True
+        excelApp.DisplayAlerts = True
         excelApp.Quit()
+
+        Cursor = Cursors.Default
+
+        MessageBox.Show("Exporte finalizado el archivo está en el escritorio.")
     End Sub
 End Class

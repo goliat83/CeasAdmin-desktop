@@ -56,6 +56,8 @@ Partial Class Formprincipal
         Me.Panel_cursos = New System.Windows.Forms.Panel()
         Me.tabControlMain = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.Button14 = New System.Windows.Forms.Button()
+        Me.ImageList2 = New System.Windows.Forms.ImageList(Me.components)
         Me.CheckBox_fecha_final = New System.Windows.Forms.CheckBox()
         Me.DateTimePickerFechaFin = New System.Windows.Forms.DateTimePicker()
         Me.ComboBoxAsesorFiltro = New System.Windows.Forms.ComboBox()
@@ -68,7 +70,6 @@ Partial Class Formprincipal
         Me.DateTimePickerFecha = New System.Windows.Forms.DateTimePicker()
         Me.NumericUpDownAno = New System.Windows.Forms.NumericUpDown()
         Me.Button4 = New System.Windows.Forms.Button()
-        Me.ImageList2 = New System.Windows.Forms.ImageList(Me.components)
         Me.ComboBoxMes = New System.Windows.Forms.ComboBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.RadioButtonMatriculados = New System.Windows.Forms.RadioButton()
@@ -108,7 +109,6 @@ Partial Class Formprincipal
         Me.btnCloseApp = New System.Windows.Forms.Button()
         Me.Timer_TURNO = New System.Windows.Forms.Timer(Me.components)
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.Button14 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelTop.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -136,9 +136,10 @@ Partial Class Formprincipal
         Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.runtciudadanos
         Me.Button7.ImageAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.Button7.Location = New System.Drawing.Point(1122, 212)
+        Me.Button7.Location = New System.Drawing.Point(1496, 261)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(109, 54)
+        Me.Button7.Size = New System.Drawing.Size(145, 66)
         Me.Button7.TabIndex = 46
         Me.Button7.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button7.UseVisualStyleBackColor = False
@@ -151,9 +152,10 @@ Partial Class Formprincipal
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.hqrunt
         Me.Button6.ImageAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.Button6.Location = New System.Drawing.Point(1122, 152)
+        Me.Button6.Location = New System.Drawing.Point(1496, 187)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(109, 53)
+        Me.Button6.Size = New System.Drawing.Size(145, 65)
         Me.Button6.TabIndex = 45
         Me.Button6.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button6.UseVisualStyleBackColor = False
@@ -161,10 +163,11 @@ Partial Class Formprincipal
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.LogoTerracotta
-        Me.PictureBox1.Location = New System.Drawing.Point(5, 5)
+        Me.PictureBox1.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.logocontisas
+        Me.PictureBox1.Location = New System.Drawing.Point(7, 6)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(246, 64)
+        Me.PictureBox1.Size = New System.Drawing.Size(328, 79)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 79
         Me.PictureBox1.TabStop = False
@@ -177,9 +180,10 @@ Partial Class Formprincipal
         Me.Button3.ForeColor = System.Drawing.Color.Black
         Me.Button3.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.calculador123
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.Button3.Location = New System.Drawing.Point(1122, 273)
+        Me.Button3.Location = New System.Drawing.Point(1496, 336)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(109, 50)
+        Me.Button3.Size = New System.Drawing.Size(145, 62)
         Me.Button3.TabIndex = 80
         Me.Button3.UseVisualStyleBackColor = False
         Me.Button3.Visible = False
@@ -198,8 +202,9 @@ Partial Class Formprincipal
         Me.PanelTop.Controls.Add(Me.PictureBox1)
         Me.PanelTop.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelTop.Location = New System.Drawing.Point(0, 0)
+        Me.PanelTop.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PanelTop.Name = "PanelTop"
-        Me.PanelTop.Size = New System.Drawing.Size(1238, 74)
+        Me.PanelTop.Size = New System.Drawing.Size(1651, 91)
         Me.PanelTop.TabIndex = 324
         '
         'PictureBox3
@@ -207,9 +212,10 @@ Partial Class Formprincipal
         Me.PictureBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(1157, 4)
+        Me.PictureBox3.Location = New System.Drawing.Point(1543, 5)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(77, 67)
+        Me.PictureBox3.Size = New System.Drawing.Size(103, 82)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 108
         Me.PictureBox3.TabStop = False
@@ -220,9 +226,10 @@ Partial Class Formprincipal
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.DarkOrange
-        Me.Label4.Location = New System.Drawing.Point(754, 22)
+        Me.Label4.Location = New System.Drawing.Point(1005, 27)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(397, 25)
+        Me.Label4.Size = New System.Drawing.Size(529, 31)
         Me.Label4.TabIndex = 106
         Me.Label4.Text = "Usuario"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -234,9 +241,10 @@ Partial Class Formprincipal
         Me.Label_turno_actual.Cursor = System.Windows.Forms.Cursors.AppStarting
         Me.Label_turno_actual.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label_turno_actual.ForeColor = System.Drawing.Color.DarkOrange
-        Me.Label_turno_actual.Location = New System.Drawing.Point(960, 49)
+        Me.Label_turno_actual.Location = New System.Drawing.Point(1280, 60)
+        Me.Label_turno_actual.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label_turno_actual.Name = "Label_turno_actual"
-        Me.Label_turno_actual.Size = New System.Drawing.Size(198, 17)
+        Me.Label_turno_actual.Size = New System.Drawing.Size(264, 21)
         Me.Label_turno_actual.TabIndex = 109
         Me.Label_turno_actual.Text = "Turno: "
         Me.Label_turno_actual.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -252,9 +260,10 @@ Partial Class Formprincipal
         Me.PanelLeft.Controls.Add(Me.ButtonContactos)
         Me.PanelLeft.Controls.Add(Me.BtnCalendario)
         Me.PanelLeft.Dock = System.Windows.Forms.DockStyle.Left
-        Me.PanelLeft.Location = New System.Drawing.Point(0, 74)
+        Me.PanelLeft.Location = New System.Drawing.Point(0, 91)
+        Me.PanelLeft.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PanelLeft.Name = "PanelLeft"
-        Me.PanelLeft.Size = New System.Drawing.Size(58, 687)
+        Me.PanelLeft.Size = New System.Drawing.Size(77, 846)
         Me.PanelLeft.TabIndex = 323
         '
         'Button1
@@ -268,10 +277,11 @@ Partial Class Formprincipal
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button1.ImageKey = "graphic.png"
         Me.Button1.ImageList = Me.imageList1
-        Me.Button1.Location = New System.Drawing.Point(3, 281)
+        Me.Button1.Location = New System.Drawing.Point(4, 346)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.Button1.Size = New System.Drawing.Size(202, 40)
+        Me.Button1.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.Button1.Size = New System.Drawing.Size(269, 49)
         Me.Button1.TabIndex = 698
         Me.Button1.Text = "  Contactos"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -322,10 +332,11 @@ Partial Class Formprincipal
         Me.BtnCaja.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnCaja.ImageKey = "tesoreria.png"
         Me.BtnCaja.ImageList = Me.imageList1
-        Me.BtnCaja.Location = New System.Drawing.Point(3, 112)
+        Me.BtnCaja.Location = New System.Drawing.Point(4, 138)
+        Me.BtnCaja.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnCaja.Name = "BtnCaja"
-        Me.BtnCaja.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.BtnCaja.Size = New System.Drawing.Size(192, 40)
+        Me.BtnCaja.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.BtnCaja.Size = New System.Drawing.Size(256, 49)
         Me.BtnCaja.TabIndex = 696
         Me.BtnCaja.Text = "   Contactos"
         Me.BtnCaja.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -342,10 +353,11 @@ Partial Class Formprincipal
         Me.ButtonAlumnos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ButtonAlumnos.ImageKey = "palestrantes.png"
         Me.ButtonAlumnos.ImageList = Me.imageList1
-        Me.ButtonAlumnos.Location = New System.Drawing.Point(1, 58)
+        Me.ButtonAlumnos.Location = New System.Drawing.Point(1, 71)
+        Me.ButtonAlumnos.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ButtonAlumnos.Name = "ButtonAlumnos"
-        Me.ButtonAlumnos.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.ButtonAlumnos.Size = New System.Drawing.Size(192, 49)
+        Me.ButtonAlumnos.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.ButtonAlumnos.Size = New System.Drawing.Size(256, 60)
         Me.ButtonAlumnos.TabIndex = 693
         Me.ButtonAlumnos.Text = "   Contactos"
         Me.ButtonAlumnos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -363,10 +375,11 @@ Partial Class Formprincipal
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button2.ImageKey = "boos.png"
         Me.Button2.ImageList = Me.imageList1
-        Me.Button2.Location = New System.Drawing.Point(3, 337)
+        Me.Button2.Location = New System.Drawing.Point(4, 415)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.Button2.Size = New System.Drawing.Size(202, 40)
+        Me.Button2.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.Button2.Size = New System.Drawing.Size(269, 49)
         Me.Button2.TabIndex = 695
         Me.Button2.Text = "  Contactos"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -384,10 +397,11 @@ Partial Class Formprincipal
         Me.BtnCursosList.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnCursosList.ImageKey = "cotizacion.png"
         Me.BtnCursosList.ImageList = Me.imageList1
-        Me.BtnCursosList.Location = New System.Drawing.Point(1, 9)
+        Me.BtnCursosList.Location = New System.Drawing.Point(1, 11)
+        Me.BtnCursosList.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnCursosList.Name = "BtnCursosList"
-        Me.BtnCursosList.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.BtnCursosList.Size = New System.Drawing.Size(192, 40)
+        Me.BtnCursosList.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.BtnCursosList.Size = New System.Drawing.Size(256, 49)
         Me.BtnCursosList.TabIndex = 694
         Me.BtnCursosList.Text = "   Contactos"
         Me.BtnCursosList.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -405,10 +419,11 @@ Partial Class Formprincipal
         Me.ButtonContactos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ButtonContactos.ImageKey = "clientespago.png"
         Me.ButtonContactos.ImageList = Me.imageList1
-        Me.ButtonContactos.Location = New System.Drawing.Point(3, 222)
+        Me.ButtonContactos.Location = New System.Drawing.Point(4, 273)
+        Me.ButtonContactos.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ButtonContactos.Name = "ButtonContactos"
-        Me.ButtonContactos.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.ButtonContactos.Size = New System.Drawing.Size(192, 40)
+        Me.ButtonContactos.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.ButtonContactos.Size = New System.Drawing.Size(256, 49)
         Me.ButtonContactos.TabIndex = 699
         Me.ButtonContactos.Text = "   Contactos"
         Me.ButtonContactos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -426,10 +441,11 @@ Partial Class Formprincipal
         Me.BtnCalendario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnCalendario.ImageKey = "calendario.png"
         Me.BtnCalendario.ImageList = Me.imageList1
-        Me.BtnCalendario.Location = New System.Drawing.Point(3, 164)
+        Me.BtnCalendario.Location = New System.Drawing.Point(4, 202)
+        Me.BtnCalendario.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnCalendario.Name = "BtnCalendario"
-        Me.BtnCalendario.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.BtnCalendario.Size = New System.Drawing.Size(192, 40)
+        Me.BtnCalendario.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.BtnCalendario.Size = New System.Drawing.Size(256, 49)
         Me.BtnCalendario.TabIndex = 697
         Me.BtnCalendario.Text = "   Contactos"
         Me.BtnCalendario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -448,11 +464,11 @@ Partial Class Formprincipal
         Me.btnNuevoCurso.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnNuevoCurso.ImageKey = "masicon.png"
         Me.btnNuevoCurso.ImageList = Me.imageList1
-        Me.btnNuevoCurso.Location = New System.Drawing.Point(864, 9)
-        Me.btnNuevoCurso.Margin = New System.Windows.Forms.Padding(5, 3, 3, 3)
+        Me.btnNuevoCurso.Location = New System.Drawing.Point(1152, 11)
+        Me.btnNuevoCurso.Margin = New System.Windows.Forms.Padding(7, 4, 4, 4)
         Me.btnNuevoCurso.Name = "btnNuevoCurso"
-        Me.btnNuevoCurso.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.btnNuevoCurso.Size = New System.Drawing.Size(151, 47)
+        Me.btnNuevoCurso.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.btnNuevoCurso.Size = New System.Drawing.Size(201, 58)
         Me.btnNuevoCurso.TabIndex = 692
         Me.btnNuevoCurso.Text = "Nueva campaña"
         Me.btnNuevoCurso.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
@@ -464,11 +480,11 @@ Partial Class Formprincipal
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel_cursos.Controls.Add(Me.tabControlMain)
-        Me.Panel_cursos.Location = New System.Drawing.Point(65, 81)
-        Me.Panel_cursos.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.Panel_cursos.Location = New System.Drawing.Point(87, 100)
+        Me.Panel_cursos.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
         Me.Panel_cursos.Name = "Panel_cursos"
-        Me.Panel_cursos.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
-        Me.Panel_cursos.Size = New System.Drawing.Size(1046, 680)
+        Me.Panel_cursos.Padding = New System.Windows.Forms.Padding(7, 6, 7, 6)
+        Me.Panel_cursos.Size = New System.Drawing.Size(1395, 837)
         Me.Panel_cursos.TabIndex = 325
         '
         'tabControlMain
@@ -482,10 +498,11 @@ Partial Class Formprincipal
         Me.tabControlMain.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tabControlMain.ImageList = Me.imageList1
         Me.tabControlMain.ItemSize = New System.Drawing.Size(62, 35)
-        Me.tabControlMain.Location = New System.Drawing.Point(5, 5)
+        Me.tabControlMain.Location = New System.Drawing.Point(7, 6)
+        Me.tabControlMain.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tabControlMain.Name = "tabControlMain"
         Me.tabControlMain.SelectedIndex = 0
-        Me.tabControlMain.Size = New System.Drawing.Size(1036, 670)
+        Me.tabControlMain.Size = New System.Drawing.Size(1381, 825)
         Me.tabControlMain.SizeMode = System.Windows.Forms.TabSizeMode.FillToRight
         Me.tabControlMain.TabIndex = 326
         '
@@ -516,19 +533,59 @@ Partial Class Formprincipal
         Me.TabPage1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabPage1.ImageIndex = 10
         Me.TabPage1.Location = New System.Drawing.Point(4, 39)
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
-        Me.TabPage1.Size = New System.Drawing.Size(1028, 627)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage1.Size = New System.Drawing.Size(1373, 782)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Campañas"
+        '
+        'Button14
+        '
+        Me.Button14.BackColor = System.Drawing.Color.LightGreen
+        Me.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button14.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button14.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button14.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button14.ForeColor = System.Drawing.Color.Black
+        Me.Button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button14.ImageKey = "search-icon.png"
+        Me.Button14.ImageList = Me.ImageList2
+        Me.Button14.Location = New System.Drawing.Point(1007, 48)
+        Me.Button14.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(123, 41)
+        Me.Button14.TabIndex = 1099
+        Me.Button14.Text = "Exportar"
+        Me.Button14.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.Button14.UseVisualStyleBackColor = False
+        '
+        'ImageList2
+        '
+        Me.ImageList2.ImageStream = CType(resources.GetObject("ImageList2.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList2.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageList2.Images.SetKeyName(0, "lapizico.png")
+        Me.ImageList2.Images.SetKeyName(1, "save-icon-5427.png")
+        Me.ImageList2.Images.SetKeyName(2, "guardar.jpg")
+        Me.ImageList2.Images.SetKeyName(3, "menosicon.png")
+        Me.ImageList2.Images.SetKeyName(4, "delete_x.png")
+        Me.ImageList2.Images.SetKeyName(5, "Icon-Printe.png")
+        Me.ImageList2.Images.SetKeyName(6, "download2.png")
+        Me.ImageList2.Images.SetKeyName(7, "buscar.png")
+        Me.ImageList2.Images.SetKeyName(8, "Openfileicon.png")
+        Me.ImageList2.Images.SetKeyName(9, "document_search.png")
+        Me.ImageList2.Images.SetKeyName(10, "search-icon.png")
         '
         'CheckBox_fecha_final
         '
         Me.CheckBox_fecha_final.AutoSize = True
         Me.CheckBox_fecha_final.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.CheckBox_fecha_final.Location = New System.Drawing.Point(410, 29)
+        Me.CheckBox_fecha_final.Location = New System.Drawing.Point(547, 36)
+        Me.CheckBox_fecha_final.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBox_fecha_final.Name = "CheckBox_fecha_final"
-        Me.CheckBox_fecha_final.Size = New System.Drawing.Size(108, 20)
+        Me.CheckBox_fecha_final.Size = New System.Drawing.Size(129, 24)
         Me.CheckBox_fecha_final.TabIndex = 1098
         Me.CheckBox_fecha_final.Text = "Fecha Final"
         Me.CheckBox_fecha_final.UseVisualStyleBackColor = True
@@ -538,10 +595,11 @@ Partial Class Formprincipal
         Me.DateTimePickerFechaFin.CustomFormat = "dd/MM/yyyy"
         Me.DateTimePickerFechaFin.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePickerFechaFin.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateTimePickerFechaFin.Location = New System.Drawing.Point(406, 49)
+        Me.DateTimePickerFechaFin.Location = New System.Drawing.Point(541, 60)
+        Me.DateTimePickerFechaFin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DateTimePickerFechaFin.Name = "DateTimePickerFechaFin"
         Me.DateTimePickerFechaFin.ShowUpDown = True
-        Me.DateTimePickerFechaFin.Size = New System.Drawing.Size(107, 22)
+        Me.DateTimePickerFechaFin.Size = New System.Drawing.Size(141, 26)
         Me.DateTimePickerFechaFin.TabIndex = 1097
         '
         'ComboBoxAsesorFiltro
@@ -553,9 +611,10 @@ Partial Class Formprincipal
         Me.ComboBoxAsesorFiltro.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxAsesorFiltro.FormattingEnabled = True
         Me.ComboBoxAsesorFiltro.Items.AddRange(New Object() {"NO APLICA"})
-        Me.ComboBoxAsesorFiltro.Location = New System.Drawing.Point(406, 92)
+        Me.ComboBoxAsesorFiltro.Location = New System.Drawing.Point(541, 113)
+        Me.ComboBoxAsesorFiltro.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBoxAsesorFiltro.Name = "ComboBoxAsesorFiltro"
-        Me.ComboBoxAsesorFiltro.Size = New System.Drawing.Size(237, 21)
+        Me.ComboBoxAsesorFiltro.Size = New System.Drawing.Size(315, 25)
         Me.ComboBoxAsesorFiltro.TabIndex = 1095
         '
         'Label19
@@ -564,9 +623,10 @@ Partial Class Formprincipal
         Me.Label19.BackColor = System.Drawing.Color.Transparent
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.Color.DimGray
-        Me.Label19.Location = New System.Drawing.Point(407, 78)
+        Me.Label19.Location = New System.Drawing.Point(543, 96)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(45, 13)
+        Me.Label19.Size = New System.Drawing.Size(58, 17)
         Me.Label19.TabIndex = 1094
         Me.Label19.Text = "Asesor"
         '
@@ -579,9 +639,10 @@ Partial Class Formprincipal
         Me.ComboBoxGrupoFiltro.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxGrupoFiltro.FormattingEnabled = True
         Me.ComboBoxGrupoFiltro.Items.AddRange(New Object() {"", "A", "B", "C"})
-        Me.ComboBoxGrupoFiltro.Location = New System.Drawing.Point(649, 92)
+        Me.ComboBoxGrupoFiltro.Location = New System.Drawing.Point(865, 113)
+        Me.ComboBoxGrupoFiltro.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBoxGrupoFiltro.Name = "ComboBoxGrupoFiltro"
-        Me.ComboBoxGrupoFiltro.Size = New System.Drawing.Size(95, 21)
+        Me.ComboBoxGrupoFiltro.Size = New System.Drawing.Size(125, 25)
         Me.ComboBoxGrupoFiltro.TabIndex = 1093
         '
         'Label9
@@ -590,9 +651,10 @@ Partial Class Formprincipal
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.DimGray
-        Me.Label9.Location = New System.Drawing.Point(646, 77)
+        Me.Label9.Location = New System.Drawing.Point(861, 95)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(41, 13)
+        Me.Label9.Size = New System.Drawing.Size(53, 17)
         Me.Label9.TabIndex = 1092
         Me.Label9.Text = "Grupo"
         '
@@ -609,10 +671,10 @@ Partial Class Formprincipal
         Me.textboxContratoFiltro.LineIdleColor = System.Drawing.Color.Black
         Me.textboxContratoFiltro.LineMouseHoverColor = System.Drawing.Color.Gray
         Me.textboxContratoFiltro.LineThickness = 3
-        Me.textboxContratoFiltro.Location = New System.Drawing.Point(284, 82)
-        Me.textboxContratoFiltro.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.textboxContratoFiltro.Location = New System.Drawing.Point(379, 101)
+        Me.textboxContratoFiltro.Margin = New System.Windows.Forms.Padding(7, 5, 7, 5)
         Me.textboxContratoFiltro.Name = "textboxContratoFiltro"
-        Me.textboxContratoFiltro.Size = New System.Drawing.Size(109, 32)
+        Me.textboxContratoFiltro.Size = New System.Drawing.Size(145, 39)
         Me.textboxContratoFiltro.TabIndex = 1091
         Me.textboxContratoFiltro.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
@@ -628,9 +690,10 @@ Partial Class Formprincipal
         Me.Button5.ForeColor = System.Drawing.Color.Black
         Me.Button5.ImageKey = "document_search.png"
         Me.Button5.ImageList = Me.imageList1
-        Me.Button5.Location = New System.Drawing.Point(864, 64)
+        Me.Button5.Location = New System.Drawing.Point(1152, 79)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(151, 47)
+        Me.Button5.Size = New System.Drawing.Size(201, 58)
         Me.Button5.TabIndex = 1090
         Me.Button5.Text = "Consultar"
         Me.Button5.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
@@ -668,7 +731,8 @@ Partial Class Formprincipal
         Me.DataGridViewCursos.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
         Me.DataGridViewCursos.EnableHeadersVisualStyles = False
         Me.DataGridViewCursos.GridColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(90, Byte), Integer), CType(CType(144, Byte), Integer))
-        Me.DataGridViewCursos.Location = New System.Drawing.Point(6, 117)
+        Me.DataGridViewCursos.Location = New System.Drawing.Point(8, 144)
+        Me.DataGridViewCursos.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DataGridViewCursos.MultiSelect = False
         Me.DataGridViewCursos.Name = "DataGridViewCursos"
         Me.DataGridViewCursos.ReadOnly = True
@@ -676,7 +740,7 @@ Partial Class Formprincipal
         Me.DataGridViewCursos.RowHeadersWidth = 43
         Me.DataGridViewCursos.RowTemplate.Height = 50
         Me.DataGridViewCursos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect
-        Me.DataGridViewCursos.Size = New System.Drawing.Size(1016, 504)
+        Me.DataGridViewCursos.Size = New System.Drawing.Size(1355, 620)
         Me.DataGridViewCursos.TabIndex = 1076
         '
         'DateTimePickerFecha
@@ -684,20 +748,22 @@ Partial Class Formprincipal
         Me.DateTimePickerFecha.CustomFormat = "dd/MM/yyyy"
         Me.DateTimePickerFecha.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePickerFecha.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateTimePickerFecha.Location = New System.Drawing.Point(281, 49)
+        Me.DateTimePickerFecha.Location = New System.Drawing.Point(375, 60)
+        Me.DateTimePickerFecha.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DateTimePickerFecha.Name = "DateTimePickerFecha"
         Me.DateTimePickerFecha.ShowUpDown = True
-        Me.DateTimePickerFecha.Size = New System.Drawing.Size(107, 22)
+        Me.DateTimePickerFecha.Size = New System.Drawing.Size(141, 26)
         Me.DateTimePickerFecha.TabIndex = 1086
         '
         'NumericUpDownAno
         '
         Me.NumericUpDownAno.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NumericUpDownAno.Location = New System.Drawing.Point(8, 50)
+        Me.NumericUpDownAno.Location = New System.Drawing.Point(11, 62)
+        Me.NumericUpDownAno.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.NumericUpDownAno.Maximum = New Decimal(New Integer() {2050, 0, 0, 0})
         Me.NumericUpDownAno.Minimum = New Decimal(New Integer() {2000, 0, 0, 0})
         Me.NumericUpDownAno.Name = "NumericUpDownAno"
-        Me.NumericUpDownAno.Size = New System.Drawing.Size(85, 21)
+        Me.NumericUpDownAno.Size = New System.Drawing.Size(113, 24)
         Me.NumericUpDownAno.TabIndex = 1085
         Me.NumericUpDownAno.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.NumericUpDownAno.Value = New Decimal(New Integer() {2000, 0, 0, 0})
@@ -714,30 +780,15 @@ Partial Class Formprincipal
         Me.Button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button4.ImageKey = "search-icon.png"
         Me.Button4.ImageList = Me.ImageList2
-        Me.Button4.Location = New System.Drawing.Point(755, 78)
+        Me.Button4.Location = New System.Drawing.Point(1007, 96)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(92, 33)
+        Me.Button4.Size = New System.Drawing.Size(123, 41)
         Me.Button4.TabIndex = 1081
         Me.Button4.Text = "Buscar"
         Me.Button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.Button4.UseVisualStyleBackColor = False
-        '
-        'ImageList2
-        '
-        Me.ImageList2.ImageStream = CType(resources.GetObject("ImageList2.ImageStream"), System.Windows.Forms.ImageListStreamer)
-        Me.ImageList2.TransparentColor = System.Drawing.Color.Transparent
-        Me.ImageList2.Images.SetKeyName(0, "lapizico.png")
-        Me.ImageList2.Images.SetKeyName(1, "save-icon-5427.png")
-        Me.ImageList2.Images.SetKeyName(2, "guardar.jpg")
-        Me.ImageList2.Images.SetKeyName(3, "menosicon.png")
-        Me.ImageList2.Images.SetKeyName(4, "delete_x.png")
-        Me.ImageList2.Images.SetKeyName(5, "Icon-Printe.png")
-        Me.ImageList2.Images.SetKeyName(6, "download2.png")
-        Me.ImageList2.Images.SetKeyName(7, "buscar.png")
-        Me.ImageList2.Images.SetKeyName(8, "Openfileicon.png")
-        Me.ImageList2.Images.SetKeyName(9, "document_search.png")
-        Me.ImageList2.Images.SetKeyName(10, "search-icon.png")
         '
         'ComboBoxMes
         '
@@ -748,9 +799,10 @@ Partial Class Formprincipal
         Me.ComboBoxMes.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxMes.FormattingEnabled = True
         Me.ComboBoxMes.Items.AddRange(New Object() {"", "ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO", "JUNIO", "JULIO", "AGOSTO", "SEPTIEMBRE", "OCTUBRE", "NOVIEMBRE", "DICIEMBRE"})
-        Me.ComboBoxMes.Location = New System.Drawing.Point(100, 48)
+        Me.ComboBoxMes.Location = New System.Drawing.Point(133, 59)
+        Me.ComboBoxMes.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBoxMes.Name = "ComboBoxMes"
-        Me.ComboBoxMes.Size = New System.Drawing.Size(167, 23)
+        Me.ComboBoxMes.Size = New System.Drawing.Size(221, 26)
         Me.ComboBoxMes.TabIndex = 1080
         '
         'Panel2
@@ -759,8 +811,9 @@ Partial Class Formprincipal
         Me.Panel2.Controls.Add(Me.RadioButtonAll)
         Me.Panel2.Controls.Add(Me.RadioButtonGraduados)
         Me.Panel2.Location = New System.Drawing.Point(1, -1)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(417, 31)
+        Me.Panel2.Size = New System.Drawing.Size(556, 38)
         Me.Panel2.TabIndex = 1089
         '
         'RadioButtonMatriculados
@@ -770,9 +823,10 @@ Partial Class Formprincipal
         Me.RadioButtonMatriculados.Checked = True
         Me.RadioButtonMatriculados.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonMatriculados.ForeColor = System.Drawing.Color.Black
-        Me.RadioButtonMatriculados.Location = New System.Drawing.Point(7, 6)
+        Me.RadioButtonMatriculados.Location = New System.Drawing.Point(9, 7)
+        Me.RadioButtonMatriculados.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonMatriculados.Name = "RadioButtonMatriculados"
-        Me.RadioButtonMatriculados.Size = New System.Drawing.Size(115, 20)
+        Me.RadioButtonMatriculados.Size = New System.Drawing.Size(138, 24)
         Me.RadioButtonMatriculados.TabIndex = 22
         Me.RadioButtonMatriculados.TabStop = True
         Me.RadioButtonMatriculados.Text = "Matriculados"
@@ -784,9 +838,10 @@ Partial Class Formprincipal
         Me.RadioButtonAll.BackColor = System.Drawing.Color.Transparent
         Me.RadioButtonAll.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonAll.ForeColor = System.Drawing.Color.Black
-        Me.RadioButtonAll.Location = New System.Drawing.Point(237, 6)
+        Me.RadioButtonAll.Location = New System.Drawing.Point(316, 7)
+        Me.RadioButtonAll.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonAll.Name = "RadioButtonAll"
-        Me.RadioButtonAll.Size = New System.Drawing.Size(152, 20)
+        Me.RadioButtonAll.Size = New System.Drawing.Size(184, 24)
         Me.RadioButtonAll.TabIndex = 23
         Me.RadioButtonAll.Text = "Todos Los Cursos"
         Me.RadioButtonAll.UseVisualStyleBackColor = False
@@ -797,9 +852,10 @@ Partial Class Formprincipal
         Me.RadioButtonGraduados.BackColor = System.Drawing.Color.Transparent
         Me.RadioButtonGraduados.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonGraduados.ForeColor = System.Drawing.Color.Black
-        Me.RadioButtonGraduados.Location = New System.Drawing.Point(128, 6)
+        Me.RadioButtonGraduados.Location = New System.Drawing.Point(171, 7)
+        Me.RadioButtonGraduados.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonGraduados.Name = "RadioButtonGraduados"
-        Me.RadioButtonGraduados.Size = New System.Drawing.Size(103, 20)
+        Me.RadioButtonGraduados.Size = New System.Drawing.Size(121, 24)
         Me.RadioButtonGraduados.TabIndex = 32
         Me.RadioButtonGraduados.Text = "Graduados"
         Me.RadioButtonGraduados.UseVisualStyleBackColor = False
@@ -817,10 +873,10 @@ Partial Class Formprincipal
         Me.Textbox_Nom_Alumno.LineIdleColor = System.Drawing.Color.Black
         Me.Textbox_Nom_Alumno.LineMouseHoverColor = System.Drawing.Color.Gray
         Me.Textbox_Nom_Alumno.LineThickness = 3
-        Me.Textbox_Nom_Alumno.Location = New System.Drawing.Point(129, 82)
-        Me.Textbox_Nom_Alumno.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Textbox_Nom_Alumno.Location = New System.Drawing.Point(172, 101)
+        Me.Textbox_Nom_Alumno.Margin = New System.Windows.Forms.Padding(7, 5, 7, 5)
         Me.Textbox_Nom_Alumno.Name = "Textbox_Nom_Alumno"
-        Me.Textbox_Nom_Alumno.Size = New System.Drawing.Size(144, 32)
+        Me.Textbox_Nom_Alumno.Size = New System.Drawing.Size(192, 39)
         Me.Textbox_Nom_Alumno.TabIndex = 1084
         Me.Textbox_Nom_Alumno.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
@@ -837,10 +893,10 @@ Partial Class Formprincipal
         Me.TextBox_doc_alumno.LineIdleColor = System.Drawing.Color.Black
         Me.TextBox_doc_alumno.LineMouseHoverColor = System.Drawing.Color.Gray
         Me.TextBox_doc_alumno.LineThickness = 3
-        Me.TextBox_doc_alumno.Location = New System.Drawing.Point(10, 82)
-        Me.TextBox_doc_alumno.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.TextBox_doc_alumno.Location = New System.Drawing.Point(13, 101)
+        Me.TextBox_doc_alumno.Margin = New System.Windows.Forms.Padding(7, 5, 7, 5)
         Me.TextBox_doc_alumno.Name = "TextBox_doc_alumno"
-        Me.TextBox_doc_alumno.Size = New System.Drawing.Size(109, 32)
+        Me.TextBox_doc_alumno.Size = New System.Drawing.Size(145, 39)
         Me.TextBox_doc_alumno.TabIndex = 1083
         Me.TextBox_doc_alumno.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
@@ -848,9 +904,10 @@ Partial Class Formprincipal
         '
         Me.RadioButton5.AutoSize = True
         Me.RadioButton5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton5.Location = New System.Drawing.Point(281, 30)
+        Me.RadioButton5.Location = New System.Drawing.Point(375, 37)
+        Me.RadioButton5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(69, 20)
+        Me.RadioButton5.Size = New System.Drawing.Size(81, 24)
         Me.RadioButton5.TabIndex = 1088
         Me.RadioButton5.TabStop = True
         Me.RadioButton5.Text = "Fecha"
@@ -861,9 +918,10 @@ Partial Class Formprincipal
         Me.RadioButton3.AutoSize = True
         Me.RadioButton3.Checked = True
         Me.RadioButton3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton3.Location = New System.Drawing.Point(9, 31)
+        Me.RadioButton3.Location = New System.Drawing.Point(12, 38)
+        Me.RadioButton3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(81, 20)
+        Me.RadioButton3.Size = New System.Drawing.Size(94, 24)
         Me.RadioButton3.TabIndex = 1087
         Me.RadioButton3.TabStop = True
         Me.RadioButton3.Text = "Periodo"
@@ -875,9 +933,10 @@ Partial Class Formprincipal
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(100, 34)
+        Me.Label1.Location = New System.Drawing.Point(133, 42)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(30, 13)
+        Me.Label1.Size = New System.Drawing.Size(37, 17)
         Me.Label1.TabIndex = 1096
         Me.Label1.Text = "Mes"
         '
@@ -893,9 +952,10 @@ Partial Class Formprincipal
         Me.TabPage2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
         Me.TabPage2.ImageIndex = 12
         Me.TabPage2.Location = New System.Drawing.Point(4, 39)
+        Me.TabPage2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
-        Me.TabPage2.Size = New System.Drawing.Size(1028, 627)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage2.Size = New System.Drawing.Size(1373, 782)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Caja  "
         '
@@ -910,10 +970,11 @@ Partial Class Formprincipal
         Me.Button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button10.ImageKey = "clients.png"
         Me.Button10.ImageList = Me.imageList1
-        Me.Button10.Location = New System.Drawing.Point(294, 135)
+        Me.Button10.Location = New System.Drawing.Point(392, 166)
+        Me.Button10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button10.Name = "Button10"
-        Me.Button10.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.Button10.Size = New System.Drawing.Size(145, 63)
+        Me.Button10.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.Button10.Size = New System.Drawing.Size(193, 78)
         Me.Button10.TabIndex = 703
         Me.Button10.Text = "   Nómina"
         Me.Button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -931,10 +992,11 @@ Partial Class Formprincipal
         Me.Button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button9.ImageKey = "briefcase-1.png"
         Me.Button9.ImageList = Me.imageList1
-        Me.Button9.Location = New System.Drawing.Point(627, 36)
+        Me.Button9.Location = New System.Drawing.Point(836, 44)
+        Me.Button9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button9.Name = "Button9"
-        Me.Button9.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.Button9.Size = New System.Drawing.Size(219, 63)
+        Me.Button9.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.Button9.Size = New System.Drawing.Size(292, 78)
         Me.Button9.TabIndex = 702
         Me.Button9.Text = "   Cuentas Por Cobrar"
         Me.Button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -952,10 +1014,11 @@ Partial Class Formprincipal
         Me.Button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button8.ImageKey = "bank_building.png"
         Me.Button8.ImageList = Me.imageList1
-        Me.Button8.Location = New System.Drawing.Point(45, 135)
+        Me.Button8.Location = New System.Drawing.Point(60, 166)
+        Me.Button8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button8.Name = "Button8"
-        Me.Button8.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.Button8.Size = New System.Drawing.Size(219, 63)
+        Me.Button8.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.Button8.Size = New System.Drawing.Size(292, 78)
         Me.Button8.TabIndex = 701
         Me.Button8.Text = "   Cuentas Por Pagar"
         Me.Button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -973,10 +1036,11 @@ Partial Class Formprincipal
         Me.ButtonTurnos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ButtonTurnos.ImageKey = "pric2e.png"
         Me.ButtonTurnos.ImageList = Me.imageList1
-        Me.ButtonTurnos.Location = New System.Drawing.Point(45, 36)
+        Me.ButtonTurnos.Location = New System.Drawing.Point(60, 44)
+        Me.ButtonTurnos.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ButtonTurnos.Name = "ButtonTurnos"
-        Me.ButtonTurnos.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.ButtonTurnos.Size = New System.Drawing.Size(151, 63)
+        Me.ButtonTurnos.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.ButtonTurnos.Size = New System.Drawing.Size(201, 78)
         Me.ButtonTurnos.TabIndex = 700
         Me.ButtonTurnos.Text = "   Turnos"
         Me.ButtonTurnos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -994,10 +1058,11 @@ Partial Class Formprincipal
         Me.ButtonCE.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ButtonCE.ImageKey = "EGRESO.png"
         Me.ButtonCE.ImageList = Me.imageList1
-        Me.ButtonCE.Location = New System.Drawing.Point(454, 36)
+        Me.ButtonCE.Location = New System.Drawing.Point(605, 44)
+        Me.ButtonCE.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ButtonCE.Name = "ButtonCE"
-        Me.ButtonCE.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.ButtonCE.Size = New System.Drawing.Size(145, 63)
+        Me.ButtonCE.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.ButtonCE.Size = New System.Drawing.Size(193, 78)
         Me.ButtonCE.TabIndex = 699
         Me.ButtonCE.Text = "   Egresos"
         Me.ButtonCE.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1015,10 +1080,11 @@ Partial Class Formprincipal
         Me.ButtonRC.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ButtonRC.ImageKey = "RC.png"
         Me.ButtonRC.ImageList = Me.imageList1
-        Me.ButtonRC.Location = New System.Drawing.Point(221, 36)
+        Me.ButtonRC.Location = New System.Drawing.Point(295, 44)
+        Me.ButtonRC.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ButtonRC.Name = "ButtonRC"
-        Me.ButtonRC.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.ButtonRC.Size = New System.Drawing.Size(206, 63)
+        Me.ButtonRC.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.ButtonRC.Size = New System.Drawing.Size(275, 78)
         Me.ButtonRC.TabIndex = 698
         Me.ButtonRC.Text = "   Recibos de Caja"
         Me.ButtonRC.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1032,9 +1098,10 @@ Partial Class Formprincipal
         Me.TabPage3.Controls.Add(Me.MonthCalendar1)
         Me.TabPage3.ImageKey = "calendario.png"
         Me.TabPage3.Location = New System.Drawing.Point(4, 39)
+        Me.TabPage3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
-        Me.TabPage3.Size = New System.Drawing.Size(1028, 627)
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage3.Size = New System.Drawing.Size(1373, 782)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Agendamiento  "
         '
@@ -1069,7 +1136,8 @@ Partial Class Formprincipal
         Me.DataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
         Me.DataGridView1.EnableHeadersVisualStyles = False
         Me.DataGridView1.GridColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(90, Byte), Integer), CType(CType(144, Byte), Integer))
-        Me.DataGridView1.Location = New System.Drawing.Point(6, 182)
+        Me.DataGridView1.Location = New System.Drawing.Point(8, 224)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DataGridView1.MultiSelect = False
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
@@ -1077,7 +1145,7 @@ Partial Class Formprincipal
         Me.DataGridView1.RowHeadersWidth = 43
         Me.DataGridView1.RowTemplate.Height = 35
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView1.Size = New System.Drawing.Size(960, 391)
+        Me.DataGridView1.Size = New System.Drawing.Size(1280, 481)
         Me.DataGridView1.TabIndex = 1077
         '
         'MonthCalendar1
@@ -1086,7 +1154,8 @@ Partial Class Formprincipal
         Me.MonthCalendar1.FirstDayOfWeek = System.Windows.Forms.Day.Monday
         Me.MonthCalendar1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MonthCalendar1.ForeColor = System.Drawing.Color.Black
-        Me.MonthCalendar1.Location = New System.Drawing.Point(712, 12)
+        Me.MonthCalendar1.Location = New System.Drawing.Point(949, 15)
+        Me.MonthCalendar1.Margin = New System.Windows.Forms.Padding(12, 11, 12, 11)
         Me.MonthCalendar1.MinDate = New Date(1900, 1, 1, 0, 0, 0, 0)
         Me.MonthCalendar1.Name = "MonthCalendar1"
         Me.MonthCalendar1.TabIndex = 117
@@ -1105,9 +1174,10 @@ Partial Class Formprincipal
         Me.TabPage4.Controls.Add(Me.ButtonDatosEmpresa)
         Me.TabPage4.ImageKey = "boos.png"
         Me.TabPage4.Location = New System.Drawing.Point(4, 39)
+        Me.TabPage4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
-        Me.TabPage4.Size = New System.Drawing.Size(1028, 627)
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage4.Size = New System.Drawing.Size(1373, 782)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "Administración   "
         '
@@ -1122,10 +1192,11 @@ Partial Class Formprincipal
         Me.Button13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button13.ImageIndex = 10
         Me.Button13.ImageList = Me.imageList1
-        Me.Button13.Location = New System.Drawing.Point(658, 200)
+        Me.Button13.Location = New System.Drawing.Point(877, 246)
+        Me.Button13.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button13.Name = "Button13"
-        Me.Button13.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.Button13.Size = New System.Drawing.Size(156, 62)
+        Me.Button13.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.Button13.Size = New System.Drawing.Size(208, 76)
         Me.Button13.TabIndex = 709
         Me.Button13.Text = "Asignación de Instructores"
         Me.Button13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1143,10 +1214,11 @@ Partial Class Formprincipal
         Me.Button12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button12.ImageIndex = 7
         Me.Button12.ImageList = Me.imageList1
-        Me.Button12.Location = New System.Drawing.Point(527, 200)
+        Me.Button12.Location = New System.Drawing.Point(703, 246)
+        Me.Button12.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button12.Name = "Button12"
-        Me.Button12.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.Button12.Size = New System.Drawing.Size(105, 62)
+        Me.Button12.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.Button12.Size = New System.Drawing.Size(140, 76)
         Me.Button12.TabIndex = 708
         Me.Button12.Text = "Aulas"
         Me.Button12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1163,10 +1235,11 @@ Partial Class Formprincipal
         Me.ButtonEmpleados.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ButtonEmpleados.ImageIndex = 24
         Me.ButtonEmpleados.ImageList = Me.imageList1
-        Me.ButtonEmpleados.Location = New System.Drawing.Point(32, 200)
+        Me.ButtonEmpleados.Location = New System.Drawing.Point(43, 246)
+        Me.ButtonEmpleados.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ButtonEmpleados.Name = "ButtonEmpleados"
-        Me.ButtonEmpleados.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.ButtonEmpleados.Size = New System.Drawing.Size(141, 62)
+        Me.ButtonEmpleados.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.ButtonEmpleados.Size = New System.Drawing.Size(188, 76)
         Me.ButtonEmpleados.TabIndex = 707
         Me.ButtonEmpleados.Text = "Empleados"
         Me.ButtonEmpleados.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1183,10 +1256,11 @@ Partial Class Formprincipal
         Me.ButtonAsesores.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ButtonAsesores.ImageIndex = 23
         Me.ButtonAsesores.ImageList = Me.imageList1
-        Me.ButtonAsesores.Location = New System.Drawing.Point(360, 200)
+        Me.ButtonAsesores.Location = New System.Drawing.Point(480, 246)
+        Me.ButtonAsesores.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ButtonAsesores.Name = "ButtonAsesores"
-        Me.ButtonAsesores.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.ButtonAsesores.Size = New System.Drawing.Size(141, 62)
+        Me.ButtonAsesores.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.ButtonAsesores.Size = New System.Drawing.Size(188, 76)
         Me.ButtonAsesores.TabIndex = 706
         Me.ButtonAsesores.Text = "Asesores"
         Me.ButtonAsesores.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1203,10 +1277,11 @@ Partial Class Formprincipal
         Me.ButtonServicios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ButtonServicios.ImageKey = "briefcase-1.png"
         Me.ButtonServicios.ImageList = Me.imageList1
-        Me.ButtonServicios.Location = New System.Drawing.Point(479, 80)
+        Me.ButtonServicios.Location = New System.Drawing.Point(639, 98)
+        Me.ButtonServicios.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ButtonServicios.Name = "ButtonServicios"
-        Me.ButtonServicios.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.ButtonServicios.Size = New System.Drawing.Size(220, 62)
+        Me.ButtonServicios.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.ButtonServicios.Size = New System.Drawing.Size(293, 76)
         Me.ButtonServicios.TabIndex = 705
         Me.ButtonServicios.Text = "    Catalogo de Servicios"
         Me.ButtonServicios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1223,10 +1298,11 @@ Partial Class Formprincipal
         Me.ButtonInstructores.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ButtonInstructores.ImageIndex = 3
         Me.ButtonInstructores.ImageList = Me.imageList1
-        Me.ButtonInstructores.Location = New System.Drawing.Point(195, 200)
+        Me.ButtonInstructores.Location = New System.Drawing.Point(260, 246)
+        Me.ButtonInstructores.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ButtonInstructores.Name = "ButtonInstructores"
-        Me.ButtonInstructores.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.ButtonInstructores.Size = New System.Drawing.Size(141, 62)
+        Me.ButtonInstructores.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.ButtonInstructores.Size = New System.Drawing.Size(188, 76)
         Me.ButtonInstructores.TabIndex = 704
         Me.ButtonInstructores.Text = "Instructores"
         Me.ButtonInstructores.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1243,10 +1319,11 @@ Partial Class Formprincipal
         Me.ButtonVehiculos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ButtonVehiculos.ImageIndex = 20
         Me.ButtonVehiculos.ImageList = Me.imageList1
-        Me.ButtonVehiculos.Location = New System.Drawing.Point(723, 80)
+        Me.ButtonVehiculos.Location = New System.Drawing.Point(964, 98)
+        Me.ButtonVehiculos.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ButtonVehiculos.Name = "ButtonVehiculos"
-        Me.ButtonVehiculos.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.ButtonVehiculos.Size = New System.Drawing.Size(141, 62)
+        Me.ButtonVehiculos.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.ButtonVehiculos.Size = New System.Drawing.Size(188, 76)
         Me.ButtonVehiculos.TabIndex = 703
         Me.ButtonVehiculos.Text = "Vehiculos"
         Me.ButtonVehiculos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1263,10 +1340,11 @@ Partial Class Formprincipal
         Me.ButtonCajasyBancos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ButtonCajasyBancos.ImageKey = "bank_building.png"
         Me.ButtonCajasyBancos.ImageList = Me.imageList1
-        Me.ButtonCajasyBancos.Location = New System.Drawing.Point(275, 80)
+        Me.ButtonCajasyBancos.Location = New System.Drawing.Point(367, 98)
+        Me.ButtonCajasyBancos.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ButtonCajasyBancos.Name = "ButtonCajasyBancos"
-        Me.ButtonCajasyBancos.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.ButtonCajasyBancos.Size = New System.Drawing.Size(183, 62)
+        Me.ButtonCajasyBancos.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.ButtonCajasyBancos.Size = New System.Drawing.Size(244, 76)
         Me.ButtonCajasyBancos.TabIndex = 702
         Me.ButtonCajasyBancos.Text = "    Cajas y Bancos"
         Me.ButtonCajasyBancos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1283,10 +1361,11 @@ Partial Class Formprincipal
         Me.ButtonDatosEmpresa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ButtonDatosEmpresa.ImageKey = "shop.png"
         Me.ButtonDatosEmpresa.ImageList = Me.imageList1
-        Me.ButtonDatosEmpresa.Location = New System.Drawing.Point(28, 80)
+        Me.ButtonDatosEmpresa.Location = New System.Drawing.Point(37, 98)
+        Me.ButtonDatosEmpresa.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ButtonDatosEmpresa.Name = "ButtonDatosEmpresa"
-        Me.ButtonDatosEmpresa.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.ButtonDatosEmpresa.Size = New System.Drawing.Size(229, 62)
+        Me.ButtonDatosEmpresa.Padding = New System.Windows.Forms.Padding(7, 0, 0, 0)
+        Me.ButtonDatosEmpresa.Size = New System.Drawing.Size(305, 76)
         Me.ButtonDatosEmpresa.TabIndex = 701
         Me.ButtonDatosEmpresa.Text = "  Datos de la Empresa"
         Me.ButtonDatosEmpresa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1302,9 +1381,10 @@ Partial Class Formprincipal
         Me.TabPage5.Controls.Add(Me.Button11)
         Me.TabPage5.ImageKey = "graphic.png"
         Me.TabPage5.Location = New System.Drawing.Point(4, 39)
+        Me.TabPage5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
-        Me.TabPage5.Size = New System.Drawing.Size(1028, 627)
+        Me.TabPage5.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage5.Size = New System.Drawing.Size(1373, 782)
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "  Reportes   "
         '
@@ -1340,7 +1420,8 @@ Partial Class Formprincipal
         Me.DataGridView4.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
         Me.DataGridView4.EnableHeadersVisualStyles = False
         Me.DataGridView4.GridColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(90, Byte), Integer), CType(CType(144, Byte), Integer))
-        Me.DataGridView4.Location = New System.Drawing.Point(402, 393)
+        Me.DataGridView4.Location = New System.Drawing.Point(536, 484)
+        Me.DataGridView4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DataGridView4.MultiSelect = False
         Me.DataGridView4.Name = "DataGridView4"
         Me.DataGridView4.ReadOnly = True
@@ -1348,7 +1429,7 @@ Partial Class Formprincipal
         Me.DataGridView4.RowHeadersWidth = 43
         Me.DataGridView4.RowTemplate.Height = 50
         Me.DataGridView4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect
-        Me.DataGridView4.Size = New System.Drawing.Size(383, 226)
+        Me.DataGridView4.Size = New System.Drawing.Size(511, 278)
         Me.DataGridView4.TabIndex = 1089
         '
         'DataGridView3
@@ -1383,7 +1464,8 @@ Partial Class Formprincipal
         Me.DataGridView3.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
         Me.DataGridView3.EnableHeadersVisualStyles = False
         Me.DataGridView3.GridColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(90, Byte), Integer), CType(CType(144, Byte), Integer))
-        Me.DataGridView3.Location = New System.Drawing.Point(6, 393)
+        Me.DataGridView3.Location = New System.Drawing.Point(8, 484)
+        Me.DataGridView3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DataGridView3.MultiSelect = False
         Me.DataGridView3.Name = "DataGridView3"
         Me.DataGridView3.ReadOnly = True
@@ -1391,7 +1473,7 @@ Partial Class Formprincipal
         Me.DataGridView3.RowHeadersWidth = 43
         Me.DataGridView3.RowTemplate.Height = 50
         Me.DataGridView3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect
-        Me.DataGridView3.Size = New System.Drawing.Size(390, 226)
+        Me.DataGridView3.Size = New System.Drawing.Size(520, 278)
         Me.DataGridView3.TabIndex = 1088
         '
         'DateTimePicker1
@@ -1399,10 +1481,11 @@ Partial Class Formprincipal
         Me.DateTimePicker1.CalendarFont = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker1.Location = New System.Drawing.Point(14, 35)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(19, 43)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.ShowUpDown = True
-        Me.DateTimePicker1.Size = New System.Drawing.Size(171, 31)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(227, 37)
         Me.DateTimePicker1.TabIndex = 1087
         '
         'DataGridView2
@@ -1437,7 +1520,8 @@ Partial Class Formprincipal
         Me.DataGridView2.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
         Me.DataGridView2.EnableHeadersVisualStyles = False
         Me.DataGridView2.GridColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(90, Byte), Integer), CType(CType(144, Byte), Integer))
-        Me.DataGridView2.Location = New System.Drawing.Point(6, 71)
+        Me.DataGridView2.Location = New System.Drawing.Point(8, 87)
+        Me.DataGridView2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DataGridView2.MultiSelect = False
         Me.DataGridView2.Name = "DataGridView2"
         Me.DataGridView2.ReadOnly = True
@@ -1445,7 +1529,7 @@ Partial Class Formprincipal
         Me.DataGridView2.RowHeadersWidth = 43
         Me.DataGridView2.RowTemplate.Height = 50
         Me.DataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect
-        Me.DataGridView2.Size = New System.Drawing.Size(779, 297)
+        Me.DataGridView2.Size = New System.Drawing.Size(1039, 366)
         Me.DataGridView2.TabIndex = 1085
         '
         'Button11
@@ -1460,9 +1544,10 @@ Partial Class Formprincipal
         Me.Button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button11.ImageKey = "search-icon.png"
         Me.Button11.ImageList = Me.ImageList2
-        Me.Button11.Location = New System.Drawing.Point(197, 30)
+        Me.Button11.Location = New System.Drawing.Point(263, 37)
+        Me.Button11.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(106, 33)
+        Me.Button11.Size = New System.Drawing.Size(141, 41)
         Me.Button11.TabIndex = 1086
         Me.Button11.Text = "Actualizar"
         Me.Button11.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1477,9 +1562,10 @@ Partial Class Formprincipal
         Me.btnCloseApp.FlatAppearance.BorderSize = 0
         Me.btnCloseApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCloseApp.ForeColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(187, Byte), Integer), CType(CType(212, Byte), Integer))
-        Me.btnCloseApp.Location = New System.Drawing.Point(1148, 86)
+        Me.btnCloseApp.Location = New System.Drawing.Point(1531, 106)
+        Me.btnCloseApp.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnCloseApp.Name = "btnCloseApp"
-        Me.btnCloseApp.Size = New System.Drawing.Size(58, 54)
+        Me.btnCloseApp.Size = New System.Drawing.Size(77, 66)
         Me.btnCloseApp.TabIndex = 326
         Me.btnCloseApp.UseVisualStyleBackColor = True
         '
@@ -1489,35 +1575,14 @@ Partial Class Formprincipal
         'Timer1
         '
         '
-        'Button14
-        '
-        Me.Button14.BackColor = System.Drawing.Color.LightGreen
-        Me.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button14.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button14.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button14.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button14.ForeColor = System.Drawing.Color.Black
-        Me.Button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button14.ImageKey = "search-icon.png"
-        Me.Button14.ImageList = Me.ImageList2
-        Me.Button14.Location = New System.Drawing.Point(755, 39)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(92, 33)
-        Me.Button14.TabIndex = 1099
-        Me.Button14.Text = "Exportar"
-        Me.Button14.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Button14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.Button14.UseVisualStyleBackColor = False
-        '
         'Formprincipal
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(187, Byte), Integer), CType(CType(212, Byte), Integer))
         Me.BackgroundImage = Global.CEASadmin_AUTOCAR.My.Resources.Resources.blue2
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1238, 761)
+        Me.ClientSize = New System.Drawing.Size(1651, 937)
         Me.Controls.Add(Me.PanelLeft)
         Me.Controls.Add(Me.btnCloseApp)
         Me.Controls.Add(Me.Panel_cursos)
@@ -1527,6 +1592,7 @@ Partial Class Formprincipal
         Me.Controls.Add(Me.Button6)
         Me.DoubleBuffered = True
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Formprincipal"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

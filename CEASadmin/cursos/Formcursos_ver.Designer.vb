@@ -251,9 +251,9 @@ Partial Class Formcursos_ver
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Black
         Me.GroupBox1.Location = New System.Drawing.Point(20, 97)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Size = New System.Drawing.Size(539, 273)
         Me.GroupBox1.TabIndex = 34
         Me.GroupBox1.TabStop = False
@@ -264,7 +264,7 @@ Partial Class Formcursos_ver
         Me.PictureBox1.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.estudiantelogo
         Me.PictureBox1.InitialImage = Global.CEASadmin_AUTOCAR.My.Resources.Resources.estudiantelogo
         Me.PictureBox1.Location = New System.Drawing.Point(391, 86)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(123, 127)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -277,7 +277,7 @@ Partial Class Formcursos_ver
         Me.TextBox18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox18.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.TextBox18.Location = New System.Drawing.Point(16, 241)
-        Me.TextBox18.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox18.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox18.Name = "TextBox18"
         Me.TextBox18.Size = New System.Drawing.Size(424, 26)
         Me.TextBox18.TabIndex = 133
@@ -302,7 +302,7 @@ Partial Class Formcursos_ver
         Me.TextBox14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox14.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.TextBox14.Location = New System.Drawing.Point(16, 192)
-        Me.TextBox14.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox14.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox14.Name = "TextBox14"
         Me.TextBox14.Size = New System.Drawing.Size(212, 26)
         Me.TextBox14.TabIndex = 60
@@ -315,7 +315,7 @@ Partial Class Formcursos_ver
         Me.Button5.ForeColor = System.Drawing.Color.White
         Me.Button5.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.diskette
         Me.Button5.Location = New System.Drawing.Point(420, 112)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(71, 50)
         Me.Button5.TabIndex = 90
@@ -359,7 +359,7 @@ Partial Class Formcursos_ver
         Me.ComboBox6.FormattingEnabled = True
         Me.ComboBox6.Items.AddRange(New Object() {"1) CEDULA DE CIUDADANÍA", "2) TARJETA DE IDENTIDAD", "3) REGISTRO CIVIL", "4) CEDULA DE EXTRANJERÍA", "5) PASAPORTE"})
         Me.ComboBox6.Location = New System.Drawing.Point(16, 95)
-        Me.ComboBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox6.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox6.Name = "ComboBox6"
         Me.ComboBox6.Size = New System.Drawing.Size(260, 26)
         Me.ComboBox6.TabIndex = 57
@@ -370,7 +370,7 @@ Partial Class Formcursos_ver
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.TextBox2.Location = New System.Drawing.Point(16, 41)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(496, 30)
         Me.TextBox2.TabIndex = 51
@@ -395,7 +395,7 @@ Partial Class Formcursos_ver
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.TextBox1.Location = New System.Drawing.Point(16, 142)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(171, 26)
         Me.TextBox1.TabIndex = 23
@@ -450,9 +450,9 @@ Partial Class Formcursos_ver
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.ForeColor = System.Drawing.Color.Black
         Me.GroupBox2.Location = New System.Drawing.Point(567, 97)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox2.Size = New System.Drawing.Size(848, 273)
         Me.GroupBox2.TabIndex = 35
         Me.GroupBox2.TabStop = False
@@ -483,7 +483,7 @@ Partial Class Formcursos_ver
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"NO", "120000", "190000"})
         Me.ComboBox1.Location = New System.Drawing.Point(559, 39)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(137, 25)
         Me.ComboBox1.TabIndex = 1094
@@ -493,7 +493,7 @@ Partial Class Formcursos_ver
         Me.TextBox22.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox22.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.TextBox22.Location = New System.Drawing.Point(560, 231)
-        Me.TextBox22.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox22.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox22.Name = "TextBox22"
         Me.TextBox22.Size = New System.Drawing.Size(252, 26)
         Me.TextBox22.TabIndex = 1092
@@ -504,7 +504,7 @@ Partial Class Formcursos_ver
         Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox5.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.lapizico
         Me.PictureBox5.Location = New System.Drawing.Point(785, 21)
-        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(53, 46)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -529,7 +529,7 @@ Partial Class Formcursos_ver
         Me.TextBox21.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox21.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.TextBox21.Location = New System.Drawing.Point(560, 135)
-        Me.TextBox21.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox21.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox21.Name = "TextBox21"
         Me.TextBox21.Size = New System.Drawing.Size(195, 26)
         Me.TextBox21.TabIndex = 137
@@ -546,7 +546,7 @@ Partial Class Formcursos_ver
         Me.ComboBoxGrupo.FormattingEnabled = True
         Me.ComboBoxGrupo.Items.AddRange(New Object() {"", "A", "B"})
         Me.ComboBoxGrupo.Location = New System.Drawing.Point(629, 87)
-        Me.ComboBoxGrupo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBoxGrupo.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBoxGrupo.Name = "ComboBoxGrupo"
         Me.ComboBoxGrupo.Size = New System.Drawing.Size(125, 25)
         Me.ComboBoxGrupo.TabIndex = 135
@@ -575,7 +575,7 @@ Partial Class Formcursos_ver
         Me.ComboBoxAsesor.FormattingEnabled = True
         Me.ComboBoxAsesor.Items.AddRange(New Object() {"NO APLICA"})
         Me.ComboBoxAsesor.Location = New System.Drawing.Point(17, 187)
-        Me.ComboBoxAsesor.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBoxAsesor.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBoxAsesor.Name = "ComboBoxAsesor"
         Me.ComboBoxAsesor.Size = New System.Drawing.Size(349, 25)
         Me.ComboBoxAsesor.TabIndex = 62
@@ -603,7 +603,7 @@ Partial Class Formcursos_ver
         Me.ComboBoxPaquetes.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxPaquetes.FormattingEnabled = True
         Me.ComboBoxPaquetes.Location = New System.Drawing.Point(16, 89)
-        Me.ComboBoxPaquetes.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBoxPaquetes.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBoxPaquetes.Name = "ComboBoxPaquetes"
         Me.ComboBoxPaquetes.Size = New System.Drawing.Size(261, 25)
         Me.ComboBoxPaquetes.TabIndex = 82
@@ -631,7 +631,7 @@ Partial Class Formcursos_ver
         Me.ComboBox_instructores.FormattingEnabled = True
         Me.ComboBox_instructores.Items.AddRange(New Object() {"NO APLICA"})
         Me.ComboBox_instructores.Location = New System.Drawing.Point(376, 183)
-        Me.ComboBox_instructores.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox_instructores.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox_instructores.Name = "ComboBox_instructores"
         Me.ComboBox_instructores.Size = New System.Drawing.Size(436, 28)
         Me.ComboBox_instructores.TabIndex = 133
@@ -686,7 +686,7 @@ Partial Class Formcursos_ver
         Me.ComboBox7.FormattingEnabled = True
         Me.ComboBox7.Items.AddRange(New Object() {"NORMAL", "ALTA"})
         Me.ComboBox7.Location = New System.Drawing.Point(435, 86)
-        Me.ComboBox7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox7.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox7.Name = "ComboBox7"
         Me.ComboBox7.Size = New System.Drawing.Size(185, 26)
         Me.ComboBox7.TabIndex = 59
@@ -696,7 +696,7 @@ Partial Class Formcursos_ver
         Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox4.ForeColor = System.Drawing.Color.Red
         Me.TextBox4.Location = New System.Drawing.Point(16, 233)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox4.Multiline = True
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(521, 35)
@@ -713,7 +713,7 @@ Partial Class Formcursos_ver
         Me.ComboBox5.FormattingEnabled = True
         Me.ComboBox5.Items.AddRange(New Object() {"NO", "135000"})
         Me.ComboBox5.Location = New System.Drawing.Point(295, 89)
-        Me.ComboBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox5.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox5.Name = "ComboBox5"
         Me.ComboBox5.Size = New System.Drawing.Size(121, 25)
         Me.ComboBox5.TabIndex = 64
@@ -728,7 +728,7 @@ Partial Class Formcursos_ver
         Me.ComboBoxMedico.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxMedico.FormattingEnabled = True
         Me.ComboBoxMedico.Location = New System.Drawing.Point(16, 137)
-        Me.ComboBoxMedico.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBoxMedico.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBoxMedico.Name = "ComboBoxMedico"
         Me.ComboBoxMedico.Size = New System.Drawing.Size(521, 25)
         Me.ComboBoxMedico.TabIndex = 63
@@ -744,7 +744,7 @@ Partial Class Formcursos_ver
         Me.ComboBoxCat.FormattingEnabled = True
         Me.ComboBoxCat.Items.AddRange(New Object() {"A1", "A2", "B1", "B2", "C1", "C2"})
         Me.ComboBoxCat.Location = New System.Drawing.Point(461, 41)
-        Me.ComboBoxCat.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBoxCat.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBoxCat.Name = "ComboBoxCat"
         Me.ComboBoxCat.Size = New System.Drawing.Size(79, 25)
         Me.ComboBoxCat.TabIndex = 62
@@ -759,7 +759,7 @@ Partial Class Formcursos_ver
         Me.ComboBoxServicio.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxServicio.FormattingEnabled = True
         Me.ComboBoxServicio.Location = New System.Drawing.Point(16, 41)
-        Me.ComboBoxServicio.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBoxServicio.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBoxServicio.Name = "ComboBoxServicio"
         Me.ComboBoxServicio.Size = New System.Drawing.Size(433, 25)
         Me.ComboBoxServicio.TabIndex = 52
@@ -821,7 +821,7 @@ Partial Class Formcursos_ver
         Me.PictureBoxOkEdit.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBoxOkEdit.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.ok_trans
         Me.PictureBoxOkEdit.Location = New System.Drawing.Point(785, 21)
-        Me.PictureBoxOkEdit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBoxOkEdit.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBoxOkEdit.Name = "PictureBoxOkEdit"
         Me.PictureBoxOkEdit.Size = New System.Drawing.Size(53, 46)
         Me.PictureBoxOkEdit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -849,7 +849,7 @@ Partial Class Formcursos_ver
         Me.TextBox13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox13.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.TextBox13.Location = New System.Drawing.Point(808, 59)
-        Me.TextBox13.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox13.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox13.Name = "TextBox13"
         Me.TextBox13.Size = New System.Drawing.Size(168, 26)
         Me.TextBox13.TabIndex = 83
@@ -862,7 +862,7 @@ Partial Class Formcursos_ver
         Me.DateTimePicker2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.DateTimePicker2.Location = New System.Drawing.Point(812, 59)
-        Me.DateTimePicker2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DateTimePicker2.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker2.Name = "DateTimePicker2"
         Me.DateTimePicker2.Size = New System.Drawing.Size(204, 26)
         Me.DateTimePicker2.TabIndex = 85
@@ -888,7 +888,7 @@ Partial Class Formcursos_ver
         Me.TextBox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.TextBox10.Location = New System.Drawing.Point(575, 59)
-        Me.TextBox10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox10.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(168, 26)
         Me.TextBox10.TabIndex = 33
@@ -901,7 +901,7 @@ Partial Class Formcursos_ver
         Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.DateTimePicker1.Location = New System.Drawing.Point(585, 59)
-        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(195, 26)
         Me.DateTimePicker1.TabIndex = 35
@@ -930,7 +930,7 @@ Partial Class Formcursos_ver
         Me.TabControl1.Controls.Add(Me.TabPage3)
         Me.TabControl1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabControl1.Location = New System.Drawing.Point(19, 370)
-        Me.TabControl1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabControl1.Margin = New System.Windows.Forms.Padding(4)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
         Me.TabControl1.Size = New System.Drawing.Size(1396, 400)
@@ -966,9 +966,9 @@ Partial Class Formcursos_ver
         Me.TabPage1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabPage1.ForeColor = System.Drawing.Color.Black
         Me.TabPage1.Location = New System.Drawing.Point(4, 29)
-        Me.TabPage1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(4)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(4)
         Me.TabPage1.Size = New System.Drawing.Size(1388, 367)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "    GENERAL    "
@@ -980,7 +980,7 @@ Partial Class Formcursos_ver
         Me.TextBox12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.TextBox12.Location = New System.Drawing.Point(980, 219)
-        Me.TextBox12.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox12.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.Size = New System.Drawing.Size(343, 26)
         Me.TextBox12.TabIndex = 135
@@ -992,7 +992,7 @@ Partial Class Formcursos_ver
         Me.TextBox11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.TextBox11.Location = New System.Drawing.Point(616, 219)
-        Me.TextBox11.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox11.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.Size = New System.Drawing.Size(343, 26)
         Me.TextBox11.TabIndex = 134
@@ -1016,7 +1016,7 @@ Partial Class Formcursos_ver
         Me.TextBox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox9.ForeColor = System.Drawing.Color.Red
         Me.TextBox9.Location = New System.Drawing.Point(979, 249)
-        Me.TextBox9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox9.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox9.Multiline = True
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(343, 94)
@@ -1040,7 +1040,7 @@ Partial Class Formcursos_ver
         Me.TextBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox8.ForeColor = System.Drawing.Color.Red
         Me.TextBox8.Location = New System.Drawing.Point(616, 249)
-        Me.TextBox8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox8.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox8.Multiline = True
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(343, 94)
@@ -1055,7 +1055,7 @@ Partial Class Formcursos_ver
         Me.Button11.ForeColor = System.Drawing.Color.Black
         Me.Button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button11.Location = New System.Drawing.Point(168, 55)
-        Me.Button11.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button11.Margin = New System.Windows.Forms.Padding(4)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(173, 49)
         Me.Button11.TabIndex = 99
@@ -1071,7 +1071,7 @@ Partial Class Formcursos_ver
         Me.Button10.ForeColor = System.Drawing.Color.Black
         Me.Button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button10.Location = New System.Drawing.Point(360, 55)
-        Me.Button10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button10.Margin = New System.Windows.Forms.Padding(4)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(171, 49)
         Me.Button10.TabIndex = 98
@@ -1088,7 +1088,7 @@ Partial Class Formcursos_ver
         Me.Button9.ForeColor = System.Drawing.Color.Black
         Me.Button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button9.Location = New System.Drawing.Point(17, 55)
-        Me.Button9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button9.Margin = New System.Windows.Forms.Padding(4)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(137, 49)
         Me.Button9.TabIndex = 76
@@ -1127,7 +1127,7 @@ Partial Class Formcursos_ver
         Me.TextBox19.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox19.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.TextBox19.Location = New System.Drawing.Point(288, 225)
-        Me.TextBox19.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox19.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox19.Multiline = True
         Me.TextBox19.Name = "TextBox19"
         Me.TextBox19.Size = New System.Drawing.Size(184, 42)
@@ -1140,7 +1140,7 @@ Partial Class Formcursos_ver
         Me.TextBox20.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox20.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.TextBox20.Location = New System.Drawing.Point(288, 299)
-        Me.TextBox20.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox20.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox20.Multiline = True
         Me.TextBox20.Name = "TextBox20"
         Me.TextBox20.Size = New System.Drawing.Size(184, 42)
@@ -1166,7 +1166,7 @@ Partial Class Formcursos_ver
         Me.TextBox15.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.TextBox15.Location = New System.Drawing.Point(40, 226)
-        Me.TextBox15.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox15.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox15.Multiline = True
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.Size = New System.Drawing.Size(239, 42)
@@ -1179,7 +1179,7 @@ Partial Class Formcursos_ver
         Me.TextBox16.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox16.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.TextBox16.Location = New System.Drawing.Point(40, 300)
-        Me.TextBox16.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox16.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox16.Multiline = True
         Me.TextBox16.Name = "TextBox16"
         Me.TextBox16.Size = New System.Drawing.Size(239, 42)
@@ -1191,7 +1191,7 @@ Partial Class Formcursos_ver
         Me.Button4.BackColor = System.Drawing.Color.White
         Me.Button4.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.diskette
         Me.Button4.Location = New System.Drawing.Point(244, 154)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(73, 46)
         Me.Button4.TabIndex = 89
@@ -1216,7 +1216,7 @@ Partial Class Formcursos_ver
         Me.TextBox17.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.TextBox17.Location = New System.Drawing.Point(39, 156)
-        Me.TextBox17.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox17.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox17.Multiline = True
         Me.TextBox17.Name = "TextBox17"
         Me.TextBox17.Size = New System.Drawing.Size(185, 42)
@@ -1228,7 +1228,7 @@ Partial Class Formcursos_ver
         Me.Button13.BackColor = System.Drawing.Color.White
         Me.Button13.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.diskette
         Me.Button13.Location = New System.Drawing.Point(481, 297)
-        Me.Button13.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button13.Margin = New System.Windows.Forms.Padding(4)
         Me.Button13.Name = "Button13"
         Me.Button13.Size = New System.Drawing.Size(73, 46)
         Me.Button13.TabIndex = 84
@@ -1253,7 +1253,7 @@ Partial Class Formcursos_ver
         Me.Button12.BackColor = System.Drawing.Color.White
         Me.Button12.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.diskette
         Me.Button12.Location = New System.Drawing.Point(481, 224)
-        Me.Button12.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button12.Margin = New System.Windows.Forms.Padding(4)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(73, 46)
         Me.Button12.TabIndex = 81
@@ -1279,7 +1279,7 @@ Partial Class Formcursos_ver
         Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 17.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.TextBox3.Location = New System.Drawing.Point(735, 47)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox3.Multiline = True
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(260, 38)
@@ -1292,7 +1292,7 @@ Partial Class Formcursos_ver
         Me.PictureBox3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox3.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.lics
         Me.PictureBox3.Location = New System.Drawing.Point(4, 4)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(1380, 359)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -1311,9 +1311,9 @@ Partial Class Formcursos_ver
         Me.TabPage2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabPage2.ForeColor = System.Drawing.Color.Black
         Me.TabPage2.Location = New System.Drawing.Point(4, 29)
-        Me.TabPage2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage2.Margin = New System.Windows.Forms.Padding(4)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(4)
         Me.TabPage2.Size = New System.Drawing.Size(1388, 367)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "     DOCUMENTOS     "
@@ -1352,7 +1352,7 @@ Partial Class Formcursos_ver
         Me.DataGridView4.AllowUserToOrderColumns = True
         Me.DataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView4.Location = New System.Drawing.Point(36, 52)
-        Me.DataGridView4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DataGridView4.Margin = New System.Windows.Forms.Padding(4)
         Me.DataGridView4.Name = "DataGridView4"
         Me.DataGridView4.ReadOnly = True
         Me.DataGridView4.RowHeadersVisible = False
@@ -1382,7 +1382,7 @@ Partial Class Formcursos_ver
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.White
         Me.Button3.Location = New System.Drawing.Point(909, 284)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(425, 73)
         Me.Button3.TabIndex = 70
@@ -1393,7 +1393,7 @@ Partial Class Formcursos_ver
         '
         Me.PictureBox4.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.documentos
         Me.PictureBox4.Location = New System.Drawing.Point(987, 73)
-        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(284, 204)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -1411,7 +1411,7 @@ Partial Class Formcursos_ver
         Me.TabPage5.Controls.Add(Me.DataGridView3)
         Me.TabPage5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabPage5.Location = New System.Drawing.Point(4, 29)
-        Me.TabPage5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage5.Margin = New System.Windows.Forms.Padding(4)
         Me.TabPage5.Name = "TabPage5"
         Me.TabPage5.Size = New System.Drawing.Size(1388, 367)
         Me.TabPage5.TabIndex = 4
@@ -1458,7 +1458,7 @@ Partial Class Formcursos_ver
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.White
         Me.Button6.Location = New System.Drawing.Point(1080, 175)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(4)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(276, 55)
         Me.Button6.TabIndex = 68
@@ -1472,7 +1472,7 @@ Partial Class Formcursos_ver
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Location = New System.Drawing.Point(1080, 112)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(276, 55)
         Me.Button2.TabIndex = 67
@@ -1485,7 +1485,7 @@ Partial Class Formcursos_ver
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(1080, 52)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(276, 55)
         Me.Button1.TabIndex = 54
@@ -1499,7 +1499,7 @@ Partial Class Formcursos_ver
         Me.DataGridView3.AllowUserToOrderColumns = True
         Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView3.Location = New System.Drawing.Point(20, 41)
-        Me.DataGridView3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DataGridView3.Margin = New System.Windows.Forms.Padding(4)
         Me.DataGridView3.Name = "DataGridView3"
         Me.DataGridView3.ReadOnly = True
         Me.DataGridView3.RowHeadersVisible = False
@@ -1551,7 +1551,7 @@ Partial Class Formcursos_ver
         Me.TabPage6.Controls.Add(Me.PictureBox6)
         Me.TabPage6.Controls.Add(Me.Label38)
         Me.TabPage6.Location = New System.Drawing.Point(4, 29)
-        Me.TabPage6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage6.Margin = New System.Windows.Forms.Padding(4)
         Me.TabPage6.Name = "TabPage6"
         Me.TabPage6.Size = New System.Drawing.Size(1388, 367)
         Me.TabPage6.TabIndex = 5
@@ -1565,7 +1565,7 @@ Partial Class Formcursos_ver
         Me.DataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView2.Location = New System.Drawing.Point(715, 36)
-        Me.DataGridView2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DataGridView2.Margin = New System.Windows.Forms.Padding(4)
         Me.DataGridView2.Name = "DataGridView2"
         Me.DataGridView2.ReadOnly = True
         Me.DataGridView2.RowHeadersVisible = False
@@ -1768,7 +1768,7 @@ Partial Class Formcursos_ver
         Me.DataGridView5.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView5.Location = New System.Drawing.Point(17, 36)
-        Me.DataGridView5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DataGridView5.Margin = New System.Windows.Forms.Padding(4)
         Me.DataGridView5.Name = "DataGridView5"
         Me.DataGridView5.ReadOnly = True
         Me.DataGridView5.RowHeadersVisible = False
@@ -1810,7 +1810,7 @@ Partial Class Formcursos_ver
         Me.Button_Finish_runt.ForeColor = System.Drawing.Color.Black
         Me.Button_Finish_runt.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button_Finish_runt.Location = New System.Drawing.Point(1161, 314)
-        Me.Button_Finish_runt.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button_Finish_runt.Margin = New System.Windows.Forms.Padding(4)
         Me.Button_Finish_runt.Name = "Button_Finish_runt"
         Me.Button_Finish_runt.Size = New System.Drawing.Size(209, 46)
         Me.Button_Finish_runt.TabIndex = 1128
@@ -1826,7 +1826,7 @@ Partial Class Formcursos_ver
         Me.Button_Finish_sicop.ForeColor = System.Drawing.Color.Black
         Me.Button_Finish_sicop.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button_Finish_sicop.Location = New System.Drawing.Point(453, 314)
-        Me.Button_Finish_sicop.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button_Finish_sicop.Margin = New System.Windows.Forms.Padding(4)
         Me.Button_Finish_sicop.Name = "Button_Finish_sicop"
         Me.Button_Finish_sicop.Size = New System.Drawing.Size(209, 46)
         Me.Button_Finish_sicop.TabIndex = 1120
@@ -2013,7 +2013,7 @@ Partial Class Formcursos_ver
         '
         Me.PictureBox2.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.ok_trans
         Me.PictureBox2.Location = New System.Drawing.Point(1273, 279)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(93, 80)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -2043,7 +2043,7 @@ Partial Class Formcursos_ver
         Me.ButtonReporteCicop.ForeColor = System.Drawing.Color.Black
         Me.ButtonReporteCicop.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ButtonReporteCicop.Location = New System.Drawing.Point(211, 185)
-        Me.ButtonReporteCicop.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonReporteCicop.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonReporteCicop.Name = "ButtonReporteCicop"
         Me.ButtonReporteCicop.Size = New System.Drawing.Size(127, 34)
         Me.ButtonReporteCicop.TabIndex = 1100
@@ -2054,7 +2054,7 @@ Partial Class Formcursos_ver
         '
         Me.NumericUpDown1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.NumericUpDown1.Location = New System.Drawing.Point(43, 188)
-        Me.NumericUpDown1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.NumericUpDown1.Margin = New System.Windows.Forms.Padding(4)
         Me.NumericUpDown1.Name = "NumericUpDown1"
         Me.NumericUpDown1.Size = New System.Drawing.Size(92, 32)
         Me.NumericUpDown1.TabIndex = 1099
@@ -2064,7 +2064,7 @@ Partial Class Formcursos_ver
         '
         Me.RadioButton4.AutoSize = True
         Me.RadioButton4.Location = New System.Drawing.Point(315, 78)
-        Me.RadioButton4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButton4.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(100, 24)
         Me.RadioButton4.TabIndex = 1097
@@ -2076,7 +2076,7 @@ Partial Class Formcursos_ver
         '
         Me.RadioButton3.AutoSize = True
         Me.RadioButton3.Location = New System.Drawing.Point(211, 78)
-        Me.RadioButton3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButton3.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(83, 24)
         Me.RadioButton3.TabIndex = 1096
@@ -2088,7 +2088,7 @@ Partial Class Formcursos_ver
         '
         Me.RadioButton2.AutoSize = True
         Me.RadioButton2.Location = New System.Drawing.Point(113, 78)
-        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(78, 24)
         Me.RadioButton2.TabIndex = 1095
@@ -2100,7 +2100,7 @@ Partial Class Formcursos_ver
         '
         Me.RadioButton1.AutoSize = True
         Me.RadioButton1.Location = New System.Drawing.Point(21, 78)
-        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(71, 24)
         Me.RadioButton1.TabIndex = 1094
@@ -2131,7 +2131,7 @@ Partial Class Formcursos_ver
         Me.ComboBoxinstructorReporte.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxinstructorReporte.FormattingEnabled = True
         Me.ComboBoxinstructorReporte.Location = New System.Drawing.Point(23, 132)
-        Me.ComboBoxinstructorReporte.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBoxinstructorReporte.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBoxinstructorReporte.Name = "ComboBoxinstructorReporte"
         Me.ComboBoxinstructorReporte.Size = New System.Drawing.Size(403, 26)
         Me.ComboBoxinstructorReporte.TabIndex = 1092
@@ -2140,7 +2140,7 @@ Partial Class Formcursos_ver
         '
         Me.PictureBox6.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.ok_trans
         Me.PictureBox6.Location = New System.Drawing.Point(569, 279)
-        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(93, 80)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -2187,7 +2187,7 @@ Partial Class Formcursos_ver
         Me.TabPage3.Controls.Add(Me.Label14)
         Me.TabPage3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabPage3.Location = New System.Drawing.Point(4, 29)
-        Me.TabPage3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage3.Margin = New System.Windows.Forms.Padding(4)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Size = New System.Drawing.Size(1388, 367)
         Me.TabPage3.TabIndex = 2
@@ -2199,7 +2199,7 @@ Partial Class Formcursos_ver
         Me.TextBox_gastosop.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox_gastosop.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.TextBox_gastosop.Location = New System.Drawing.Point(1189, 116)
-        Me.TextBox_gastosop.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox_gastosop.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox_gastosop.Name = "TextBox_gastosop"
         Me.TextBox_gastosop.Size = New System.Drawing.Size(168, 26)
         Me.TextBox_gastosop.TabIndex = 1126
@@ -2238,7 +2238,7 @@ Partial Class Formcursos_ver
         Me.DataGridView6.AllowUserToOrderColumns = True
         Me.DataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView6.Location = New System.Drawing.Point(24, 223)
-        Me.DataGridView6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DataGridView6.Margin = New System.Windows.Forms.Padding(4)
         Me.DataGridView6.Name = "DataGridView6"
         Me.DataGridView6.ReadOnly = True
         Me.DataGridView6.RowHeadersVisible = False
@@ -2271,7 +2271,7 @@ Partial Class Formcursos_ver
         Me.Button7.ForeColor = System.Drawing.Color.Black
         Me.Button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button7.Location = New System.Drawing.Point(1147, 16)
-        Me.Button7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(4)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(209, 46)
         Me.Button7.TabIndex = 1121
@@ -2282,7 +2282,7 @@ Partial Class Formcursos_ver
         '
         Me.PictureBox7.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.ok_trans
         Me.PictureBox7.Location = New System.Drawing.Point(1328, 4)
-        Me.PictureBox7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox7.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(53, 46)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -2308,7 +2308,7 @@ Partial Class Formcursos_ver
         Me.TextBoxDescuento.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBoxDescuento.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.TextBoxDescuento.Location = New System.Drawing.Point(1189, 176)
-        Me.TextBoxDescuento.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBoxDescuento.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBoxDescuento.Name = "TextBoxDescuento"
         Me.TextBoxDescuento.Size = New System.Drawing.Size(168, 26)
         Me.TextBoxDescuento.TabIndex = 68
@@ -2333,7 +2333,7 @@ Partial Class Formcursos_ver
         Me.TextBoxUtilidad.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBoxUtilidad.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.TextBoxUtilidad.Location = New System.Drawing.Point(1189, 222)
-        Me.TextBoxUtilidad.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBoxUtilidad.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBoxUtilidad.Name = "TextBoxUtilidad"
         Me.TextBoxUtilidad.Size = New System.Drawing.Size(168, 26)
         Me.TextBoxUtilidad.TabIndex = 66
@@ -2357,7 +2357,7 @@ Partial Class Formcursos_ver
         Me.TextBoxComision.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBoxComision.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.TextBoxComision.Location = New System.Drawing.Point(1189, 146)
-        Me.TextBoxComision.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBoxComision.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBoxComision.Name = "TextBoxComision"
         Me.TextBoxComision.Size = New System.Drawing.Size(168, 26)
         Me.TextBoxComision.TabIndex = 64
@@ -2382,7 +2382,7 @@ Partial Class Formcursos_ver
         Me.TextBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.TextBox7.Location = New System.Drawing.Point(1189, 324)
-        Me.TextBox7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox7.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(168, 26)
         Me.TextBox7.TabIndex = 58
@@ -2394,7 +2394,7 @@ Partial Class Formcursos_ver
         Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.TextBox6.Location = New System.Drawing.Point(1189, 294)
-        Me.TextBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox6.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(168, 26)
         Me.TextBox6.TabIndex = 56
@@ -2406,7 +2406,7 @@ Partial Class Formcursos_ver
         Me.TextBoxSaldoInicial.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBoxSaldoInicial.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.TextBoxSaldoInicial.Location = New System.Drawing.Point(1189, 87)
-        Me.TextBoxSaldoInicial.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBoxSaldoInicial.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBoxSaldoInicial.Name = "TextBoxSaldoInicial"
         Me.TextBoxSaldoInicial.Size = New System.Drawing.Size(168, 26)
         Me.TextBoxSaldoInicial.TabIndex = 54
@@ -2419,7 +2419,7 @@ Partial Class Formcursos_ver
         Me.DataGridView1.AllowUserToOrderColumns = True
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(24, 36)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
         Me.DataGridView1.RowHeadersVisible = False
@@ -2585,7 +2585,7 @@ Partial Class Formcursos_ver
         Me.Button8.ForeColor = System.Drawing.Color.White
         Me.Button8.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.grado
         Me.Button8.Location = New System.Drawing.Point(1167, 44)
-        Me.Button8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button8.Margin = New System.Windows.Forms.Padding(4)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(107, 50)
         Me.Button8.TabIndex = 99
@@ -2599,7 +2599,7 @@ Partial Class Formcursos_ver
         Me.Button14.ForeColor = System.Drawing.Color.White
         Me.Button14.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.diskette
         Me.Button14.Location = New System.Drawing.Point(1281, 44)
-        Me.Button14.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button14.Margin = New System.Windows.Forms.Padding(4)
         Me.Button14.Name = "Button14"
         Me.Button14.Size = New System.Drawing.Size(124, 50)
         Me.Button14.TabIndex = 99
@@ -2627,7 +2627,7 @@ Partial Class Formcursos_ver
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.Button14)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
         Me.MinimumSize = New System.Drawing.Size(1309, 783)
         Me.Name = "Formcursos_ver"

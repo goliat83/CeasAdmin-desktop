@@ -27,7 +27,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ProductName>CEASADMIN_AUTOCAR</ProductName>
     <SuiteName>CEASADMIN_AUTOCAR</SuiteName>
-    <ApplicationRevision>528</ApplicationRevision>
+    <ApplicationRevision>531</ApplicationRevision>
     <ApplicationVersion>2.0.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -69,10 +69,11 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>DF12782D5F6C63A099B37E9CD7D5D0C3E20D5742</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>182B542798F9781EACE4327EF5AB87A77BFB92EB</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>CEASadmin_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>

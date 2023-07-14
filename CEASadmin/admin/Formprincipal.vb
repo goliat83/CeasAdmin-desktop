@@ -410,7 +410,8 @@ Public Class Formprincipal
 c.num, c.fecha, c.fechafin, c.alumno_doc, 
 concat(al.nombre1,' ',al.nombre2,' ',al.apellido1 ,' ',al.apellido2) as alumno_nom, 
 c.tipotramite, c.categoria, c.paq_clases, c.medico, i.nombre, a.nombre, c.num_contrato, 
-c.jornada, c.grupo, c.AutorizacionMedico ,(Select SUM(valor) As abonos from recibos_caja where curso=c.num) as saldo
+c.jornada, c.grupo, c.AutorizacionMedico ,(Select SUM(valor) As abonos from recibos_caja where curso=c.num) as abonos,
+(SELECT valor FROM servicios WHERE cod=c.idserv) as saldoInicial
 from cursos c  
 left join instructores i on c.instructor = i.cod
 left join asesores a on c.asesor = a.cod

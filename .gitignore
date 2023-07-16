@@ -1,0 +1,52 @@
+# Archivos de compilación de Visual Studio
+*.exe
+*.pdb
+*.dll
+*.manifest
+*.obj
+*.res
+*.pch
+*.pch
+*.sbr
+*.tlb
+*.tlh
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Carpeta de salida de compilación
+bin/
+obj/
+
+# Carpeta de caché de Visual Studio
+.vs/
+
+# Carpeta de salida de NuGet
+packages/
+
+# Archivos de usuario de Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Carpetas de respaldo
+Backup*/
+Backup*/
+[Bb]in/
+[Oo]bj/
+
+# Archivos de proyecto específicos de Visual Studio
+*.csproj.user
+*.vcxproj.user
+*.vcproj.user
+*.dbmdl
+*.jfm
+*.pfx
+*.publishsettings
+node_modules/

@@ -25,6 +25,8 @@ obj/
 
 # Carpeta de caché de Visual Studio
 .vs/
+.vs/CEASadmin/v16/.suo
+CEASadmin/obj/Debug/DesignTimeResolveAssemblyReferences.cache
 
 # Carpeta de salida de NuGet
 packages/

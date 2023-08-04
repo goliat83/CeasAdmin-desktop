@@ -265,6 +265,8 @@ Public Class Formcursos_ver
             Me.ComboBox5.Text = lin.Item("dertrans")
             Me.ComboBoxAsesor.SelectedValue = lin.Item("asesor")
 
+            Me.TextBox_F_D_T.Text = lin.Item("fecha_dertran")
+
             Me.ComboBox_instructores.SelectedValue = lin.Item("instructor")
             Me.ComboBoxinstructorReporte.SelectedValue = lin.Item("instructor")
 
@@ -11032,6 +11034,8 @@ Public Class Formcursos_ver
         ComboBoxGrupo.Enabled = True
         PictureBox5.Visible = False
         PictureBoxOkEdit.Visible = True
+        DateTimePicker3.Enabled = True
+
     End Sub
 
     Private Sub ComboBoxPaquetes_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBoxPaquetes.SelectedIndexChanged
@@ -11118,6 +11122,22 @@ Public Class Formcursos_ver
         ComboBoxGrupo.Enabled = False
         PictureBox5.Visible = True
         PictureBoxOkEdit.Visible = False
+        DateTimePicker3.Enabled = False
+
+
+
+        sql = "UPDATE cursos SET fecha_dertran='" & TextBox_F_D_T.Text & "' WHERE num=" & CLng(Me.LabelCurso.Text) & ""
+        da = New MySqlDataAdapter(sql, conex)
+        dt = New DataTable
+        Try
+            da.Fill(dt)
+            'MsgBox("Se actualizó el número del contrato en los datos del curso. Ahora se cargara e contrato.  :).", vbInformation)
+        Catch ex As Exception
+            MsgBox(ex.ToString)
+        End Try
+        da.Dispose()
+        dt.Dispose()
+        conex.Close()
     End Sub
 
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
@@ -11738,6 +11758,13 @@ Public Class Formcursos_ver
 
     End Sub
 
+    Private Sub DateTimePicker3_ValueChanged(sender As Object, e As EventArgs) Handles DateTimePicker3.ValueChanged
+        Me.TextBox_F_D_T.Text = DateTimePicker3.Value.ToShortDateString
+    End Sub
+
+    Private Sub ComboBox1_SelectedIndexChanged_1(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
+
+    End Sub
 
     Private Sub ComboBoxGrupo_SelectionChangeCommitted(sender As Object, e As EventArgs) Handles ComboBoxGrupo.SelectionChangeCommitted
         sql = "UPDATE cursos SET grupo='" & Me.ComboBoxGrupo.Text & "' WHERE num=" & CLng(Me.LabelCurso.Text) & ""
@@ -11943,5 +11970,7 @@ Public Class Formcursos_ver
         conex.Close()
     End Sub
 
+    Private Sub ComboBox1_SelectionChangeCommitted(sender As Object, e As EventArgs) Handles ComboBox1.SelectionChangeCommitted
 
+    End Sub
 End Class

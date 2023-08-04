@@ -45,6 +45,8 @@ Partial Class Formcursos_ver
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.DateTimePicker3 = New System.Windows.Forms.DateTimePicker()
         Me.Label53 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.TextBox22 = New System.Windows.Forms.TextBox()
@@ -76,7 +78,6 @@ Partial Class Formcursos_ver
         Me.TextBox13 = New System.Windows.Forms.TextBox()
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
         Me.Label33 = New System.Windows.Forms.Label()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
@@ -194,6 +195,7 @@ Partial Class Formcursos_ver
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button14 = New System.Windows.Forms.Button()
+        Me.TextBox_F_D_T = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
@@ -226,10 +228,9 @@ Partial Class Formcursos_ver
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(21, 52)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(16, 42)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(262, 31)
+        Me.Label1.Size = New System.Drawing.Size(210, 25)
         Me.Label1.TabIndex = 33
         Me.Label1.Text = "Curso/Trámite  No."
         '
@@ -250,11 +251,9 @@ Partial Class Formcursos_ver
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Black
-        Me.GroupBox1.Location = New System.Drawing.Point(20, 97)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox1.Location = New System.Drawing.Point(15, 79)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox1.Size = New System.Drawing.Size(539, 273)
+        Me.GroupBox1.Size = New System.Drawing.Size(404, 222)
         Me.GroupBox1.TabIndex = 34
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Datos del Alumno"
@@ -263,10 +262,9 @@ Partial Class Formcursos_ver
         '
         Me.PictureBox1.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.estudiantelogo
         Me.PictureBox1.InitialImage = Global.CEASadmin_AUTOCAR.My.Resources.Resources.estudiantelogo
-        Me.PictureBox1.Location = New System.Drawing.Point(391, 86)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox1.Location = New System.Drawing.Point(293, 70)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(123, 127)
+        Me.PictureBox1.Size = New System.Drawing.Size(92, 103)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 128
         Me.PictureBox1.TabStop = False
@@ -276,10 +274,9 @@ Partial Class Formcursos_ver
         Me.TextBox18.Enabled = False
         Me.TextBox18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox18.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TextBox18.Location = New System.Drawing.Point(16, 241)
-        Me.TextBox18.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox18.Location = New System.Drawing.Point(12, 196)
         Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(424, 26)
+        Me.TextBox18.Size = New System.Drawing.Size(319, 22)
         Me.TextBox18.TabIndex = 133
         Me.TextBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -289,10 +286,9 @@ Partial Class Formcursos_ver
         Me.Label23.BackColor = System.Drawing.Color.Transparent
         Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label23.ForeColor = System.Drawing.Color.DimGray
-        Me.Label23.Location = New System.Drawing.Point(12, 224)
-        Me.Label23.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label23.Location = New System.Drawing.Point(9, 182)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(47, 17)
+        Me.Label23.Size = New System.Drawing.Size(37, 13)
         Me.Label23.TabIndex = 132
         Me.Label23.Text = "Email"
         '
@@ -301,10 +297,9 @@ Partial Class Formcursos_ver
         Me.TextBox14.Enabled = False
         Me.TextBox14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox14.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TextBox14.Location = New System.Drawing.Point(16, 192)
-        Me.TextBox14.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox14.Location = New System.Drawing.Point(12, 156)
         Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(212, 26)
+        Me.TextBox14.Size = New System.Drawing.Size(160, 22)
         Me.TextBox14.TabIndex = 60
         Me.TextBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -314,10 +309,9 @@ Partial Class Formcursos_ver
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.White
         Me.Button5.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.diskette
-        Me.Button5.Location = New System.Drawing.Point(420, 112)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button5.Location = New System.Drawing.Point(315, 91)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(71, 50)
+        Me.Button5.Size = New System.Drawing.Size(53, 41)
         Me.Button5.TabIndex = 90
         Me.Button5.UseVisualStyleBackColor = False
         Me.Button5.Visible = False
@@ -328,10 +322,9 @@ Partial Class Formcursos_ver
         Me.Label34.BackColor = System.Drawing.Color.Transparent
         Me.Label34.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label34.ForeColor = System.Drawing.Color.DimGray
-        Me.Label34.Location = New System.Drawing.Point(12, 175)
-        Me.Label34.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label34.Location = New System.Drawing.Point(9, 142)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(80, 17)
+        Me.Label34.Size = New System.Drawing.Size(63, 13)
         Me.Label34.TabIndex = 59
         Me.Label34.Text = "Teléfonos"
         '
@@ -341,10 +334,9 @@ Partial Class Formcursos_ver
         Me.Label40.BackColor = System.Drawing.Color.Transparent
         Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label40.ForeColor = System.Drawing.Color.DimGray
-        Me.Label40.Location = New System.Drawing.Point(12, 76)
-        Me.Label40.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label40.Location = New System.Drawing.Point(9, 62)
         Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(149, 17)
+        Me.Label40.Size = New System.Drawing.Size(118, 13)
         Me.Label40.TabIndex = 58
         Me.Label40.Text = "Tipo de Documento"
         '
@@ -358,10 +350,9 @@ Partial Class Formcursos_ver
         Me.ComboBox6.ForeColor = System.Drawing.Color.Blue
         Me.ComboBox6.FormattingEnabled = True
         Me.ComboBox6.Items.AddRange(New Object() {"1) CEDULA DE CIUDADANÍA", "2) TARJETA DE IDENTIDAD", "3) REGISTRO CIVIL", "4) CEDULA DE EXTRANJERÍA", "5) PASAPORTE"})
-        Me.ComboBox6.Location = New System.Drawing.Point(16, 95)
-        Me.ComboBox6.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox6.Location = New System.Drawing.Point(12, 77)
         Me.ComboBox6.Name = "ComboBox6"
-        Me.ComboBox6.Size = New System.Drawing.Size(260, 26)
+        Me.ComboBox6.Size = New System.Drawing.Size(196, 23)
         Me.ComboBox6.TabIndex = 57
         '
         'TextBox2
@@ -369,10 +360,9 @@ Partial Class Formcursos_ver
         Me.TextBox2.Enabled = False
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TextBox2.Location = New System.Drawing.Point(16, 41)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox2.Location = New System.Drawing.Point(12, 33)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(496, 30)
+        Me.TextBox2.Size = New System.Drawing.Size(373, 26)
         Me.TextBox2.TabIndex = 51
         Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -382,10 +372,9 @@ Partial Class Formcursos_ver
         Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.DimGray
-        Me.Label10.Location = New System.Drawing.Point(12, 126)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label10.Location = New System.Drawing.Point(9, 102)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(89, 17)
+        Me.Label10.Size = New System.Drawing.Size(71, 13)
         Me.Label10.TabIndex = 20
         Me.Label10.Text = "Documento"
         '
@@ -394,10 +383,9 @@ Partial Class Formcursos_ver
         Me.TextBox1.Enabled = False
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TextBox1.Location = New System.Drawing.Point(16, 142)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox1.Location = New System.Drawing.Point(12, 115)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(171, 26)
+        Me.TextBox1.Size = New System.Drawing.Size(129, 22)
         Me.TextBox1.TabIndex = 23
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -407,10 +395,9 @@ Partial Class Formcursos_ver
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.DimGray
-        Me.Label2.Location = New System.Drawing.Point(12, 23)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(9, 19)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(122, 17)
+        Me.Label2.Size = New System.Drawing.Size(95, 13)
         Me.Label2.TabIndex = 22
         Me.Label2.Text = "Nombre Alumno"
         '
@@ -419,6 +406,8 @@ Partial Class Formcursos_ver
         Me.GroupBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GroupBox2.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox2.Controls.Add(Me.TextBox_F_D_T)
+        Me.GroupBox2.Controls.Add(Me.DateTimePicker3)
         Me.GroupBox2.Controls.Add(Me.Label53)
         Me.GroupBox2.Controls.Add(Me.ComboBox1)
         Me.GroupBox2.Controls.Add(Me.TextBox22)
@@ -449,14 +438,35 @@ Partial Class Formcursos_ver
         Me.GroupBox2.Controls.Add(Me.Label48)
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.ForeColor = System.Drawing.Color.Black
-        Me.GroupBox2.Location = New System.Drawing.Point(567, 97)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox2.Location = New System.Drawing.Point(425, 79)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox2.Size = New System.Drawing.Size(848, 273)
+        Me.GroupBox2.Size = New System.Drawing.Size(636, 222)
         Me.GroupBox2.TabIndex = 35
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Datos del Curso"
+        '
+        'TextBox10
+        '
+        Me.TextBox10.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox10.Enabled = False
+        Me.TextBox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.TextBox10.Location = New System.Drawing.Point(439, 48)
+        Me.TextBox10.Name = "TextBox10"
+        Me.TextBox10.Size = New System.Drawing.Size(108, 22)
+        Me.TextBox10.TabIndex = 33
+        Me.TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'DateTimePicker3
+        '
+        Me.DateTimePicker3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.DateTimePicker3.Enabled = False
+        Me.DateTimePicker3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker3.Location = New System.Drawing.Point(464, 31)
+        Me.DateTimePicker3.Name = "DateTimePicker3"
+        Me.DateTimePicker3.Size = New System.Drawing.Size(124, 22)
+        Me.DateTimePicker3.TabIndex = 100
         '
         'Label53
         '
@@ -464,10 +474,9 @@ Partial Class Formcursos_ver
         Me.Label53.BackColor = System.Drawing.Color.Transparent
         Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label53.ForeColor = System.Drawing.Color.DimGray
-        Me.Label53.Location = New System.Drawing.Point(560, 22)
-        Me.Label53.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label53.Location = New System.Drawing.Point(348, 18)
         Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(104, 17)
+        Me.Label53.Size = New System.Drawing.Size(81, 13)
         Me.Label53.TabIndex = 1093
         Me.Label53.Text = "Der. Transito"
         '
@@ -482,20 +491,18 @@ Partial Class Formcursos_ver
         Me.ComboBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"NO", "120000", "190000"})
-        Me.ComboBox1.Location = New System.Drawing.Point(559, 39)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox1.Location = New System.Drawing.Point(350, 32)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(137, 25)
+        Me.ComboBox1.Size = New System.Drawing.Size(104, 21)
         Me.ComboBox1.TabIndex = 1094
         '
         'TextBox22
         '
         Me.TextBox22.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox22.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TextBox22.Location = New System.Drawing.Point(560, 231)
-        Me.TextBox22.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox22.Location = New System.Drawing.Point(420, 188)
         Me.TextBox22.Name = "TextBox22"
-        Me.TextBox22.Size = New System.Drawing.Size(252, 26)
+        Me.TextBox22.Size = New System.Drawing.Size(190, 22)
         Me.TextBox22.TabIndex = 1092
         Me.TextBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -503,10 +510,9 @@ Partial Class Formcursos_ver
         '
         Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox5.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.lapizico
-        Me.PictureBox5.Location = New System.Drawing.Point(785, 21)
-        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox5.Location = New System.Drawing.Point(593, 17)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(53, 46)
+        Me.PictureBox5.Size = New System.Drawing.Size(40, 36)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox5.TabIndex = 1089
         Me.PictureBox5.TabStop = False
@@ -517,10 +523,9 @@ Partial Class Formcursos_ver
         Me.Label32.BackColor = System.Drawing.Color.Transparent
         Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label32.ForeColor = System.Drawing.Color.DimGray
-        Me.Label32.Location = New System.Drawing.Point(556, 119)
-        Me.Label32.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label32.Location = New System.Drawing.Point(417, 97)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(154, 17)
+        Me.Label32.Size = New System.Drawing.Size(122, 13)
         Me.Label32.TabIndex = 136
         Me.Label32.Text = "Autorización Medico"
         '
@@ -528,10 +533,9 @@ Partial Class Formcursos_ver
         '
         Me.TextBox21.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox21.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TextBox21.Location = New System.Drawing.Point(560, 135)
-        Me.TextBox21.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox21.Location = New System.Drawing.Point(420, 110)
         Me.TextBox21.Name = "TextBox21"
-        Me.TextBox21.Size = New System.Drawing.Size(195, 26)
+        Me.TextBox21.Size = New System.Drawing.Size(147, 22)
         Me.TextBox21.TabIndex = 137
         Me.TextBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -545,10 +549,9 @@ Partial Class Formcursos_ver
         Me.ComboBoxGrupo.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxGrupo.FormattingEnabled = True
         Me.ComboBoxGrupo.Items.AddRange(New Object() {"", "A", "B"})
-        Me.ComboBoxGrupo.Location = New System.Drawing.Point(629, 87)
-        Me.ComboBoxGrupo.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBoxGrupo.Location = New System.Drawing.Point(472, 71)
         Me.ComboBoxGrupo.Name = "ComboBoxGrupo"
-        Me.ComboBoxGrupo.Size = New System.Drawing.Size(125, 25)
+        Me.ComboBoxGrupo.Size = New System.Drawing.Size(95, 21)
         Me.ComboBoxGrupo.TabIndex = 135
         '
         'Label9
@@ -557,10 +560,9 @@ Partial Class Formcursos_ver
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.DimGray
-        Me.Label9.Location = New System.Drawing.Point(625, 69)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label9.Location = New System.Drawing.Point(469, 56)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(53, 17)
+        Me.Label9.Size = New System.Drawing.Size(41, 13)
         Me.Label9.TabIndex = 134
         Me.Label9.Text = "Grupo"
         '
@@ -574,10 +576,9 @@ Partial Class Formcursos_ver
         Me.ComboBoxAsesor.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxAsesor.FormattingEnabled = True
         Me.ComboBoxAsesor.Items.AddRange(New Object() {"NO APLICA"})
-        Me.ComboBoxAsesor.Location = New System.Drawing.Point(17, 187)
-        Me.ComboBoxAsesor.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBoxAsesor.Location = New System.Drawing.Point(13, 152)
         Me.ComboBoxAsesor.Name = "ComboBoxAsesor"
-        Me.ComboBoxAsesor.Size = New System.Drawing.Size(349, 25)
+        Me.ComboBoxAsesor.Size = New System.Drawing.Size(263, 21)
         Me.ComboBoxAsesor.TabIndex = 62
         '
         'Label19
@@ -586,10 +587,9 @@ Partial Class Formcursos_ver
         Me.Label19.BackColor = System.Drawing.Color.Transparent
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.Color.DimGray
-        Me.Label19.Location = New System.Drawing.Point(13, 167)
-        Me.Label19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label19.Location = New System.Drawing.Point(10, 136)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(58, 17)
+        Me.Label19.Size = New System.Drawing.Size(45, 13)
         Me.Label19.TabIndex = 56
         Me.Label19.Text = "Asesor"
         '
@@ -602,10 +602,9 @@ Partial Class Formcursos_ver
         Me.ComboBoxPaquetes.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBoxPaquetes.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxPaquetes.FormattingEnabled = True
-        Me.ComboBoxPaquetes.Location = New System.Drawing.Point(16, 89)
-        Me.ComboBoxPaquetes.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBoxPaquetes.Location = New System.Drawing.Point(12, 72)
         Me.ComboBoxPaquetes.Name = "ComboBoxPaquetes"
-        Me.ComboBoxPaquetes.Size = New System.Drawing.Size(261, 25)
+        Me.ComboBoxPaquetes.Size = New System.Drawing.Size(197, 21)
         Me.ComboBoxPaquetes.TabIndex = 82
         '
         'Label29
@@ -614,10 +613,9 @@ Partial Class Formcursos_ver
         Me.Label29.BackColor = System.Drawing.Color.Transparent
         Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label29.ForeColor = System.Drawing.Color.DimGray
-        Me.Label29.Location = New System.Drawing.Point(12, 71)
-        Me.Label29.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label29.Location = New System.Drawing.Point(9, 58)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(144, 17)
+        Me.Label29.Size = New System.Drawing.Size(113, 13)
         Me.Label29.TabIndex = 81
         Me.Label29.Text = "Paquete de Clases"
         '
@@ -630,10 +628,9 @@ Partial Class Formcursos_ver
         Me.ComboBox_instructores.ForeColor = System.Drawing.Color.Black
         Me.ComboBox_instructores.FormattingEnabled = True
         Me.ComboBox_instructores.Items.AddRange(New Object() {"NO APLICA"})
-        Me.ComboBox_instructores.Location = New System.Drawing.Point(376, 183)
-        Me.ComboBox_instructores.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox_instructores.Location = New System.Drawing.Point(282, 149)
         Me.ComboBox_instructores.Name = "ComboBox_instructores"
-        Me.ComboBox_instructores.Size = New System.Drawing.Size(436, 28)
+        Me.ComboBox_instructores.Size = New System.Drawing.Size(328, 24)
         Me.ComboBox_instructores.TabIndex = 133
         '
         'Label4
@@ -642,10 +639,9 @@ Partial Class Formcursos_ver
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.DimGray
-        Me.Label4.Location = New System.Drawing.Point(372, 166)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(279, 135)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(77, 17)
+        Me.Label4.Size = New System.Drawing.Size(61, 13)
         Me.Label4.TabIndex = 132
         Me.Label4.Text = "Instructor"
         '
@@ -655,10 +651,9 @@ Partial Class Formcursos_ver
         Me.Label41.BackColor = System.Drawing.Color.Transparent
         Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label41.ForeColor = System.Drawing.Color.DimGray
-        Me.Label41.Location = New System.Drawing.Point(432, 70)
-        Me.Label41.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label41.Location = New System.Drawing.Point(324, 57)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(74, 17)
+        Me.Label41.Size = New System.Drawing.Size(57, 13)
         Me.Label41.TabIndex = 60
         Me.Label41.Text = "Prioridad"
         '
@@ -668,10 +663,9 @@ Partial Class Formcursos_ver
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold)
         Me.Label5.ForeColor = System.Drawing.Color.DimGray
-        Me.Label5.Location = New System.Drawing.Point(15, 215)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Location = New System.Drawing.Point(11, 175)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(116, 17)
+        Me.Label5.Size = New System.Drawing.Size(91, 13)
         Me.Label5.TabIndex = 68
         Me.Label5.Text = "Observaciones"
         '
@@ -685,21 +679,19 @@ Partial Class Formcursos_ver
         Me.ComboBox7.ForeColor = System.Drawing.Color.Black
         Me.ComboBox7.FormattingEnabled = True
         Me.ComboBox7.Items.AddRange(New Object() {"NORMAL", "ALTA"})
-        Me.ComboBox7.Location = New System.Drawing.Point(435, 86)
-        Me.ComboBox7.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox7.Location = New System.Drawing.Point(326, 70)
         Me.ComboBox7.Name = "ComboBox7"
-        Me.ComboBox7.Size = New System.Drawing.Size(185, 26)
+        Me.ComboBox7.Size = New System.Drawing.Size(140, 23)
         Me.ComboBox7.TabIndex = 59
         '
         'TextBox4
         '
         Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox4.ForeColor = System.Drawing.Color.Red
-        Me.TextBox4.Location = New System.Drawing.Point(16, 233)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox4.Location = New System.Drawing.Point(12, 189)
         Me.TextBox4.Multiline = True
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(521, 35)
+        Me.TextBox4.Size = New System.Drawing.Size(392, 29)
         Me.TextBox4.TabIndex = 67
         '
         'ComboBox5
@@ -712,10 +704,9 @@ Partial Class Formcursos_ver
         Me.ComboBox5.ForeColor = System.Drawing.Color.Black
         Me.ComboBox5.FormattingEnabled = True
         Me.ComboBox5.Items.AddRange(New Object() {"NO", "135000"})
-        Me.ComboBox5.Location = New System.Drawing.Point(295, 89)
-        Me.ComboBox5.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox5.Location = New System.Drawing.Point(221, 72)
         Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(121, 25)
+        Me.ComboBox5.Size = New System.Drawing.Size(92, 21)
         Me.ComboBox5.TabIndex = 64
         '
         'ComboBoxMedico
@@ -727,10 +718,9 @@ Partial Class Formcursos_ver
         Me.ComboBoxMedico.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBoxMedico.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxMedico.FormattingEnabled = True
-        Me.ComboBoxMedico.Location = New System.Drawing.Point(16, 137)
-        Me.ComboBoxMedico.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBoxMedico.Location = New System.Drawing.Point(12, 111)
         Me.ComboBoxMedico.Name = "ComboBoxMedico"
-        Me.ComboBoxMedico.Size = New System.Drawing.Size(521, 25)
+        Me.ComboBoxMedico.Size = New System.Drawing.Size(392, 21)
         Me.ComboBoxMedico.TabIndex = 63
         '
         'ComboBoxCat
@@ -743,10 +733,9 @@ Partial Class Formcursos_ver
         Me.ComboBoxCat.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxCat.FormattingEnabled = True
         Me.ComboBoxCat.Items.AddRange(New Object() {"A1", "A2", "B1", "B2", "C1", "C2"})
-        Me.ComboBoxCat.Location = New System.Drawing.Point(461, 41)
-        Me.ComboBoxCat.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBoxCat.Location = New System.Drawing.Point(279, 33)
         Me.ComboBoxCat.Name = "ComboBoxCat"
-        Me.ComboBoxCat.Size = New System.Drawing.Size(79, 25)
+        Me.ComboBoxCat.Size = New System.Drawing.Size(60, 21)
         Me.ComboBoxCat.TabIndex = 62
         '
         'ComboBoxServicio
@@ -758,10 +747,9 @@ Partial Class Formcursos_ver
         Me.ComboBoxServicio.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBoxServicio.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxServicio.FormattingEnabled = True
-        Me.ComboBoxServicio.Location = New System.Drawing.Point(16, 41)
-        Me.ComboBoxServicio.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBoxServicio.Location = New System.Drawing.Point(12, 33)
         Me.ComboBoxServicio.Name = "ComboBoxServicio"
-        Me.ComboBoxServicio.Size = New System.Drawing.Size(433, 25)
+        Me.ComboBoxServicio.Size = New System.Drawing.Size(254, 21)
         Me.ComboBoxServicio.TabIndex = 52
         '
         'Label20
@@ -770,10 +758,9 @@ Partial Class Formcursos_ver
         Me.Label20.BackColor = System.Drawing.Color.Transparent
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.ForeColor = System.Drawing.Color.DimGray
-        Me.Label20.Location = New System.Drawing.Point(12, 21)
-        Me.Label20.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label20.Location = New System.Drawing.Point(9, 17)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(123, 17)
+        Me.Label20.Size = New System.Drawing.Size(96, 13)
         Me.Label20.TabIndex = 58
         Me.Label20.Text = "Tipo de Tramite"
         '
@@ -783,10 +770,9 @@ Partial Class Formcursos_ver
         Me.Label17.BackColor = System.Drawing.Color.Transparent
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.ForeColor = System.Drawing.Color.DimGray
-        Me.Label17.Location = New System.Drawing.Point(291, 73)
-        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label17.Location = New System.Drawing.Point(218, 59)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(33, 17)
+        Me.Label17.Size = New System.Drawing.Size(28, 13)
         Me.Label17.TabIndex = 56
         Me.Label17.Text = "PIN"
         '
@@ -796,10 +782,9 @@ Partial Class Formcursos_ver
         Me.Label16.BackColor = System.Drawing.Color.Transparent
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.DimGray
-        Me.Label16.Location = New System.Drawing.Point(12, 118)
-        Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label16.Location = New System.Drawing.Point(9, 96)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(120, 17)
+        Me.Label16.Size = New System.Drawing.Size(96, 13)
         Me.Label16.TabIndex = 54
         Me.Label16.Text = "Exámen Médico"
         '
@@ -809,10 +794,9 @@ Partial Class Formcursos_ver
         Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.DimGray
-        Me.Label8.Location = New System.Drawing.Point(457, 22)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label8.Location = New System.Drawing.Point(276, 18)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(78, 17)
+        Me.Label8.Size = New System.Drawing.Size(61, 13)
         Me.Label8.TabIndex = 37
         Me.Label8.Text = "Categoria"
         '
@@ -820,10 +804,9 @@ Partial Class Formcursos_ver
         '
         Me.PictureBoxOkEdit.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBoxOkEdit.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.ok_trans
-        Me.PictureBoxOkEdit.Location = New System.Drawing.Point(785, 21)
-        Me.PictureBoxOkEdit.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBoxOkEdit.Location = New System.Drawing.Point(593, 17)
         Me.PictureBoxOkEdit.Name = "PictureBoxOkEdit"
-        Me.PictureBoxOkEdit.Size = New System.Drawing.Size(53, 46)
+        Me.PictureBoxOkEdit.Size = New System.Drawing.Size(40, 37)
         Me.PictureBoxOkEdit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBoxOkEdit.TabIndex = 1090
         Me.PictureBoxOkEdit.TabStop = False
@@ -835,10 +818,9 @@ Partial Class Formcursos_ver
         Me.Label48.BackColor = System.Drawing.Color.Transparent
         Me.Label48.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label48.ForeColor = System.Drawing.Color.DimGray
-        Me.Label48.Location = New System.Drawing.Point(556, 215)
-        Me.Label48.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label48.Location = New System.Drawing.Point(417, 175)
         Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(122, 17)
+        Me.Label48.Size = New System.Drawing.Size(96, 13)
         Me.Label48.TabIndex = 1091
         Me.Label48.Text = "Fecha Comisión"
         '
@@ -848,10 +830,9 @@ Partial Class Formcursos_ver
         Me.TextBox13.Enabled = False
         Me.TextBox13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox13.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TextBox13.Location = New System.Drawing.Point(808, 59)
-        Me.TextBox13.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox13.Location = New System.Drawing.Point(606, 48)
         Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(168, 26)
+        Me.TextBox13.Size = New System.Drawing.Size(127, 22)
         Me.TextBox13.TabIndex = 83
         Me.TextBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -861,10 +842,9 @@ Partial Class Formcursos_ver
         Me.DateTimePicker2.Enabled = False
         Me.DateTimePicker2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker2.Location = New System.Drawing.Point(812, 59)
-        Me.DateTimePicker2.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker2.Location = New System.Drawing.Point(609, 48)
         Me.DateTimePicker2.Name = "DateTimePicker2"
-        Me.DateTimePicker2.Size = New System.Drawing.Size(204, 26)
+        Me.DateTimePicker2.Size = New System.Drawing.Size(154, 22)
         Me.DateTimePicker2.TabIndex = 85
         '
         'Label33
@@ -874,25 +854,11 @@ Partial Class Formcursos_ver
         Me.Label33.BackColor = System.Drawing.Color.Transparent
         Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label33.ForeColor = System.Drawing.Color.Black
-        Me.Label33.Location = New System.Drawing.Point(804, 39)
-        Me.Label33.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label33.Location = New System.Drawing.Point(603, 32)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(117, 20)
+        Me.Label33.Size = New System.Drawing.Size(98, 16)
         Me.Label33.TabIndex = 84
         Me.Label33.Text = "Fecha Grado"
-        '
-        'TextBox10
-        '
-        Me.TextBox10.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox10.Enabled = False
-        Me.TextBox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TextBox10.Location = New System.Drawing.Point(575, 59)
-        Me.TextBox10.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(168, 26)
-        Me.TextBox10.TabIndex = 33
-        Me.TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'DateTimePicker1
         '
@@ -900,10 +866,9 @@ Partial Class Formcursos_ver
         Me.DateTimePicker1.Enabled = False
         Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker1.Location = New System.Drawing.Point(585, 59)
-        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(439, 48)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(195, 26)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(147, 22)
         Me.DateTimePicker1.TabIndex = 35
         '
         'Label13
@@ -913,10 +878,9 @@ Partial Class Formcursos_ver
         Me.Label13.BackColor = System.Drawing.Color.Transparent
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.Black
-        Me.Label13.Location = New System.Drawing.Point(572, 39)
-        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label13.Location = New System.Drawing.Point(429, 32)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(144, 20)
+        Me.Label13.Size = New System.Drawing.Size(118, 16)
         Me.Label13.TabIndex = 34
         Me.Label13.Text = "Fecha Matricula"
         '
@@ -929,11 +893,10 @@ Partial Class Formcursos_ver
         Me.TabControl1.Controls.Add(Me.TabPage6)
         Me.TabControl1.Controls.Add(Me.TabPage3)
         Me.TabControl1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabControl1.Location = New System.Drawing.Point(19, 370)
-        Me.TabControl1.Margin = New System.Windows.Forms.Padding(4)
+        Me.TabControl1.Location = New System.Drawing.Point(14, 301)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(1396, 400)
+        Me.TabControl1.Size = New System.Drawing.Size(1047, 325)
         Me.TabControl1.TabIndex = 36
         '
         'TabPage1
@@ -965,11 +928,10 @@ Partial Class Formcursos_ver
         Me.TabPage1.Controls.Add(Me.PictureBox3)
         Me.TabPage1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabPage1.ForeColor = System.Drawing.Color.Black
-        Me.TabPage1.Location = New System.Drawing.Point(4, 29)
-        Me.TabPage1.Margin = New System.Windows.Forms.Padding(4)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 25)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(4)
-        Me.TabPage1.Size = New System.Drawing.Size(1388, 367)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage1.Size = New System.Drawing.Size(1039, 296)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "    GENERAL    "
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -979,10 +941,9 @@ Partial Class Formcursos_ver
         Me.TextBox12.Enabled = False
         Me.TextBox12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TextBox12.Location = New System.Drawing.Point(980, 219)
-        Me.TextBox12.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox12.Location = New System.Drawing.Point(735, 178)
         Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(343, 26)
+        Me.TextBox12.Size = New System.Drawing.Size(258, 22)
         Me.TextBox12.TabIndex = 135
         Me.TextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -991,10 +952,9 @@ Partial Class Formcursos_ver
         Me.TextBox11.Enabled = False
         Me.TextBox11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TextBox11.Location = New System.Drawing.Point(616, 219)
-        Me.TextBox11.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox11.Location = New System.Drawing.Point(462, 178)
         Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(343, 26)
+        Me.TextBox11.Size = New System.Drawing.Size(258, 22)
         Me.TextBox11.TabIndex = 134
         Me.TextBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -1004,10 +964,9 @@ Partial Class Formcursos_ver
         Me.Label47.BackColor = System.Drawing.Color.Transparent
         Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold)
         Me.Label47.ForeColor = System.Drawing.Color.DimGray
-        Me.Label47.Location = New System.Drawing.Point(980, 203)
-        Me.Label47.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label47.Location = New System.Drawing.Point(735, 165)
         Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(65, 17)
+        Me.Label47.Size = New System.Drawing.Size(51, 13)
         Me.Label47.TabIndex = 103
         Me.Label47.Text = "Alerta 2"
         '
@@ -1015,11 +974,10 @@ Partial Class Formcursos_ver
         '
         Me.TextBox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox9.ForeColor = System.Drawing.Color.Red
-        Me.TextBox9.Location = New System.Drawing.Point(979, 249)
-        Me.TextBox9.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox9.Location = New System.Drawing.Point(734, 202)
         Me.TextBox9.Multiline = True
         Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(343, 94)
+        Me.TextBox9.Size = New System.Drawing.Size(258, 77)
         Me.TextBox9.TabIndex = 102
         '
         'Label27
@@ -1028,10 +986,9 @@ Partial Class Formcursos_ver
         Me.Label27.BackColor = System.Drawing.Color.Transparent
         Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold)
         Me.Label27.ForeColor = System.Drawing.Color.DimGray
-        Me.Label27.Location = New System.Drawing.Point(615, 202)
-        Me.Label27.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label27.Location = New System.Drawing.Point(461, 164)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(65, 17)
+        Me.Label27.Size = New System.Drawing.Size(51, 13)
         Me.Label27.TabIndex = 101
         Me.Label27.Text = "Alerta 1"
         '
@@ -1039,11 +996,10 @@ Partial Class Formcursos_ver
         '
         Me.TextBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox8.ForeColor = System.Drawing.Color.Red
-        Me.TextBox8.Location = New System.Drawing.Point(616, 249)
-        Me.TextBox8.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox8.Location = New System.Drawing.Point(462, 202)
         Me.TextBox8.Multiline = True
         Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(343, 94)
+        Me.TextBox8.Size = New System.Drawing.Size(258, 77)
         Me.TextBox8.TabIndex = 100
         '
         'Button11
@@ -1054,10 +1010,9 @@ Partial Class Formcursos_ver
         Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button11.ForeColor = System.Drawing.Color.Black
         Me.Button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button11.Location = New System.Drawing.Point(168, 55)
-        Me.Button11.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button11.Location = New System.Drawing.Point(126, 45)
         Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(173, 49)
+        Me.Button11.Size = New System.Drawing.Size(130, 40)
         Me.Button11.TabIndex = 99
         Me.Button11.Text = "Registro Clases"
         Me.Button11.UseVisualStyleBackColor = False
@@ -1070,10 +1025,9 @@ Partial Class Formcursos_ver
         Me.Button10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button10.ForeColor = System.Drawing.Color.Black
         Me.Button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button10.Location = New System.Drawing.Point(360, 55)
-        Me.Button10.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button10.Location = New System.Drawing.Point(270, 45)
         Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(171, 49)
+        Me.Button10.Size = New System.Drawing.Size(128, 40)
         Me.Button10.TabIndex = 98
         Me.Button10.Text = "Prueba Conocimientos"
         Me.Button10.UseVisualStyleBackColor = False
@@ -1087,10 +1041,9 @@ Partial Class Formcursos_ver
         Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = System.Drawing.Color.Black
         Me.Button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button9.Location = New System.Drawing.Point(17, 55)
-        Me.Button9.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button9.Location = New System.Drawing.Point(13, 45)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(137, 49)
+        Me.Button9.Size = New System.Drawing.Size(103, 40)
         Me.Button9.TabIndex = 76
         Me.Button9.Text = "Contrato"
         Me.Button9.UseVisualStyleBackColor = False
@@ -1101,10 +1054,9 @@ Partial Class Formcursos_ver
         Me.Label31.BackColor = System.Drawing.Color.Transparent
         Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label31.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.Label31.Location = New System.Drawing.Point(284, 279)
-        Me.Label31.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label31.Location = New System.Drawing.Point(213, 227)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(51, 15)
+        Me.Label31.Size = New System.Drawing.Size(43, 12)
         Me.Label31.TabIndex = 95
         Me.Label31.Text = "FECHA"
         '
@@ -1114,10 +1066,9 @@ Partial Class Formcursos_ver
         Me.Label30.BackColor = System.Drawing.Color.Transparent
         Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label30.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.Label30.Location = New System.Drawing.Point(284, 208)
-        Me.Label30.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label30.Location = New System.Drawing.Point(213, 169)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(51, 15)
+        Me.Label30.Size = New System.Drawing.Size(43, 12)
         Me.Label30.TabIndex = 94
         Me.Label30.Text = "FECHA"
         '
@@ -1126,11 +1077,10 @@ Partial Class Formcursos_ver
         Me.TextBox19.Enabled = False
         Me.TextBox19.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox19.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.TextBox19.Location = New System.Drawing.Point(288, 225)
-        Me.TextBox19.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox19.Location = New System.Drawing.Point(216, 183)
         Me.TextBox19.Multiline = True
         Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New System.Drawing.Size(184, 42)
+        Me.TextBox19.Size = New System.Drawing.Size(139, 35)
         Me.TextBox19.TabIndex = 90
         Me.TextBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -1139,11 +1089,10 @@ Partial Class Formcursos_ver
         Me.TextBox20.Enabled = False
         Me.TextBox20.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox20.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.TextBox20.Location = New System.Drawing.Point(288, 299)
-        Me.TextBox20.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox20.Location = New System.Drawing.Point(216, 243)
         Me.TextBox20.Multiline = True
         Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(184, 42)
+        Me.TextBox20.Size = New System.Drawing.Size(139, 35)
         Me.TextBox20.TabIndex = 91
         Me.TextBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -1153,10 +1102,9 @@ Partial Class Formcursos_ver
         Me.Label12.BackColor = System.Drawing.Color.Transparent
         Me.Label12.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.Tomato
-        Me.Label12.Location = New System.Drawing.Point(11, 16)
-        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label12.Location = New System.Drawing.Point(8, 13)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(300, 19)
+        Me.Label12.Size = New System.Drawing.Size(238, 16)
         Me.Label12.TabIndex = 83
         Me.Label12.Text = "Este alumno se matriculó hace días"
         '
@@ -1165,11 +1113,10 @@ Partial Class Formcursos_ver
         Me.TextBox15.Enabled = False
         Me.TextBox15.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.TextBox15.Location = New System.Drawing.Point(40, 226)
-        Me.TextBox15.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox15.Location = New System.Drawing.Point(30, 184)
         Me.TextBox15.Multiline = True
         Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(239, 42)
+        Me.TextBox15.Size = New System.Drawing.Size(180, 35)
         Me.TextBox15.TabIndex = 79
         Me.TextBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -1178,11 +1125,10 @@ Partial Class Formcursos_ver
         Me.TextBox16.Enabled = False
         Me.TextBox16.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox16.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.TextBox16.Location = New System.Drawing.Point(40, 300)
-        Me.TextBox16.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox16.Location = New System.Drawing.Point(30, 244)
         Me.TextBox16.Multiline = True
         Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(239, 42)
+        Me.TextBox16.Size = New System.Drawing.Size(180, 35)
         Me.TextBox16.TabIndex = 82
         Me.TextBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -1190,10 +1136,9 @@ Partial Class Formcursos_ver
         '
         Me.Button4.BackColor = System.Drawing.Color.White
         Me.Button4.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.diskette
-        Me.Button4.Location = New System.Drawing.Point(244, 154)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button4.Location = New System.Drawing.Point(183, 125)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(73, 46)
+        Me.Button4.Size = New System.Drawing.Size(55, 37)
         Me.Button4.TabIndex = 89
         Me.Button4.UseVisualStyleBackColor = False
         Me.Button4.Visible = False
@@ -1204,10 +1149,9 @@ Partial Class Formcursos_ver
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.Label7.Location = New System.Drawing.Point(36, 137)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Location = New System.Drawing.Point(27, 111)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(121, 15)
+        Me.Label7.Size = New System.Drawing.Size(98, 12)
         Me.Label7.TabIndex = 88
         Me.Label7.Text = "N. DE CONTRATO"
         '
@@ -1215,11 +1159,10 @@ Partial Class Formcursos_ver
         '
         Me.TextBox17.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.TextBox17.Location = New System.Drawing.Point(39, 156)
-        Me.TextBox17.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox17.Location = New System.Drawing.Point(29, 127)
         Me.TextBox17.Multiline = True
         Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(185, 42)
+        Me.TextBox17.Size = New System.Drawing.Size(140, 35)
         Me.TextBox17.TabIndex = 87
         Me.TextBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -1227,10 +1170,9 @@ Partial Class Formcursos_ver
         '
         Me.Button13.BackColor = System.Drawing.Color.White
         Me.Button13.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.diskette
-        Me.Button13.Location = New System.Drawing.Point(481, 297)
-        Me.Button13.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button13.Location = New System.Drawing.Point(361, 241)
         Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(73, 46)
+        Me.Button13.Size = New System.Drawing.Size(55, 37)
         Me.Button13.TabIndex = 84
         Me.Button13.UseVisualStyleBackColor = False
         Me.Button13.Visible = False
@@ -1240,10 +1182,9 @@ Partial Class Formcursos_ver
         Me.Label28.BackColor = System.Drawing.Color.Transparent
         Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label28.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.Label28.Location = New System.Drawing.Point(37, 268)
-        Me.Label28.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label28.Location = New System.Drawing.Point(28, 218)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(188, 41)
+        Me.Label28.Size = New System.Drawing.Size(141, 33)
         Me.Label28.TabIndex = 83
         Me.Label28.Text = "N. CERTIFICADO RUNT"
         Me.Label28.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1252,10 +1193,9 @@ Partial Class Formcursos_ver
         '
         Me.Button12.BackColor = System.Drawing.Color.White
         Me.Button12.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.diskette
-        Me.Button12.Location = New System.Drawing.Point(481, 224)
-        Me.Button12.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button12.Location = New System.Drawing.Point(361, 182)
         Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(73, 46)
+        Me.Button12.Size = New System.Drawing.Size(55, 37)
         Me.Button12.TabIndex = 81
         Me.Button12.UseVisualStyleBackColor = False
         Me.Button12.Visible = False
@@ -1265,10 +1205,9 @@ Partial Class Formcursos_ver
         Me.Label37.BackColor = System.Drawing.Color.Transparent
         Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label37.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.Label37.Location = New System.Drawing.Point(37, 198)
-        Me.Label37.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label37.Location = New System.Drawing.Point(28, 161)
         Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(188, 34)
+        Me.Label37.Size = New System.Drawing.Size(141, 28)
         Me.Label37.TabIndex = 80
         Me.Label37.Text = "N. REGISTRO RUNT"
         Me.Label37.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1278,11 +1217,10 @@ Partial Class Formcursos_ver
         Me.TextBox3.BackColor = System.Drawing.Color.White
         Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 17.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.TextBox3.Location = New System.Drawing.Point(735, 47)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox3.Location = New System.Drawing.Point(551, 38)
         Me.TextBox3.Multiline = True
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(260, 38)
+        Me.TextBox3.Size = New System.Drawing.Size(196, 32)
         Me.TextBox3.TabIndex = 52
         Me.TextBox3.Text = "MATRICULADO"
         Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1291,10 +1229,9 @@ Partial Class Formcursos_ver
         '
         Me.PictureBox3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox3.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.lics
-        Me.PictureBox3.Location = New System.Drawing.Point(4, 4)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox3.Location = New System.Drawing.Point(3, 3)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(1380, 359)
+        Me.PictureBox3.Size = New System.Drawing.Size(1033, 290)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 86
         Me.PictureBox3.TabStop = False
@@ -1310,11 +1247,10 @@ Partial Class Formcursos_ver
         Me.TabPage2.Controls.Add(Me.PictureBox4)
         Me.TabPage2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabPage2.ForeColor = System.Drawing.Color.Black
-        Me.TabPage2.Location = New System.Drawing.Point(4, 29)
-        Me.TabPage2.Margin = New System.Windows.Forms.Padding(4)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 25)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(4)
-        Me.TabPage2.Size = New System.Drawing.Size(1388, 367)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(1039, 296)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "     DOCUMENTOS     "
         '
@@ -1323,10 +1259,9 @@ Partial Class Formcursos_ver
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Red
-        Me.Label6.Location = New System.Drawing.Point(912, 25)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label6.Location = New System.Drawing.Point(684, 20)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(431, 58)
+        Me.Label6.Size = New System.Drawing.Size(323, 47)
         Me.Label6.TabIndex = 85
         Me.Label6.Text = "Puede guardar una copia del los documentos del alumno  como: Examen Médico, Docum" &
     "ento de Identidad, Certificado RUNT, etc."
@@ -1338,10 +1273,9 @@ Partial Class Formcursos_ver
         Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label11.Location = New System.Drawing.Point(32, 30)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label11.Location = New System.Drawing.Point(24, 24)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(257, 18)
+        Me.Label11.Size = New System.Drawing.Size(217, 15)
         Me.Label11.TabIndex = 84
         Me.Label11.Text = "Listado de Documentos Adjuntos"
         '
@@ -1351,15 +1285,14 @@ Partial Class Formcursos_ver
         Me.DataGridView4.AllowUserToDeleteRows = False
         Me.DataGridView4.AllowUserToOrderColumns = True
         Me.DataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView4.Location = New System.Drawing.Point(36, 52)
-        Me.DataGridView4.Margin = New System.Windows.Forms.Padding(4)
+        Me.DataGridView4.Location = New System.Drawing.Point(27, 42)
         Me.DataGridView4.Name = "DataGridView4"
         Me.DataGridView4.ReadOnly = True
         Me.DataGridView4.RowHeadersVisible = False
         Me.DataGridView4.RowHeadersWidth = 51
         DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DataGridView4.RowsDefaultCellStyle = DataGridViewCellStyle1
-        Me.DataGridView4.Size = New System.Drawing.Size(792, 305)
+        Me.DataGridView4.Size = New System.Drawing.Size(594, 248)
         Me.DataGridView4.TabIndex = 71
         '
         'Label36
@@ -1367,10 +1300,9 @@ Partial Class Formcursos_ver
         Me.Label36.BackColor = System.Drawing.Color.Transparent
         Me.Label36.Font = New System.Drawing.Font("Arial Rounded MT Bold", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label36.ForeColor = System.Drawing.Color.Red
-        Me.Label36.Location = New System.Drawing.Point(1295, 137)
-        Me.Label36.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label36.Location = New System.Drawing.Point(971, 111)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(52, 66)
+        Me.Label36.Size = New System.Drawing.Size(39, 54)
         Me.Label36.TabIndex = 38
         Me.Label36.Text = "INCOMPLETOS"
         Me.Label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1381,10 +1313,9 @@ Partial Class Formcursos_ver
         Me.Button3.BackColor = System.Drawing.Color.Green
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(909, 284)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button3.Location = New System.Drawing.Point(682, 231)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(425, 73)
+        Me.Button3.Size = New System.Drawing.Size(319, 59)
         Me.Button3.TabIndex = 70
         Me.Button3.Text = "Adjuntar Documento"
         Me.Button3.UseVisualStyleBackColor = False
@@ -1392,10 +1323,9 @@ Partial Class Formcursos_ver
         'PictureBox4
         '
         Me.PictureBox4.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.documentos
-        Me.PictureBox4.Location = New System.Drawing.Point(987, 73)
-        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox4.Location = New System.Drawing.Point(740, 59)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(284, 204)
+        Me.PictureBox4.Size = New System.Drawing.Size(213, 166)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox4.TabIndex = 83
         Me.PictureBox4.TabStop = False
@@ -1410,10 +1340,9 @@ Partial Class Formcursos_ver
         Me.TabPage5.Controls.Add(Me.Button1)
         Me.TabPage5.Controls.Add(Me.DataGridView3)
         Me.TabPage5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabPage5.Location = New System.Drawing.Point(4, 29)
-        Me.TabPage5.Margin = New System.Windows.Forms.Padding(4)
+        Me.TabPage5.Location = New System.Drawing.Point(4, 25)
         Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Size = New System.Drawing.Size(1388, 367)
+        Me.TabPage5.Size = New System.Drawing.Size(1039, 296)
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "     REGISTRO DE CLASES"
         '
@@ -1423,10 +1352,9 @@ Partial Class Formcursos_ver
         Me.Label46.BackColor = System.Drawing.Color.Transparent
         Me.Label46.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
         Me.Label46.ForeColor = System.Drawing.Color.Black
-        Me.Label46.Location = New System.Drawing.Point(1095, 314)
-        Me.Label46.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label46.Location = New System.Drawing.Point(821, 255)
         Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(144, 18)
+        Me.Label46.Size = New System.Drawing.Size(122, 15)
         Me.Label46.TabIndex = 1106
         Me.Label46.Text = "Clases Cumplidas"
         '
@@ -1444,10 +1372,10 @@ Partial Class Formcursos_ver
         Me.TextboxClasesCumplidas.LineIdleColor = System.Drawing.Color.Black
         Me.TextboxClasesCumplidas.LineMouseHoverColor = System.Drawing.Color.Black
         Me.TextboxClasesCumplidas.LineThickness = 3
-        Me.TextboxClasesCumplidas.Location = New System.Drawing.Point(1276, 302)
-        Me.TextboxClasesCumplidas.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextboxClasesCumplidas.Location = New System.Drawing.Point(957, 245)
+        Me.TextboxClasesCumplidas.Margin = New System.Windows.Forms.Padding(2)
         Me.TextboxClasesCumplidas.Name = "TextboxClasesCumplidas"
-        Me.TextboxClasesCumplidas.Size = New System.Drawing.Size(61, 37)
+        Me.TextboxClasesCumplidas.Size = New System.Drawing.Size(46, 30)
         Me.TextboxClasesCumplidas.TabIndex = 1107
         Me.TextboxClasesCumplidas.Text = "0"
         Me.TextboxClasesCumplidas.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1457,10 +1385,9 @@ Partial Class Formcursos_ver
         Me.Button6.BackColor = System.Drawing.Color.Green
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.White
-        Me.Button6.Location = New System.Drawing.Point(1080, 175)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button6.Location = New System.Drawing.Point(810, 142)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(276, 55)
+        Me.Button6.Size = New System.Drawing.Size(207, 45)
         Me.Button6.TabIndex = 68
         Me.Button6.Text = "Resportar Asistencia"
         Me.Button6.UseVisualStyleBackColor = False
@@ -1471,10 +1398,9 @@ Partial Class Formcursos_ver
         Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(1080, 112)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button2.Location = New System.Drawing.Point(810, 91)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(276, 55)
+        Me.Button2.Size = New System.Drawing.Size(207, 45)
         Me.Button2.TabIndex = 67
         Me.Button2.Text = "Cancelar Clase"
         Me.Button2.UseVisualStyleBackColor = False
@@ -1484,10 +1410,9 @@ Partial Class Formcursos_ver
         Me.Button1.BackColor = System.Drawing.Color.Navy
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(1080, 52)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button1.Location = New System.Drawing.Point(810, 42)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(276, 55)
+        Me.Button1.Size = New System.Drawing.Size(207, 45)
         Me.Button1.TabIndex = 54
         Me.Button1.Text = "Programar Clases"
         Me.Button1.UseVisualStyleBackColor = False
@@ -1498,8 +1423,7 @@ Partial Class Formcursos_ver
         Me.DataGridView3.AllowUserToDeleteRows = False
         Me.DataGridView3.AllowUserToOrderColumns = True
         Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView3.Location = New System.Drawing.Point(20, 41)
-        Me.DataGridView3.Margin = New System.Windows.Forms.Padding(4)
+        Me.DataGridView3.Location = New System.Drawing.Point(15, 33)
         Me.DataGridView3.Name = "DataGridView3"
         Me.DataGridView3.ReadOnly = True
         Me.DataGridView3.RowHeadersVisible = False
@@ -1507,7 +1431,7 @@ Partial Class Formcursos_ver
         DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DataGridView3.RowsDefaultCellStyle = DataGridViewCellStyle2
         Me.DataGridView3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView3.Size = New System.Drawing.Size(1011, 315)
+        Me.DataGridView3.Size = New System.Drawing.Size(758, 256)
         Me.DataGridView3.TabIndex = 53
         '
         'TabPage6
@@ -1550,10 +1474,9 @@ Partial Class Formcursos_ver
         Me.TabPage6.Controls.Add(Me.ComboBoxinstructorReporte)
         Me.TabPage6.Controls.Add(Me.PictureBox6)
         Me.TabPage6.Controls.Add(Me.Label38)
-        Me.TabPage6.Location = New System.Drawing.Point(4, 29)
-        Me.TabPage6.Margin = New System.Windows.Forms.Padding(4)
+        Me.TabPage6.Location = New System.Drawing.Point(4, 25)
         Me.TabPage6.Name = "TabPage6"
-        Me.TabPage6.Size = New System.Drawing.Size(1388, 367)
+        Me.TabPage6.Size = New System.Drawing.Size(1039, 296)
         Me.TabPage6.TabIndex = 5
         Me.TabPage6.Text = "   REPORTE DE HORAS    "
         '
@@ -1564,8 +1487,7 @@ Partial Class Formcursos_ver
         Me.DataGridView2.AllowUserToOrderColumns = True
         Me.DataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView2.Location = New System.Drawing.Point(715, 36)
-        Me.DataGridView2.Margin = New System.Windows.Forms.Padding(4)
+        Me.DataGridView2.Location = New System.Drawing.Point(536, 29)
         Me.DataGridView2.Name = "DataGridView2"
         Me.DataGridView2.ReadOnly = True
         Me.DataGridView2.RowHeadersVisible = False
@@ -1573,7 +1495,7 @@ Partial Class Formcursos_ver
         DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DataGridView2.RowsDefaultCellStyle = DataGridViewCellStyle3
         Me.DataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView2.Size = New System.Drawing.Size(652, 238)
+        Me.DataGridView2.Size = New System.Drawing.Size(489, 193)
         Me.DataGridView2.TabIndex = 1110
         '
         'Label22
@@ -1582,10 +1504,9 @@ Partial Class Formcursos_ver
         Me.Label22.BackColor = System.Drawing.Color.Transparent
         Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
         Me.Label22.ForeColor = System.Drawing.Color.Black
-        Me.Label22.Location = New System.Drawing.Point(995, 303)
-        Me.Label22.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label22.Location = New System.Drawing.Point(746, 246)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(70, 18)
+        Me.Label22.Size = New System.Drawing.Size(59, 15)
         Me.Label22.TabIndex = 1141
         Me.Label22.Text = "Practica"
         '
@@ -1594,10 +1515,9 @@ Partial Class Formcursos_ver
         Me.Label21.BackColor = System.Drawing.Color.Transparent
         Me.Label21.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.ForeColor = System.Drawing.Color.Black
-        Me.Label21.Location = New System.Drawing.Point(719, 277)
-        Me.Label21.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label21.Location = New System.Drawing.Point(539, 225)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(107, 26)
+        Me.Label21.Size = New System.Drawing.Size(80, 21)
         Me.Label21.TabIndex = 1127
         Me.Label21.Text = "Balance"
         Me.Label21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1608,10 +1528,9 @@ Partial Class Formcursos_ver
         Me.Label24.BackColor = System.Drawing.Color.Transparent
         Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
         Me.Label24.ForeColor = System.Drawing.Color.Black
-        Me.Label24.Location = New System.Drawing.Point(719, 303)
-        Me.Label24.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label24.Location = New System.Drawing.Point(539, 246)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(56, 18)
+        Me.Label24.Size = New System.Drawing.Size(48, 15)
         Me.Label24.TabIndex = 1140
         Me.Label24.Text = "Teoria"
         '
@@ -1621,10 +1540,9 @@ Partial Class Formcursos_ver
         Me.Label26.BackColor = System.Drawing.Color.Transparent
         Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
         Me.Label26.ForeColor = System.Drawing.Color.Black
-        Me.Label26.Location = New System.Drawing.Point(855, 303)
-        Me.Label26.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label26.Location = New System.Drawing.Point(641, 246)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(50, 18)
+        Me.Label26.Size = New System.Drawing.Size(44, 15)
         Me.Label26.TabIndex = 1139
         Me.Label26.Text = "Taller"
         '
@@ -1642,10 +1560,10 @@ Partial Class Formcursos_ver
         Me.BunifuMaterialTextbox4.LineIdleColor = System.Drawing.Color.Black
         Me.BunifuMaterialTextbox4.LineMouseHoverColor = System.Drawing.Color.Black
         Me.BunifuMaterialTextbox4.LineThickness = 3
-        Me.BunifuMaterialTextbox4.Location = New System.Drawing.Point(360, 322)
-        Me.BunifuMaterialTextbox4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.BunifuMaterialTextbox4.Location = New System.Drawing.Point(270, 262)
+        Me.BunifuMaterialTextbox4.Margin = New System.Windows.Forms.Padding(2)
         Me.BunifuMaterialTextbox4.Name = "BunifuMaterialTextbox4"
-        Me.BunifuMaterialTextbox4.Size = New System.Drawing.Size(61, 37)
+        Me.BunifuMaterialTextbox4.Size = New System.Drawing.Size(46, 30)
         Me.BunifuMaterialTextbox4.TabIndex = 1138
         Me.BunifuMaterialTextbox4.Text = "0"
         Me.BunifuMaterialTextbox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1664,10 +1582,10 @@ Partial Class Formcursos_ver
         Me.BunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.Black
         Me.BunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.Black
         Me.BunifuMaterialTextbox1.LineThickness = 3
-        Me.BunifuMaterialTextbox1.Location = New System.Drawing.Point(1055, 321)
-        Me.BunifuMaterialTextbox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.BunifuMaterialTextbox1.Location = New System.Drawing.Point(791, 261)
+        Me.BunifuMaterialTextbox1.Margin = New System.Windows.Forms.Padding(2)
         Me.BunifuMaterialTextbox1.Name = "BunifuMaterialTextbox1"
-        Me.BunifuMaterialTextbox1.Size = New System.Drawing.Size(61, 37)
+        Me.BunifuMaterialTextbox1.Size = New System.Drawing.Size(46, 30)
         Me.BunifuMaterialTextbox1.TabIndex = 1131
         Me.BunifuMaterialTextbox1.Text = "0"
         Me.BunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1686,10 +1604,10 @@ Partial Class Formcursos_ver
         Me.BunifuMaterialTextbox3.LineIdleColor = System.Drawing.Color.Black
         Me.BunifuMaterialTextbox3.LineMouseHoverColor = System.Drawing.Color.Black
         Me.BunifuMaterialTextbox3.LineThickness = 3
-        Me.BunifuMaterialTextbox3.Location = New System.Drawing.Point(921, 321)
-        Me.BunifuMaterialTextbox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.BunifuMaterialTextbox3.Location = New System.Drawing.Point(691, 261)
+        Me.BunifuMaterialTextbox3.Margin = New System.Windows.Forms.Padding(2)
         Me.BunifuMaterialTextbox3.Name = "BunifuMaterialTextbox3"
-        Me.BunifuMaterialTextbox3.Size = New System.Drawing.Size(61, 37)
+        Me.BunifuMaterialTextbox3.Size = New System.Drawing.Size(46, 30)
         Me.BunifuMaterialTextbox3.TabIndex = 1129
         Me.BunifuMaterialTextbox3.Text = "0"
         Me.BunifuMaterialTextbox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1708,10 +1626,10 @@ Partial Class Formcursos_ver
         Me.BunifuMaterialTextbox2.LineIdleColor = System.Drawing.Color.Black
         Me.BunifuMaterialTextbox2.LineMouseHoverColor = System.Drawing.Color.Black
         Me.BunifuMaterialTextbox2.LineThickness = 3
-        Me.BunifuMaterialTextbox2.Location = New System.Drawing.Point(788, 321)
-        Me.BunifuMaterialTextbox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.BunifuMaterialTextbox2.Location = New System.Drawing.Point(591, 261)
+        Me.BunifuMaterialTextbox2.Margin = New System.Windows.Forms.Padding(2)
         Me.BunifuMaterialTextbox2.Name = "BunifuMaterialTextbox2"
-        Me.BunifuMaterialTextbox2.Size = New System.Drawing.Size(61, 37)
+        Me.BunifuMaterialTextbox2.Size = New System.Drawing.Size(46, 30)
         Me.BunifuMaterialTextbox2.TabIndex = 1130
         Me.BunifuMaterialTextbox2.Text = "0"
         Me.BunifuMaterialTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1730,10 +1648,10 @@ Partial Class Formcursos_ver
         Me.BunifuMaterialTextbox5.LineIdleColor = System.Drawing.Color.Black
         Me.BunifuMaterialTextbox5.LineMouseHoverColor = System.Drawing.Color.Black
         Me.BunifuMaterialTextbox5.LineThickness = 3
-        Me.BunifuMaterialTextbox5.Location = New System.Drawing.Point(87, 322)
-        Me.BunifuMaterialTextbox5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.BunifuMaterialTextbox5.Location = New System.Drawing.Point(65, 262)
+        Me.BunifuMaterialTextbox5.Margin = New System.Windows.Forms.Padding(2)
         Me.BunifuMaterialTextbox5.Name = "BunifuMaterialTextbox5"
-        Me.BunifuMaterialTextbox5.Size = New System.Drawing.Size(61, 37)
+        Me.BunifuMaterialTextbox5.Size = New System.Drawing.Size(46, 30)
         Me.BunifuMaterialTextbox5.TabIndex = 1137
         Me.BunifuMaterialTextbox5.Text = "0"
         Me.BunifuMaterialTextbox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1752,10 +1670,10 @@ Partial Class Formcursos_ver
         Me.BunifuMaterialTextbox6.LineIdleColor = System.Drawing.Color.Black
         Me.BunifuMaterialTextbox6.LineMouseHoverColor = System.Drawing.Color.Black
         Me.BunifuMaterialTextbox6.LineThickness = 3
-        Me.BunifuMaterialTextbox6.Location = New System.Drawing.Point(224, 322)
-        Me.BunifuMaterialTextbox6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.BunifuMaterialTextbox6.Location = New System.Drawing.Point(168, 262)
+        Me.BunifuMaterialTextbox6.Margin = New System.Windows.Forms.Padding(2)
         Me.BunifuMaterialTextbox6.Name = "BunifuMaterialTextbox6"
-        Me.BunifuMaterialTextbox6.Size = New System.Drawing.Size(61, 37)
+        Me.BunifuMaterialTextbox6.Size = New System.Drawing.Size(46, 30)
         Me.BunifuMaterialTextbox6.TabIndex = 1136
         Me.BunifuMaterialTextbox6.Text = "0"
         Me.BunifuMaterialTextbox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1767,8 +1685,7 @@ Partial Class Formcursos_ver
         Me.DataGridView5.AllowUserToOrderColumns = True
         Me.DataGridView5.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView5.Location = New System.Drawing.Point(17, 36)
-        Me.DataGridView5.Margin = New System.Windows.Forms.Padding(4)
+        Me.DataGridView5.Location = New System.Drawing.Point(13, 29)
         Me.DataGridView5.Name = "DataGridView5"
         Me.DataGridView5.ReadOnly = True
         Me.DataGridView5.RowHeadersVisible = False
@@ -1776,7 +1693,7 @@ Partial Class Formcursos_ver
         DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DataGridView5.RowsDefaultCellStyle = DataGridViewCellStyle4
         Me.DataGridView5.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView5.Size = New System.Drawing.Size(645, 238)
+        Me.DataGridView5.Size = New System.Drawing.Size(484, 193)
         Me.DataGridView5.TabIndex = 1091
         '
         'Textbox_hpracticaR
@@ -1793,10 +1710,10 @@ Partial Class Formcursos_ver
         Me.Textbox_hpracticaR.LineIdleColor = System.Drawing.Color.Black
         Me.Textbox_hpracticaR.LineMouseHoverColor = System.Drawing.Color.Black
         Me.Textbox_hpracticaR.LineThickness = 3
-        Me.Textbox_hpracticaR.Location = New System.Drawing.Point(991, 321)
-        Me.Textbox_hpracticaR.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Textbox_hpracticaR.Location = New System.Drawing.Point(743, 261)
+        Me.Textbox_hpracticaR.Margin = New System.Windows.Forms.Padding(2)
         Me.Textbox_hpracticaR.Name = "Textbox_hpracticaR"
-        Me.Textbox_hpracticaR.Size = New System.Drawing.Size(61, 37)
+        Me.Textbox_hpracticaR.Size = New System.Drawing.Size(46, 30)
         Me.Textbox_hpracticaR.TabIndex = 1126
         Me.Textbox_hpracticaR.Text = "0"
         Me.Textbox_hpracticaR.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1809,10 +1726,9 @@ Partial Class Formcursos_ver
         Me.Button_Finish_runt.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button_Finish_runt.ForeColor = System.Drawing.Color.Black
         Me.Button_Finish_runt.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button_Finish_runt.Location = New System.Drawing.Point(1161, 314)
-        Me.Button_Finish_runt.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button_Finish_runt.Location = New System.Drawing.Point(871, 255)
         Me.Button_Finish_runt.Name = "Button_Finish_runt"
-        Me.Button_Finish_runt.Size = New System.Drawing.Size(209, 46)
+        Me.Button_Finish_runt.Size = New System.Drawing.Size(157, 37)
         Me.Button_Finish_runt.TabIndex = 1128
         Me.Button_Finish_runt.Text = "Reportar Finalizado"
         Me.Button_Finish_runt.UseVisualStyleBackColor = False
@@ -1825,10 +1741,9 @@ Partial Class Formcursos_ver
         Me.Button_Finish_sicop.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button_Finish_sicop.ForeColor = System.Drawing.Color.Black
         Me.Button_Finish_sicop.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button_Finish_sicop.Location = New System.Drawing.Point(453, 314)
-        Me.Button_Finish_sicop.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button_Finish_sicop.Location = New System.Drawing.Point(340, 255)
         Me.Button_Finish_sicop.Name = "Button_Finish_sicop"
-        Me.Button_Finish_sicop.Size = New System.Drawing.Size(209, 46)
+        Me.Button_Finish_sicop.Size = New System.Drawing.Size(157, 37)
         Me.Button_Finish_sicop.TabIndex = 1120
         Me.Button_Finish_sicop.Text = "Reportar Finalizado"
         Me.Button_Finish_sicop.UseVisualStyleBackColor = False
@@ -1847,10 +1762,10 @@ Partial Class Formcursos_ver
         Me.Textbox_htallerR.LineIdleColor = System.Drawing.Color.Black
         Me.Textbox_htallerR.LineMouseHoverColor = System.Drawing.Color.Black
         Me.Textbox_htallerR.LineThickness = 3
-        Me.Textbox_htallerR.Location = New System.Drawing.Point(857, 321)
-        Me.Textbox_htallerR.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Textbox_htallerR.Location = New System.Drawing.Point(643, 261)
+        Me.Textbox_htallerR.Margin = New System.Windows.Forms.Padding(2)
         Me.Textbox_htallerR.Name = "Textbox_htallerR"
-        Me.Textbox_htallerR.Size = New System.Drawing.Size(61, 37)
+        Me.Textbox_htallerR.Size = New System.Drawing.Size(46, 30)
         Me.Textbox_htallerR.TabIndex = 1122
         Me.Textbox_htallerR.Text = "0"
         Me.Textbox_htallerR.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1861,10 +1776,9 @@ Partial Class Formcursos_ver
         Me.Label45.BackColor = System.Drawing.Color.Transparent
         Me.Label45.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label45.ForeColor = System.Drawing.Color.Black
-        Me.Label45.Location = New System.Drawing.Point(13, 279)
-        Me.Label45.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label45.Location = New System.Drawing.Point(10, 227)
         Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(91, 23)
+        Me.Label45.Size = New System.Drawing.Size(74, 19)
         Me.Label45.TabIndex = 1108
         Me.Label45.Text = "Balance"
         Me.Label45.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1875,10 +1789,9 @@ Partial Class Formcursos_ver
         Me.Label44.BackColor = System.Drawing.Color.Transparent
         Me.Label44.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
         Me.Label44.ForeColor = System.Drawing.Color.Black
-        Me.Label44.Location = New System.Drawing.Point(289, 303)
-        Me.Label44.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label44.Location = New System.Drawing.Point(217, 246)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(70, 18)
+        Me.Label44.Size = New System.Drawing.Size(59, 15)
         Me.Label44.TabIndex = 1106
         Me.Label44.Text = "Practica"
         '
@@ -1896,10 +1809,10 @@ Partial Class Formcursos_ver
         Me.Textbox_hteoriaR.LineIdleColor = System.Drawing.Color.Black
         Me.Textbox_hteoriaR.LineMouseHoverColor = System.Drawing.Color.Black
         Me.Textbox_hteoriaR.LineThickness = 3
-        Me.Textbox_hteoriaR.Location = New System.Drawing.Point(724, 321)
-        Me.Textbox_hteoriaR.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Textbox_hteoriaR.Location = New System.Drawing.Point(543, 261)
+        Me.Textbox_hteoriaR.Margin = New System.Windows.Forms.Padding(2)
         Me.Textbox_hteoriaR.Name = "Textbox_hteoriaR"
-        Me.Textbox_hteoriaR.Size = New System.Drawing.Size(61, 37)
+        Me.Textbox_hteoriaR.Size = New System.Drawing.Size(46, 30)
         Me.Textbox_hteoriaR.TabIndex = 1124
         Me.Textbox_hteoriaR.Text = "0"
         Me.Textbox_hteoriaR.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1918,10 +1831,10 @@ Partial Class Formcursos_ver
         Me.Textbox_hpractica.LineIdleColor = System.Drawing.Color.Black
         Me.Textbox_hpractica.LineMouseHoverColor = System.Drawing.Color.Black
         Me.Textbox_hpractica.LineThickness = 3
-        Me.Textbox_hpractica.Location = New System.Drawing.Point(296, 322)
-        Me.Textbox_hpractica.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Textbox_hpractica.Location = New System.Drawing.Point(222, 262)
+        Me.Textbox_hpractica.Margin = New System.Windows.Forms.Padding(2)
         Me.Textbox_hpractica.Name = "Textbox_hpractica"
-        Me.Textbox_hpractica.Size = New System.Drawing.Size(61, 37)
+        Me.Textbox_hpractica.Size = New System.Drawing.Size(46, 30)
         Me.Textbox_hpractica.TabIndex = 1107
         Me.Textbox_hpractica.Text = "0"
         Me.Textbox_hpractica.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1932,10 +1845,9 @@ Partial Class Formcursos_ver
         Me.Label43.BackColor = System.Drawing.Color.Transparent
         Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
         Me.Label43.ForeColor = System.Drawing.Color.Black
-        Me.Label43.Location = New System.Drawing.Point(13, 303)
-        Me.Label43.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label43.Location = New System.Drawing.Point(10, 246)
         Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(56, 18)
+        Me.Label43.Size = New System.Drawing.Size(48, 15)
         Me.Label43.TabIndex = 1104
         Me.Label43.Text = "Teoria"
         '
@@ -1953,10 +1865,10 @@ Partial Class Formcursos_ver
         Me.Textbox_hteoria.LineIdleColor = System.Drawing.Color.Black
         Me.Textbox_hteoria.LineMouseHoverColor = System.Drawing.Color.Black
         Me.Textbox_hteoria.LineThickness = 3
-        Me.Textbox_hteoria.Location = New System.Drawing.Point(21, 322)
-        Me.Textbox_hteoria.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Textbox_hteoria.Location = New System.Drawing.Point(16, 262)
+        Me.Textbox_hteoria.Margin = New System.Windows.Forms.Padding(2)
         Me.Textbox_hteoria.Name = "Textbox_hteoria"
-        Me.Textbox_hteoria.Size = New System.Drawing.Size(61, 37)
+        Me.Textbox_hteoria.Size = New System.Drawing.Size(46, 30)
         Me.Textbox_hteoria.TabIndex = 1105
         Me.Textbox_hteoria.Text = "0"
         Me.Textbox_hteoria.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1967,10 +1879,9 @@ Partial Class Formcursos_ver
         Me.Label42.BackColor = System.Drawing.Color.Transparent
         Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
         Me.Label42.ForeColor = System.Drawing.Color.Black
-        Me.Label42.Location = New System.Drawing.Point(149, 303)
-        Me.Label42.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label42.Location = New System.Drawing.Point(112, 246)
         Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(50, 18)
+        Me.Label42.Size = New System.Drawing.Size(44, 15)
         Me.Label42.TabIndex = 1102
         Me.Label42.Text = "Taller"
         '
@@ -1988,10 +1899,10 @@ Partial Class Formcursos_ver
         Me.Textbox_htaller.LineIdleColor = System.Drawing.Color.Black
         Me.Textbox_htaller.LineMouseHoverColor = System.Drawing.Color.Black
         Me.Textbox_htaller.LineThickness = 3
-        Me.Textbox_htaller.Location = New System.Drawing.Point(159, 322)
-        Me.Textbox_htaller.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Textbox_htaller.Location = New System.Drawing.Point(119, 262)
+        Me.Textbox_htaller.Margin = New System.Windows.Forms.Padding(2)
         Me.Textbox_htaller.Name = "Textbox_htaller"
-        Me.Textbox_htaller.Size = New System.Drawing.Size(61, 37)
+        Me.Textbox_htaller.Size = New System.Drawing.Size(46, 30)
         Me.Textbox_htaller.TabIndex = 1103
         Me.Textbox_htaller.Text = "0"
         Me.Textbox_htaller.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2002,20 +1913,18 @@ Partial Class Formcursos_ver
         Me.Label39.BackColor = System.Drawing.Color.Transparent
         Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label39.ForeColor = System.Drawing.Color.DimGray
-        Me.Label39.Location = New System.Drawing.Point(44, 172)
-        Me.Label39.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label39.Location = New System.Drawing.Point(33, 140)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(51, 17)
+        Me.Label39.Size = New System.Drawing.Size(40, 13)
         Me.Label39.TabIndex = 1101
         Me.Label39.Text = "Horas"
         '
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.ok_trans
-        Me.PictureBox2.Location = New System.Drawing.Point(1273, 279)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox2.Location = New System.Drawing.Point(955, 227)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(93, 80)
+        Me.PictureBox2.Size = New System.Drawing.Size(70, 65)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 1109
         Me.PictureBox2.TabStop = False
@@ -2027,10 +1936,9 @@ Partial Class Formcursos_ver
         Me.Label49.BackColor = System.Drawing.Color.Transparent
         Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.75!, System.Drawing.FontStyle.Bold)
         Me.Label49.ForeColor = System.Drawing.Color.Black
-        Me.Label49.Location = New System.Drawing.Point(713, 6)
-        Me.Label49.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label49.Location = New System.Drawing.Point(535, 5)
         Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(244, 25)
+        Me.Label49.Size = New System.Drawing.Size(205, 20)
         Me.Label49.TabIndex = 1117
         Me.Label49.Text = "Reporte de Horas RUNT"
         '
@@ -2042,10 +1950,9 @@ Partial Class Formcursos_ver
         Me.ButtonReporteCicop.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonReporteCicop.ForeColor = System.Drawing.Color.Black
         Me.ButtonReporteCicop.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.ButtonReporteCicop.Location = New System.Drawing.Point(211, 185)
-        Me.ButtonReporteCicop.Margin = New System.Windows.Forms.Padding(4)
+        Me.ButtonReporteCicop.Location = New System.Drawing.Point(158, 150)
         Me.ButtonReporteCicop.Name = "ButtonReporteCicop"
-        Me.ButtonReporteCicop.Size = New System.Drawing.Size(127, 34)
+        Me.ButtonReporteCicop.Size = New System.Drawing.Size(95, 28)
         Me.ButtonReporteCicop.TabIndex = 1100
         Me.ButtonReporteCicop.Text = "Reportar"
         Me.ButtonReporteCicop.UseVisualStyleBackColor = False
@@ -2053,20 +1960,18 @@ Partial Class Formcursos_ver
         'NumericUpDown1
         '
         Me.NumericUpDown1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NumericUpDown1.Location = New System.Drawing.Point(43, 188)
-        Me.NumericUpDown1.Margin = New System.Windows.Forms.Padding(4)
+        Me.NumericUpDown1.Location = New System.Drawing.Point(32, 153)
         Me.NumericUpDown1.Name = "NumericUpDown1"
-        Me.NumericUpDown1.Size = New System.Drawing.Size(92, 32)
+        Me.NumericUpDown1.Size = New System.Drawing.Size(69, 27)
         Me.NumericUpDown1.TabIndex = 1099
         Me.NumericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(315, 78)
-        Me.RadioButton4.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton4.Location = New System.Drawing.Point(236, 63)
         Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(100, 24)
+        Me.RadioButton4.Size = New System.Drawing.Size(83, 20)
         Me.RadioButton4.TabIndex = 1097
         Me.RadioButton4.TabStop = True
         Me.RadioButton4.Text = "Práctica"
@@ -2075,10 +1980,9 @@ Partial Class Formcursos_ver
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(211, 78)
-        Me.RadioButton3.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton3.Location = New System.Drawing.Point(158, 63)
         Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(83, 24)
+        Me.RadioButton3.Size = New System.Drawing.Size(72, 20)
         Me.RadioButton3.TabIndex = 1096
         Me.RadioButton3.TabStop = True
         Me.RadioButton3.Text = "Teoria"
@@ -2087,10 +1991,9 @@ Partial Class Formcursos_ver
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(113, 78)
-        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton2.Location = New System.Drawing.Point(85, 63)
         Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(78, 24)
+        Me.RadioButton2.Size = New System.Drawing.Size(67, 20)
         Me.RadioButton2.TabIndex = 1095
         Me.RadioButton2.TabStop = True
         Me.RadioButton2.Text = "Taller"
@@ -2099,10 +2002,9 @@ Partial Class Formcursos_ver
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(21, 78)
-        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton1.Location = New System.Drawing.Point(16, 63)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(71, 24)
+        Me.RadioButton1.Size = New System.Drawing.Size(63, 20)
         Me.RadioButton1.TabIndex = 1094
         Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "Todo"
@@ -2114,10 +2016,9 @@ Partial Class Formcursos_ver
         Me.Label25.BackColor = System.Drawing.Color.Transparent
         Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label25.ForeColor = System.Drawing.Color.DimGray
-        Me.Label25.Location = New System.Drawing.Point(19, 113)
-        Me.Label25.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label25.Location = New System.Drawing.Point(14, 92)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(77, 17)
+        Me.Label25.Size = New System.Drawing.Size(61, 13)
         Me.Label25.TabIndex = 1093
         Me.Label25.Text = "Instructor"
         '
@@ -2130,19 +2031,17 @@ Partial Class Formcursos_ver
         Me.ComboBoxinstructorReporte.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBoxinstructorReporte.ForeColor = System.Drawing.Color.Black
         Me.ComboBoxinstructorReporte.FormattingEnabled = True
-        Me.ComboBoxinstructorReporte.Location = New System.Drawing.Point(23, 132)
-        Me.ComboBoxinstructorReporte.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBoxinstructorReporte.Location = New System.Drawing.Point(17, 107)
         Me.ComboBoxinstructorReporte.Name = "ComboBoxinstructorReporte"
-        Me.ComboBoxinstructorReporte.Size = New System.Drawing.Size(403, 26)
+        Me.ComboBoxinstructorReporte.Size = New System.Drawing.Size(303, 23)
         Me.ComboBoxinstructorReporte.TabIndex = 1092
         '
         'PictureBox6
         '
         Me.PictureBox6.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.ok_trans
-        Me.PictureBox6.Location = New System.Drawing.Point(569, 279)
-        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox6.Location = New System.Drawing.Point(427, 227)
         Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(93, 80)
+        Me.PictureBox6.Size = New System.Drawing.Size(70, 65)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox6.TabIndex = 1090
         Me.PictureBox6.TabStop = False
@@ -2154,10 +2053,9 @@ Partial Class Formcursos_ver
         Me.Label38.BackColor = System.Drawing.Color.Transparent
         Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.75!, System.Drawing.FontStyle.Bold)
         Me.Label38.ForeColor = System.Drawing.Color.Black
-        Me.Label38.Location = New System.Drawing.Point(16, 5)
-        Me.Label38.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label38.Location = New System.Drawing.Point(12, 4)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(254, 25)
+        Me.Label38.Size = New System.Drawing.Size(211, 20)
         Me.Label38.TabIndex = 1098
         Me.Label38.Text = "Reporte de Horas SICOP"
         '
@@ -2186,10 +2084,9 @@ Partial Class Formcursos_ver
         Me.TabPage3.Controls.Add(Me.Label15)
         Me.TabPage3.Controls.Add(Me.Label14)
         Me.TabPage3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabPage3.Location = New System.Drawing.Point(4, 29)
-        Me.TabPage3.Margin = New System.Windows.Forms.Padding(4)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 25)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(1388, 367)
+        Me.TabPage3.Size = New System.Drawing.Size(1039, 296)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "        FINANCIERO        "
         '
@@ -2198,10 +2095,9 @@ Partial Class Formcursos_ver
         Me.TextBox_gastosop.Enabled = False
         Me.TextBox_gastosop.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox_gastosop.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TextBox_gastosop.Location = New System.Drawing.Point(1189, 116)
-        Me.TextBox_gastosop.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox_gastosop.Location = New System.Drawing.Point(892, 94)
         Me.TextBox_gastosop.Name = "TextBox_gastosop"
-        Me.TextBox_gastosop.Size = New System.Drawing.Size(168, 26)
+        Me.TextBox_gastosop.Size = New System.Drawing.Size(127, 22)
         Me.TextBox_gastosop.TabIndex = 1126
         Me.TextBox_gastosop.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -2211,12 +2107,11 @@ Partial Class Formcursos_ver
         Me.Label52.BackColor = System.Drawing.Color.Transparent
         Me.Label52.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label52.ForeColor = System.Drawing.Color.Black
-        Me.Label52.Location = New System.Drawing.Point(1039, 119)
-        Me.Label52.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label52.Location = New System.Drawing.Point(779, 97)
         Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(141, 20)
+        Me.Label52.Size = New System.Drawing.Size(104, 16)
         Me.Label52.TabIndex = 1125
-        Me.Label52.Text = "(-) Gasatos Op."
+        Me.Label52.Text = "(-) Gastos Op."
         '
         'Label51
         '
@@ -2224,10 +2119,9 @@ Partial Class Formcursos_ver
         Me.Label51.BackColor = System.Drawing.Color.Transparent
         Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.75!, System.Drawing.FontStyle.Bold)
         Me.Label51.ForeColor = System.Drawing.Color.Black
-        Me.Label51.Location = New System.Drawing.Point(20, 193)
-        Me.Label51.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label51.Location = New System.Drawing.Point(15, 157)
         Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(86, 25)
+        Me.Label51.Size = New System.Drawing.Size(70, 20)
         Me.Label51.TabIndex = 1124
         Me.Label51.Text = "Abonos"
         '
@@ -2237,8 +2131,7 @@ Partial Class Formcursos_ver
         Me.DataGridView6.AllowUserToDeleteRows = False
         Me.DataGridView6.AllowUserToOrderColumns = True
         Me.DataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView6.Location = New System.Drawing.Point(24, 223)
-        Me.DataGridView6.Margin = New System.Windows.Forms.Padding(4)
+        Me.DataGridView6.Location = New System.Drawing.Point(18, 181)
         Me.DataGridView6.Name = "DataGridView6"
         Me.DataGridView6.ReadOnly = True
         Me.DataGridView6.RowHeadersVisible = False
@@ -2246,7 +2139,7 @@ Partial Class Formcursos_ver
         DataGridViewCellStyle5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DataGridView6.RowsDefaultCellStyle = DataGridViewCellStyle5
         Me.DataGridView6.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView6.Size = New System.Drawing.Size(969, 124)
+        Me.DataGridView6.Size = New System.Drawing.Size(727, 101)
         Me.DataGridView6.TabIndex = 1122
         '
         'Label50
@@ -2255,10 +2148,9 @@ Partial Class Formcursos_ver
         Me.Label50.BackColor = System.Drawing.Color.Transparent
         Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.75!, System.Drawing.FontStyle.Bold)
         Me.Label50.ForeColor = System.Drawing.Color.Black
-        Me.Label50.Location = New System.Drawing.Point(20, 6)
-        Me.Label50.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label50.Location = New System.Drawing.Point(15, 5)
         Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(122, 25)
+        Me.Label50.Size = New System.Drawing.Size(100, 20)
         Me.Label50.TabIndex = 100
         Me.Label50.Text = "Liquidación"
         '
@@ -2270,10 +2162,9 @@ Partial Class Formcursos_ver
         Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.ForeColor = System.Drawing.Color.Black
         Me.Button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button7.Location = New System.Drawing.Point(1147, 16)
-        Me.Button7.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button7.Location = New System.Drawing.Point(860, 13)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(209, 46)
+        Me.Button7.Size = New System.Drawing.Size(157, 37)
         Me.Button7.TabIndex = 1121
         Me.Button7.Text = "Reportar Finalizado"
         Me.Button7.UseVisualStyleBackColor = False
@@ -2281,10 +2172,9 @@ Partial Class Formcursos_ver
         'PictureBox7
         '
         Me.PictureBox7.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.ok_trans
-        Me.PictureBox7.Location = New System.Drawing.Point(1328, 4)
-        Me.PictureBox7.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox7.Location = New System.Drawing.Point(996, 3)
         Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(53, 46)
+        Me.PictureBox7.Size = New System.Drawing.Size(40, 37)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox7.TabIndex = 1091
         Me.PictureBox7.TabStop = False
@@ -2294,10 +2184,9 @@ Partial Class Formcursos_ver
         '
         Me.LinkLabel1.AutoSize = True
         Me.LinkLabel1.LinkColor = System.Drawing.Color.DarkRed
-        Me.LinkLabel1.Location = New System.Drawing.Point(871, 11)
-        Me.LinkLabel1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.LinkLabel1.Location = New System.Drawing.Point(653, 9)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(119, 18)
+        Me.LinkLabel1.Size = New System.Drawing.Size(101, 15)
         Me.LinkLabel1.TabIndex = 69
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "(-)  Quitar Item"
@@ -2307,10 +2196,9 @@ Partial Class Formcursos_ver
         Me.TextBoxDescuento.Enabled = False
         Me.TextBoxDescuento.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBoxDescuento.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TextBoxDescuento.Location = New System.Drawing.Point(1189, 176)
-        Me.TextBoxDescuento.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBoxDescuento.Location = New System.Drawing.Point(892, 143)
         Me.TextBoxDescuento.Name = "TextBoxDescuento"
-        Me.TextBoxDescuento.Size = New System.Drawing.Size(168, 26)
+        Me.TextBoxDescuento.Size = New System.Drawing.Size(127, 22)
         Me.TextBoxDescuento.TabIndex = 68
         Me.TextBoxDescuento.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -2320,10 +2208,9 @@ Partial Class Formcursos_ver
         Me.label555.BackColor = System.Drawing.Color.Transparent
         Me.label555.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.label555.ForeColor = System.Drawing.Color.Black
-        Me.label555.Location = New System.Drawing.Point(1047, 177)
-        Me.label555.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.label555.Location = New System.Drawing.Point(785, 144)
         Me.label555.Name = "label555"
-        Me.label555.Size = New System.Drawing.Size(126, 20)
+        Me.label555.Size = New System.Drawing.Size(101, 16)
         Me.label555.TabIndex = 67
         Me.label555.Text = "(-) Descuento"
         '
@@ -2332,10 +2219,9 @@ Partial Class Formcursos_ver
         Me.TextBoxUtilidad.Enabled = False
         Me.TextBoxUtilidad.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBoxUtilidad.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TextBoxUtilidad.Location = New System.Drawing.Point(1189, 222)
-        Me.TextBoxUtilidad.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBoxUtilidad.Location = New System.Drawing.Point(892, 180)
         Me.TextBoxUtilidad.Name = "TextBoxUtilidad"
-        Me.TextBoxUtilidad.Size = New System.Drawing.Size(168, 26)
+        Me.TextBoxUtilidad.Size = New System.Drawing.Size(127, 22)
         Me.TextBoxUtilidad.TabIndex = 66
         Me.TextBoxUtilidad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -2345,10 +2231,9 @@ Partial Class Formcursos_ver
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(1083, 224)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(812, 182)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(73, 20)
+        Me.Label3.Size = New System.Drawing.Size(62, 16)
         Me.Label3.TabIndex = 65
         Me.Label3.Text = "Utilidad"
         '
@@ -2356,10 +2241,9 @@ Partial Class Formcursos_ver
         '
         Me.TextBoxComision.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBoxComision.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TextBoxComision.Location = New System.Drawing.Point(1189, 146)
-        Me.TextBoxComision.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBoxComision.Location = New System.Drawing.Point(892, 119)
         Me.TextBoxComision.Name = "TextBoxComision"
-        Me.TextBoxComision.Size = New System.Drawing.Size(168, 26)
+        Me.TextBoxComision.Size = New System.Drawing.Size(127, 22)
         Me.TextBoxComision.TabIndex = 64
         Me.TextBoxComision.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -2369,10 +2253,9 @@ Partial Class Formcursos_ver
         Me.Label35.BackColor = System.Drawing.Color.Transparent
         Me.Label35.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label35.ForeColor = System.Drawing.Color.Black
-        Me.Label35.Location = New System.Drawing.Point(1061, 149)
-        Me.Label35.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label35.Location = New System.Drawing.Point(796, 121)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(114, 20)
+        Me.Label35.Size = New System.Drawing.Size(91, 16)
         Me.Label35.TabIndex = 63
         Me.Label35.Text = "(-) Comisión"
         '
@@ -2381,10 +2264,9 @@ Partial Class Formcursos_ver
         Me.TextBox7.Enabled = False
         Me.TextBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TextBox7.Location = New System.Drawing.Point(1189, 324)
-        Me.TextBox7.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox7.Location = New System.Drawing.Point(892, 263)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(168, 26)
+        Me.TextBox7.Size = New System.Drawing.Size(127, 22)
         Me.TextBox7.TabIndex = 58
         Me.TextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -2393,10 +2275,9 @@ Partial Class Formcursos_ver
         Me.TextBox6.Enabled = False
         Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TextBox6.Location = New System.Drawing.Point(1189, 294)
-        Me.TextBox6.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox6.Location = New System.Drawing.Point(892, 239)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(168, 26)
+        Me.TextBox6.Size = New System.Drawing.Size(127, 22)
         Me.TextBox6.TabIndex = 56
         Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -2405,10 +2286,9 @@ Partial Class Formcursos_ver
         Me.TextBoxSaldoInicial.Enabled = False
         Me.TextBoxSaldoInicial.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBoxSaldoInicial.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TextBoxSaldoInicial.Location = New System.Drawing.Point(1189, 87)
-        Me.TextBoxSaldoInicial.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBoxSaldoInicial.Location = New System.Drawing.Point(892, 71)
         Me.TextBoxSaldoInicial.Name = "TextBoxSaldoInicial"
-        Me.TextBoxSaldoInicial.Size = New System.Drawing.Size(168, 26)
+        Me.TextBoxSaldoInicial.Size = New System.Drawing.Size(127, 22)
         Me.TextBoxSaldoInicial.TabIndex = 54
         Me.TextBoxSaldoInicial.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -2418,8 +2298,7 @@ Partial Class Formcursos_ver
         Me.DataGridView1.AllowUserToDeleteRows = False
         Me.DataGridView1.AllowUserToOrderColumns = True
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(24, 36)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4)
+        Me.DataGridView1.Location = New System.Drawing.Point(18, 29)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
         Me.DataGridView1.RowHeadersVisible = False
@@ -2427,7 +2306,7 @@ Partial Class Formcursos_ver
         DataGridViewCellStyle6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle6
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView1.Size = New System.Drawing.Size(969, 154)
+        Me.DataGridView1.Size = New System.Drawing.Size(727, 125)
         Me.DataGridView1.TabIndex = 51
         '
         'Label18
@@ -2436,10 +2315,9 @@ Partial Class Formcursos_ver
         Me.Label18.BackColor = System.Drawing.Color.Transparent
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.Color.Black
-        Me.Label18.Location = New System.Drawing.Point(1112, 327)
-        Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label18.Location = New System.Drawing.Point(834, 266)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(56, 20)
+        Me.Label18.Size = New System.Drawing.Size(49, 16)
         Me.Label18.TabIndex = 57
         Me.Label18.Text = "Saldo"
         '
@@ -2449,10 +2327,9 @@ Partial Class Formcursos_ver
         Me.Label15.BackColor = System.Drawing.Color.Transparent
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.Black
-        Me.Label15.Location = New System.Drawing.Point(1096, 295)
-        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label15.Location = New System.Drawing.Point(822, 240)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(71, 20)
+        Me.Label15.Size = New System.Drawing.Size(61, 16)
         Me.Label15.TabIndex = 55
         Me.Label15.Text = "Abonos"
         '
@@ -2462,10 +2339,9 @@ Partial Class Formcursos_ver
         Me.Label14.BackColor = System.Drawing.Color.Transparent
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.Black
-        Me.Label14.Location = New System.Drawing.Point(1059, 90)
-        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label14.Location = New System.Drawing.Point(794, 73)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(112, 20)
+        Me.Label14.Size = New System.Drawing.Size(94, 16)
         Me.Label14.TabIndex = 53
         Me.Label14.Text = "Saldo Inicial"
         '
@@ -2475,10 +2351,9 @@ Partial Class Formcursos_ver
         Me.LabelCurso.BackColor = System.Drawing.Color.Transparent
         Me.LabelCurso.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelCurso.ForeColor = System.Drawing.Color.Black
-        Me.LabelCurso.Location = New System.Drawing.Point(295, 52)
-        Me.LabelCurso.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.LabelCurso.Location = New System.Drawing.Point(221, 42)
         Me.LabelCurso.Name = "LabelCurso"
-        Me.LabelCurso.Size = New System.Drawing.Size(30, 31)
+        Me.LabelCurso.Size = New System.Drawing.Size(25, 25)
         Me.LabelCurso.TabIndex = 37
         Me.LabelCurso.Text = "0"
         '
@@ -2490,8 +2365,8 @@ Partial Class Formcursos_ver
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1431, 33)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(4, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1073, 28)
         Me.MenuStrip1.TabIndex = 82
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -2501,7 +2376,7 @@ Partial Class Formcursos_ver
         Me.ToolStripMenuItem1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.ToolStripMenuItem1.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.SJGHJHG64
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(128, 29)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(105, 24)
         Me.ToolStripMenuItem1.Text = "Opciones"
         '
         'AnularCursoToolStripMenuItem
@@ -2510,7 +2385,7 @@ Partial Class Formcursos_ver
         Me.AnularCursoToolStripMenuItem.ForeColor = System.Drawing.Color.White
         Me.AnularCursoToolStripMenuItem.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.CANCEL
         Me.AnularCursoToolStripMenuItem.Name = "AnularCursoToolStripMenuItem"
-        Me.AnularCursoToolStripMenuItem.Size = New System.Drawing.Size(330, 30)
+        Me.AnularCursoToolStripMenuItem.Size = New System.Drawing.Size(265, 26)
         Me.AnularCursoToolStripMenuItem.Text = "Cancelar Este Curso"
         '
         'EnaviarEmailToolStripMenuItem
@@ -2519,7 +2394,7 @@ Partial Class Formcursos_ver
         Me.EnaviarEmailToolStripMenuItem.ForeColor = System.Drawing.Color.White
         Me.EnaviarEmailToolStripMenuItem.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.emaillogo1
         Me.EnaviarEmailToolStripMenuItem.Name = "EnaviarEmailToolStripMenuItem"
-        Me.EnaviarEmailToolStripMenuItem.Size = New System.Drawing.Size(330, 30)
+        Me.EnaviarEmailToolStripMenuItem.Size = New System.Drawing.Size(265, 26)
         Me.EnaviarEmailToolStripMenuItem.Text = "Enviar un Email al Alumno"
         '
         'DescuentosToolStripMenuItem
@@ -2528,7 +2403,7 @@ Partial Class Formcursos_ver
         Me.DescuentosToolStripMenuItem.ForeColor = System.Drawing.Color.White
         Me.DescuentosToolStripMenuItem.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.minussymbol
         Me.DescuentosToolStripMenuItem.Name = "DescuentosToolStripMenuItem"
-        Me.DescuentosToolStripMenuItem.Size = New System.Drawing.Size(330, 30)
+        Me.DescuentosToolStripMenuItem.Size = New System.Drawing.Size(265, 26)
         Me.DescuentosToolStripMenuItem.Text = "Hacer Descuento"
         '
         'ImprimirFormatosToolStripMenuItem
@@ -2538,7 +2413,7 @@ Partial Class Formcursos_ver
         Me.ImprimirFormatosToolStripMenuItem.ForeColor = System.Drawing.Color.White
         Me.ImprimirFormatosToolStripMenuItem.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.impresora2
         Me.ImprimirFormatosToolStripMenuItem.Name = "ImprimirFormatosToolStripMenuItem"
-        Me.ImprimirFormatosToolStripMenuItem.Size = New System.Drawing.Size(330, 30)
+        Me.ImprimirFormatosToolStripMenuItem.Size = New System.Drawing.Size(265, 26)
         Me.ImprimirFormatosToolStripMenuItem.Text = "Imprimir Formatos"
         '
         'RegistroAlumnoToolStripMenuItem
@@ -2546,7 +2421,7 @@ Partial Class Formcursos_ver
         Me.RegistroAlumnoToolStripMenuItem.BackColor = System.Drawing.Color.SteelBlue
         Me.RegistroAlumnoToolStripMenuItem.ForeColor = System.Drawing.Color.White
         Me.RegistroAlumnoToolStripMenuItem.Name = "RegistroAlumnoToolStripMenuItem"
-        Me.RegistroAlumnoToolStripMenuItem.Size = New System.Drawing.Size(340, 30)
+        Me.RegistroAlumnoToolStripMenuItem.Size = New System.Drawing.Size(271, 24)
         Me.RegistroAlumnoToolStripMenuItem.Text = "Registro Alumno"
         '
         'PruebaDeConocimientosToolStripMenuItem
@@ -2554,7 +2429,7 @@ Partial Class Formcursos_ver
         Me.PruebaDeConocimientosToolStripMenuItem.BackColor = System.Drawing.Color.SteelBlue
         Me.PruebaDeConocimientosToolStripMenuItem.ForeColor = System.Drawing.Color.White
         Me.PruebaDeConocimientosToolStripMenuItem.Name = "PruebaDeConocimientosToolStripMenuItem"
-        Me.PruebaDeConocimientosToolStripMenuItem.Size = New System.Drawing.Size(340, 30)
+        Me.PruebaDeConocimientosToolStripMenuItem.Size = New System.Drawing.Size(271, 24)
         Me.PruebaDeConocimientosToolStripMenuItem.Text = "Prueba de Conocimientos"
         '
         'RegistroDeClasesPrácticasToolStripMenuItem
@@ -2562,7 +2437,7 @@ Partial Class Formcursos_ver
         Me.RegistroDeClasesPrácticasToolStripMenuItem.BackColor = System.Drawing.Color.SteelBlue
         Me.RegistroDeClasesPrácticasToolStripMenuItem.ForeColor = System.Drawing.Color.White
         Me.RegistroDeClasesPrácticasToolStripMenuItem.Name = "RegistroDeClasesPrácticasToolStripMenuItem"
-        Me.RegistroDeClasesPrácticasToolStripMenuItem.Size = New System.Drawing.Size(340, 30)
+        Me.RegistroDeClasesPrácticasToolStripMenuItem.Size = New System.Drawing.Size(271, 24)
         Me.RegistroDeClasesPrácticasToolStripMenuItem.Text = "Registro de Clases Prácticas"
         '
         'SalirToolStripMenuItem
@@ -2570,7 +2445,7 @@ Partial Class Formcursos_ver
         Me.SalirToolStripMenuItem.BackColor = System.Drawing.Color.SteelBlue
         Me.SalirToolStripMenuItem.ForeColor = System.Drawing.Color.White
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(330, 30)
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(265, 26)
         Me.SalirToolStripMenuItem.Text = "Salir"
         '
         'ToolTip1
@@ -2584,10 +2459,9 @@ Partial Class Formcursos_ver
         Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button8.ForeColor = System.Drawing.Color.White
         Me.Button8.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.grado
-        Me.Button8.Location = New System.Drawing.Point(1167, 44)
-        Me.Button8.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button8.Location = New System.Drawing.Point(875, 36)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(107, 50)
+        Me.Button8.Size = New System.Drawing.Size(80, 41)
         Me.Button8.TabIndex = 99
         Me.Button8.UseVisualStyleBackColor = False
         '
@@ -2598,20 +2472,32 @@ Partial Class Formcursos_ver
         Me.Button14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button14.ForeColor = System.Drawing.Color.White
         Me.Button14.Image = Global.CEASadmin_AUTOCAR.My.Resources.Resources.diskette
-        Me.Button14.Location = New System.Drawing.Point(1281, 44)
-        Me.Button14.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button14.Location = New System.Drawing.Point(961, 36)
         Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(124, 50)
+        Me.Button14.Size = New System.Drawing.Size(93, 41)
         Me.Button14.TabIndex = 99
         Me.Button14.UseVisualStyleBackColor = False
         Me.Button14.Visible = False
         '
+        'TextBox_F_D_T
+        '
+        Me.TextBox_F_D_T.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox_F_D_T.Enabled = False
+        Me.TextBox_F_D_T.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox_F_D_T.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.TextBox_F_D_T.Location = New System.Drawing.Point(464, 30)
+        Me.TextBox_F_D_T.Name = "TextBox_F_D_T"
+        Me.TextBox_F_D_T.Size = New System.Drawing.Size(92, 22)
+        Me.TextBox_F_D_T.TabIndex = 100
+        Me.TextBox_F_D_T.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'Formcursos_ver
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(187, Byte), Integer), CType(CType(212, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1431, 785)
+        Me.ClientSize = New System.Drawing.Size(1073, 638)
+        Me.Controls.Add(Me.TextBox10)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.LabelCurso)
@@ -2622,14 +2508,12 @@ Partial Class Formcursos_ver
         Me.Controls.Add(Me.DateTimePicker2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label33)
-        Me.Controls.Add(Me.TextBox10)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.Button14)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
-        Me.MinimumSize = New System.Drawing.Size(1309, 783)
+        Me.MinimumSize = New System.Drawing.Size(986, 643)
         Me.Name = "Formcursos_ver"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.GroupBox1.ResumeLayout(False)
@@ -2832,4 +2716,6 @@ Partial Class Formcursos_ver
     Friend WithEvents Label52 As Label
     Friend WithEvents Label53 As Label
     Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents DateTimePicker3 As DateTimePicker
+    Friend WithEvents TextBox_F_D_T As TextBox
 End Class

@@ -45,7 +45,7 @@ Partial Class Formcursos_ver
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.TextBox_F_D_T = New System.Windows.Forms.TextBox()
         Me.DateTimePicker3 = New System.Windows.Forms.DateTimePicker()
         Me.Label53 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
@@ -75,6 +75,7 @@ Partial Class Formcursos_ver
         Me.Label8 = New System.Windows.Forms.Label()
         Me.PictureBoxOkEdit = New System.Windows.Forms.PictureBox()
         Me.Label48 = New System.Windows.Forms.Label()
+        Me.TextBox10 = New System.Windows.Forms.TextBox()
         Me.TextBox13 = New System.Windows.Forms.TextBox()
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
         Me.Label33 = New System.Windows.Forms.Label()
@@ -195,7 +196,6 @@ Partial Class Formcursos_ver
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button14 = New System.Windows.Forms.Button()
-        Me.TextBox_F_D_T = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
@@ -445,17 +445,17 @@ Partial Class Formcursos_ver
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Datos del Curso"
         '
-        'TextBox10
+        'TextBox_F_D_T
         '
-        Me.TextBox10.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox10.Enabled = False
-        Me.TextBox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TextBox10.Location = New System.Drawing.Point(439, 48)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(108, 22)
-        Me.TextBox10.TabIndex = 33
-        Me.TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.TextBox_F_D_T.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox_F_D_T.Enabled = False
+        Me.TextBox_F_D_T.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox_F_D_T.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.TextBox_F_D_T.Location = New System.Drawing.Point(464, 30)
+        Me.TextBox_F_D_T.Name = "TextBox_F_D_T"
+        Me.TextBox_F_D_T.Size = New System.Drawing.Size(92, 22)
+        Me.TextBox_F_D_T.TabIndex = 100
+        Me.TextBox_F_D_T.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'DateTimePicker3
         '
@@ -823,6 +823,18 @@ Partial Class Formcursos_ver
         Me.Label48.Size = New System.Drawing.Size(96, 13)
         Me.Label48.TabIndex = 1091
         Me.Label48.Text = "Fecha Comisión"
+        '
+        'TextBox10
+        '
+        Me.TextBox10.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox10.Enabled = False
+        Me.TextBox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.TextBox10.Location = New System.Drawing.Point(439, 48)
+        Me.TextBox10.Name = "TextBox10"
+        Me.TextBox10.Size = New System.Drawing.Size(108, 22)
+        Me.TextBox10.TabIndex = 33
+        Me.TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox13
         '
@@ -2478,18 +2490,6 @@ Partial Class Formcursos_ver
         Me.Button14.TabIndex = 99
         Me.Button14.UseVisualStyleBackColor = False
         Me.Button14.Visible = False
-        '
-        'TextBox_F_D_T
-        '
-        Me.TextBox_F_D_T.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox_F_D_T.Enabled = False
-        Me.TextBox_F_D_T.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox_F_D_T.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TextBox_F_D_T.Location = New System.Drawing.Point(464, 30)
-        Me.TextBox_F_D_T.Name = "TextBox_F_D_T"
-        Me.TextBox_F_D_T.Size = New System.Drawing.Size(92, 22)
-        Me.TextBox_F_D_T.TabIndex = 100
-        Me.TextBox_F_D_T.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Formcursos_ver
         '

@@ -506,7 +506,7 @@ Public Class Formcursos_ver
 
 
 
-        sql = "Select SUM(valor) As abonos from recibos_caja where curso='" & LabelCurso.Text & "'"
+        sql = "Select SUM(valor) As abonos from recibos_caja where curso='" & LabelCurso.Text & "' AND estado='ANULADO'"
         da = New MySqlDataAdapter(sql, conex)
         dt = New DataTable
         da.Fill(dt)
@@ -571,18 +571,7 @@ Public Class Formcursos_ver
         Me.DataGridView6.Columns(12).Visible = False
         Me.DataGridView6.Columns(14).Visible = False
 
-        'Me.DataGridView5.Columns(1).HeaderText = "Concepto"
-        'Me.DataGridView5.Columns(1).Width = 100
-        'Me.DataGridView5.Columns(1).DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter
-        'Me.DataGridView5.Columns(2).HeaderText = "Descripción"
-        'Me.DataGridView5.Columns(2).Width = 230
-        'Me.DataGridView5.Columns(2).DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft
-        'Me.DataGridView5.Columns(3).HeaderText = "Valor"
-        'Me.DataGridView5.Columns(3).Width = 110
-        'Me.DataGridView5.Columns(3).DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight
-        'Me.DataGridView5.Columns(4).HeaderText = "Estado"
-        'Me.DataGridView5.Columns(4).Width = 110
-        'Me.DataGridView5.Columns(4).DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight
+
 
         Me.DataGridView6.ColumnHeadersDefaultCellStyle.BackColor = Color.SteelBlue
         Me.DataGridView6.DefaultCellStyle.BackColor = Color.AliceBlue
@@ -649,7 +638,7 @@ Public Class Formcursos_ver
 
 
 
-        sql = "Select SUM(valor) As abonos from recibos_caja where curso='" & LabelCurso.Text & "'"
+        sql = "Select SUM(valor) As abonos from recibos_caja where curso='" & LabelCurso.Text & "' and estado<>'ANULADO'"
         da = New MySqlDataAdapter(sql, conex)
         dt = New DataTable
         da.Fill(dt)
@@ -11784,6 +11773,9 @@ Public Class Formcursos_ver
 
     End Sub
 
+    Private Sub DataGridView6_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView6.CellContentClick
+
+    End Sub
 
     Private Sub ComboBoxMedico_SelectionChangeCommitted(sender As Object, e As EventArgs) Handles ComboBoxMedico.SelectionChangeCommitted
 

@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="CEASadmin_AUTOCAR.exe" version="2.0.1.534" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <asmv1:assemblyIdentity name="CEASadmin_AUTOCAR.exe" version="2.0.1.536" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
   <description asmv2:iconFile="logocea.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="CEASadmin_AUTOCAR" version="4.1.1.8" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="CEASadmin_AUTOCAR" version="4.1.1.9" language="neutral" processorArchitecture="x86" />
     <commandLine file="CEASadmin_AUTOCAR.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -68,13 +68,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CEASadmin_AUTOCAR.exe" size="14787008">
-      <assemblyIdentity name="CEASadmin_AUTOCAR" version="4.1.1.8" language="neutral" processorArchitecture="x86" />
+      <assemblyIdentity name="CEASadmin_AUTOCAR" version="4.1.1.9" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ItQPYbcV5eOI0K5V1n4vJ0KSzRM4AaLQJZuTZXHsbg0=</dsig:DigestValue>
+        <dsig:DigestValue>W8ELrjNQghaIRTenyVRvCP8GAv1XueGzddmf5hNhOvI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

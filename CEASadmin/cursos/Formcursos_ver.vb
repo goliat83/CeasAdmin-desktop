@@ -506,7 +506,7 @@ Public Class Formcursos_ver
 
 
 
-        sql = "Select SUM(valor) As abonos from recibos_caja where curso='" & LabelCurso.Text & "' AND estado='ANULADO'"
+        sql = "Select SUM(valor) As abonos from recibos_caja where curso='" & LabelCurso.Text & "' AND estado<>'ANULADO'"
         da = New MySqlDataAdapter(sql, conex)
         dt = New DataTable
         da.Fill(dt)
@@ -11774,6 +11774,10 @@ Public Class Formcursos_ver
     End Sub
 
     Private Sub DataGridView6_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView6.CellContentClick
+
+    End Sub
+
+    Private Sub TextBox6_TextChanged(sender As Object, e As EventArgs) Handles TextBox6.TextChanged
 
     End Sub
 

@@ -23,8 +23,8 @@ Partial Class Form_cartera
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form_cartera))
         Me.NumericUpDown_anno = New System.Windows.Forms.NumericUpDown()
         Me.ComboBoxPeriodoFiltro = New MetroFramework.Controls.MetroComboBox()
@@ -43,6 +43,8 @@ Partial Class Form_cartera
         Me.Label4 = New System.Windows.Forms.Label()
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.MetroComboBox1 = New MetroFramework.Controls.MetroComboBox()
+        Me.Label5 = New System.Windows.Forms.Label()
         CType(Me.NumericUpDown_anno, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridViewCartera, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -140,24 +142,24 @@ Partial Class Form_cartera
         Me.DataGridViewCartera.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
         Me.DataGridViewCartera.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(90, Byte), Integer), CType(CType(144, Byte), Integer))
         Me.DataGridViewCartera.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
-        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(44, Byte), Integer), CType(CType(71, Byte), Integer))
-        DataGridViewCellStyle7.Font = New System.Drawing.Font("Open Sans Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(44, Byte), Integer), CType(CType(71, Byte), Integer))
-        DataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridViewCartera.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(44, Byte), Integer), CType(CType(71, Byte), Integer))
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(44, Byte), Integer), CType(CType(71, Byte), Integer))
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridViewCartera.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle3
         Me.DataGridViewCartera.ColumnHeadersHeight = 30
         Me.DataGridViewCartera.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(90, Byte), Integer), CType(CType(144, Byte), Integer))
-        DataGridViewCellStyle8.Font = New System.Drawing.Font("Open Sans Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewCartera.DefaultCellStyle = DataGridViewCellStyle8
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(90, Byte), Integer), CType(CType(144, Byte), Integer))
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewCartera.DefaultCellStyle = DataGridViewCellStyle4
         Me.DataGridViewCartera.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
         Me.DataGridViewCartera.EnableHeadersVisualStyles = False
         Me.DataGridViewCartera.GridColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(90, Byte), Integer), CType(CType(144, Byte), Integer))
@@ -201,10 +203,10 @@ Partial Class Form_cartera
         Me.Textbox_Nom_Alumno.LineIdleColor = System.Drawing.Color.Black
         Me.Textbox_Nom_Alumno.LineMouseHoverColor = System.Drawing.Color.Gray
         Me.Textbox_Nom_Alumno.LineThickness = 3
-        Me.Textbox_Nom_Alumno.Location = New System.Drawing.Point(278, 82)
+        Me.Textbox_Nom_Alumno.Location = New System.Drawing.Point(404, 82)
         Me.Textbox_Nom_Alumno.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.Textbox_Nom_Alumno.Name = "Textbox_Nom_Alumno"
-        Me.Textbox_Nom_Alumno.Size = New System.Drawing.Size(249, 32)
+        Me.Textbox_Nom_Alumno.Size = New System.Drawing.Size(200, 32)
         Me.Textbox_Nom_Alumno.TabIndex = 1094
         Me.Textbox_Nom_Alumno.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
@@ -250,7 +252,7 @@ Partial Class Form_cartera
         Me.Button1.ForeColor = System.Drawing.Color.Black
         Me.Button1.ImageKey = "tesoreria.png"
         Me.Button1.ImageList = Me.ImageList2
-        Me.Button1.Location = New System.Drawing.Point(803, 64)
+        Me.Button1.Location = New System.Drawing.Point(810, 65)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(114, 47)
         Me.Button1.TabIndex = 1092
@@ -291,11 +293,11 @@ Partial Class Form_cartera
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Black
-        Me.Label4.Location = New System.Drawing.Point(277, 73)
+        Me.Label4.Location = New System.Drawing.Point(403, 73)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(112, 15)
+        Me.Label4.Size = New System.Drawing.Size(58, 15)
         Me.Label4.TabIndex = 1098
-        Me.Label4.Text = "Nombre Periodo"
+        Me.Label4.Text = "Nombre"
         '
         'ImageList1
         '
@@ -325,7 +327,7 @@ Partial Class Form_cartera
         Me.Button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button4.ImageKey = "buscar.png"
         Me.Button4.ImageList = Me.ImageList2
-        Me.Button4.Location = New System.Drawing.Point(540, 80)
+        Me.Button4.Location = New System.Drawing.Point(623, 80)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(92, 33)
         Me.Button4.TabIndex = 1100
@@ -334,12 +336,41 @@ Partial Class Form_cartera
         Me.Button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.Button4.UseVisualStyleBackColor = False
         '
+        'MetroComboBox1
+        '
+        Me.MetroComboBox1.BackColor = System.Drawing.SystemColors.HotTrack
+        Me.MetroComboBox1.FontSize = MetroFramework.MetroComboBoxSize.Small
+        Me.MetroComboBox1.FontWeight = MetroFramework.MetroComboBoxWeight.Light
+        Me.MetroComboBox1.FormattingEnabled = True
+        Me.MetroComboBox1.ItemHeight = 19
+        Me.MetroComboBox1.Items.AddRange(New Object() {"", "Con Saldo", "Sin Saldo"})
+        Me.MetroComboBox1.Location = New System.Drawing.Point(271, 89)
+        Me.MetroComboBox1.Name = "MetroComboBox1"
+        Me.MetroComboBox1.Size = New System.Drawing.Size(102, 25)
+        Me.MetroComboBox1.TabIndex = 1101
+        Me.MetroComboBox1.UseSelectable = True
+        '
+        'Label5
+        '
+        Me.Label5.Anchor = System.Windows.Forms.AnchorStyles.Bottom
+        Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.Black
+        Me.Label5.Location = New System.Drawing.Point(271, 73)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(44, 15)
+        Me.Label5.TabIndex = 1102
+        Me.Label5.Text = "Saldo"
+        '
         'Form_cartera
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(187, Byte), Integer), CType(CType(212, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(936, 597)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.MetroComboBox1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label2)
@@ -383,4 +414,6 @@ Partial Class Form_cartera
     Friend WithEvents Label4 As Label
     Friend WithEvents ImageList1 As ImageList
     Friend WithEvents Button4 As Button
+    Friend WithEvents MetroComboBox1 As MetroFramework.Controls.MetroComboBox
+    Friend WithEvents Label5 As Label
 End Class

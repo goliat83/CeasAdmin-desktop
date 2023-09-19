@@ -36,6 +36,14 @@ where year(STR_TO_DATE(cartera.fecha,'%d/%m/%Y'))= " & NumericUpDown_anno.Value 
 
         sql += " group by c.num"
 
+        If MetroComboBox1.Text.ToString = "Con Saldo" Then
+            sql += " HAVING saldoactual>0 "
+        End If
+
+        If MetroComboBox1.Text.ToString = "Sin Saldo" Then
+            sql += " HAVING saldoactual<=0 "
+        End If
+
         DA_CXC = New MySqlDataAdapter(sql, conex)
         DT_CXC = New DataTable
         DA_CXC.Fill(DT_CXC)

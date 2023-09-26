@@ -11,11 +11,6 @@ Public Class Form_cartera
 
     Private Sub load_cartera()
 
-
-
-
-
-
         sql = "select c.num, c.alumno_doc, concat(al.nombre1,' ',al.nombre2,' ',al.apellido1,' ',al.apellido2) as alumno_nom, c.alumno_cel, cartera.curso, c.tipotramite, c.num_contrato,  
 SUM(cartera.valor) as saldo, 
 if((select sum(recibos_caja.valor) from recibos_caja where curso=c.num and recibos_caja.estado<>'anulado') is null,0,(select sum(recibos_caja.valor) from recibos_caja where curso=c.num and recibos_caja.estado<>'anulado')) as abonos,
@@ -24,7 +19,9 @@ from cartera
 left join cursos c on c.num=cartera.curso   
 left join recibos_caja on cartera.curso = recibos_caja.curso
 left join alumnos al on c.alumno_doc = al.documento 
-where year(STR_TO_DATE(cartera.fecha,'%d/%m/%Y'))= " & NumericUpDown_anno.Value & " "
+where 
+cartera.concepto='CERTIFICADO' 
+AND year(STR_TO_DATE(cartera.fecha,'%d/%m/%Y'))= " & NumericUpDown_anno.Value & " "
 
         If ComboBoxPeriodoFiltro.Text <> "" Then
             sql += " AND month(STR_TO_DATE(cartera.fecha,'%d/%m/%Y'))= " & ComboBoxPeriodoFiltro.SelectedIndex & ""

@@ -10,35 +10,57 @@ Public Class Form_cartera
 
 
     Private Sub load_cartera()
-
-        sql = "select c.num, c.alumno_doc, concat(al.nombre1,' ',al.nombre2,' ',al.apellido1,' ',al.apellido2) as alumno_nom, c.alumno_cel, cartera.curso, c.tipotramite, c.num_contrato,  
-SUM(cartera.valor) as saldo, 
-if((select sum(recibos_caja.valor) from recibos_caja where curso=c.num and recibos_caja.estado<>'anulado') is null,0,(select sum(recibos_caja.valor) from recibos_caja where curso=c.num and recibos_caja.estado<>'anulado')) as abonos,
-sum(cartera.valor) - if((select sum(recibos_caja.valor) from recibos_caja where curso=c.num and recibos_caja.estado<>'anulado') is null,0,(select sum(recibos_caja.valor) from recibos_caja where curso=c.num and recibos_caja.estado<>'anulado')) as saldoactual
-from cartera
-left join cursos c on c.num=cartera.curso   
-left join recibos_caja on cartera.curso = recibos_caja.curso
+        sql = "SELECT  
+    cr.curso, 
+    c.alumno_doc, 
+    concat(al.nombre1,' ',al.nombre2,' ',al.apellido1,' ',al.apellido2) as alumno_nom,
+    c.alumno_cel, c.num as curso, c.tipotramite, c.num_contrato, 
+    SUM(cr.valor) as saldoinicial, 
+    (SELECT SUM(valor) FROM recibos_caja WHERE estado<>'anulado' AND curso=cr.curso) as rc_abonos,
+    SUM(cr.valor) - (SELECT SUM(valor) FROM recibos_caja WHERE estado<>'anulado' AND curso=cr.curso) as Saldo
+FROM 
+    cartera cr 
+left join cursos c on c.num=cr.curso   
 left join alumnos al on c.alumno_doc = al.documento 
-where 
-cartera.concepto='CERTIFICADO' 
-AND year(STR_TO_DATE(cartera.fecha,'%d/%m/%Y'))= " & NumericUpDown_anno.Value & " "
+WHERE 
+    cr.concepto='CERTIFICADO' 
+    AND YEAR(STR_TO_DATE(cr.fecha,'%d/%m/%Y'))= " & NumericUpDown_anno.Value & " "
 
+        '        sql = "select c.num, c.alumno_doc, concat(al.nombre1,' ',al.nombre2,' ',al.apellido1,' ',al.apellido2) as alumno_nom, c.alumno_cel, cartera.curso, c.tipotramite, c.num_contrato,  
+        'cartera.valor as saldo, 
+        'if((select sum(recibos_caja.valor) from recibos_caja where curso=c.num and recibos_caja.estado<>'anulado') is null,0,(select sum(recibos_caja.valor) from recibos_caja where curso=c.num and recibos_caja.estado<>'anulado')) as abonos,
+        'sum(cartera.valor) - if((select sum(recibos_caja.valor) from recibos_caja where curso=c.num and recibos_caja.estado<>'anulado') is null,0,(select sum(recibos_caja.valor) from recibos_caja where curso=c.num and recibos_caja.estado<>'anulado')) as saldoactual
+        'from cartera
+        'left join cursos c on c.num=cartera.curso   
+        'left join recibos_caja on cartera.curso = recibos_caja.curso
+        'left join alumnos al on c.alumno_doc = al.documento 
+        'where 
+        'cartera.concepto='CERTIFICADO' 
+        'AND year(STR_TO_DATE(cartera.fecha,'%d/%m/%Y'))= " & NumericUpDown_anno.Value & " "
+        sql = "SELECT cur.num, cur.fecha, cur.alumno_doc, 
+            concat(al.nombre1,' ',al.nombre2,' ',al.apellido1,' ',al.apellido2) as alumno_nom, cur.alumno_cel, 
+            (SELECT SUM(cr.valor) FROM cartera cr where cr.curso=cur.num and cr.concepto='CERTIFICADO') as saldo_inicial, 
+            (SELECT SUM(rc.valor) FROM recibos_caja rc WHERE rc.estado<>'anulado' AND rc.curso=cur.num) as abonos ,
+            (SELECT SUM(cr.valor) FROM cartera cr where cr.curso=cur.num and cr.concepto='CERTIFICADO')-(SELECT SUM(rc.valor) FROM recibos_caja rc WHERE rc.estado<>'anulado' AND rc.curso=cur.num) AS Saldo
+            FROM `cursos` cur 
+            left join alumnos al on cur.alumno_doc = al.documento 
+            where year(STR_TO_DATE(cur.fecha,'%d/%m/%Y'))= " & NumericUpDown_anno.Value & " "
         If ComboBoxPeriodoFiltro.Text <> "" Then
-            sql += " AND month(STR_TO_DATE(cartera.fecha,'%d/%m/%Y'))= " & ComboBoxPeriodoFiltro.SelectedIndex & ""
+            sql += " AND month(STR_TO_DATE(cur.fecha,'%d/%m/%Y'))= " & ComboBoxPeriodoFiltro.SelectedIndex & ""
         End If
 
         If Textbox_Nom_Alumno.Text <> "" Then
             sql += " AND alumno_nom like '%" & Textbox_Nom_Alumno.Text & "%'"
         End If
 
-        sql += " group by c.num"
+        'sql += " group by cur.num"
 
         If MetroComboBox1.Text.ToString = "Con Saldo" Then
-            sql += " HAVING saldoactual>0 "
+            sql += " HAVING Saldo>0 "
         End If
 
         If MetroComboBox1.Text.ToString = "Sin Saldo" Then
-            sql += " HAVING saldoactual<=0 "
+            sql += " HAVING Saldo<=0 "
         End If
 
         DA_CXC = New MySqlDataAdapter(sql, conex)
@@ -48,15 +70,16 @@ AND year(STR_TO_DATE(cartera.fecha,'%d/%m/%Y'))= " & NumericUpDown_anno.Value & 
 
         SALDO_INICIAL = 0
         ABONOS = 0
+
         For Each row As DataRow In DT_CXC.Rows
-            If Not IsDBNull(row.Item("saldo")) Then
-                SALDO_INICIAL = row.Item("saldo")
-            End If
-            If Not IsDBNull(row.Item("abonos")) Then
-                ABONOS = row.Item("abonos")
+            'If Not IsDBNull(row.Item("saldoinicial")) Then
+            '    SALDO_INICIAL += Convert.ToDecimal(row.Item("saldoinicial"))
+            'End If
+            If Not IsDBNull(row.Item("Saldo")) Then
+                ABONOS += Convert.ToDecimal(row.Item("Saldo"))
             End If
         Next
-        Label_TOTAL_cartera.Text = SALDO_INICIAL - ABONOS
+        Label_TOTAL_cartera.Text = ABONOS
 
         DataGridViewCartera.DataSource = DT_CXC
         Me.DataGridViewCartera.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter
@@ -69,27 +92,27 @@ AND year(STR_TO_DATE(cartera.fecha,'%d/%m/%Y'))= " & NumericUpDown_anno.Value & 
         Me.DataGridViewCartera.Columns(2).HeaderText = "Nombre"
         Me.DataGridViewCartera.Columns(2).Width = 80
         Me.DataGridViewCartera.Columns(2).DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft
-        Me.DataGridViewCartera.Columns(3).HeaderText = "Telefono"
+        'Me.DataGridViewCartera.Columns(3).HeaderText = "Telefono"
+        'Me.DataGridViewCartera.Columns(3).Width = 80
+        'Me.DataGridViewCartera.Columns(3).DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft
+        'Me.DataGridViewCartera.Columns(3).HeaderText = "Tramite"
+        'Me.DataGridViewCartera.Columns(3).Width = 80
+        'Me.DataGridViewCartera.Columns(3).DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft
+        Me.DataGridViewCartera.Columns(3).HeaderText = "Tramite"
         Me.DataGridViewCartera.Columns(3).Width = 80
         Me.DataGridViewCartera.Columns(3).DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft
-        Me.DataGridViewCartera.Columns(4).HeaderText = "Tramite"
+        Me.DataGridViewCartera.Columns(4).HeaderText = "Contrato"
         Me.DataGridViewCartera.Columns(4).Width = 80
         Me.DataGridViewCartera.Columns(4).DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft
-        Me.DataGridViewCartera.Columns(5).HeaderText = "Tramite"
+        Me.DataGridViewCartera.Columns(5).HeaderText = "SaldoInicial"
         Me.DataGridViewCartera.Columns(5).Width = 80
         Me.DataGridViewCartera.Columns(5).DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft
-        Me.DataGridViewCartera.Columns(6).HeaderText = "Contrato"
+        Me.DataGridViewCartera.Columns(6).HeaderText = "Abonos"
         Me.DataGridViewCartera.Columns(6).Width = 80
         Me.DataGridViewCartera.Columns(6).DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft
-        Me.DataGridViewCartera.Columns(7).HeaderText = "SaldoInicial"
+        Me.DataGridViewCartera.Columns(7).HeaderText = "SaldoActual"
         Me.DataGridViewCartera.Columns(7).Width = 80
         Me.DataGridViewCartera.Columns(7).DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft
-        Me.DataGridViewCartera.Columns(8).HeaderText = "Abonos"
-        Me.DataGridViewCartera.Columns(8).Width = 80
-        Me.DataGridViewCartera.Columns(8).DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft
-        Me.DataGridViewCartera.Columns(9).HeaderText = "SaldoActual"
-        Me.DataGridViewCartera.Columns(9).Width = 80
-        Me.DataGridViewCartera.Columns(9).DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft
         DA_CXC.Dispose()
         DT_CXC.Dispose()
         conex.Close()
@@ -110,7 +133,7 @@ AND year(STR_TO_DATE(cartera.fecha,'%d/%m/%Y'))= " & NumericUpDown_anno.Value & 
     Private Sub DataGridView1_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridViewCartera.CellClick
         Dim row As DataGridViewRow = DataGridViewCartera.CurrentRow
         'TextBox_serv.Text = row.Cells("servicio").Value
-        RC_VER = row.Cells("NUM").Value
+        'RC_VER = row.Cells("curso").Value
         RC_VER_curso = row.Cells("curso").Value
         RC_VER_AlumnoDoc = row.Cells("alumno_doc").Value
     End Sub

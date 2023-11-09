@@ -999,6 +999,10 @@ Public Class Formcursonuevo
         Label_TotalTotal.Text = vrtotal
     End Sub
 
+    Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox1.SelectedIndexChanged
+
+    End Sub
+
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
         Me.Cursor = Cursors.WaitCursor
         prmt_vrderechos = 0
@@ -1174,6 +1178,10 @@ Public Class Formcursonuevo
     End Sub
 
     Private Sub ComboBoxPIN_SelectionChangeCommitted(sender As Object, e As EventArgs) Handles ComboBoxPIN.SelectionChangeCommitted
+
+    End Sub
+
+    Private Sub ListBox1_Click(sender As Object, e As EventArgs) Handles ListBox1.Click
 
     End Sub
 End Class

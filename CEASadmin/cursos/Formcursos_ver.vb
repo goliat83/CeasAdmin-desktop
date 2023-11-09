@@ -1291,6 +1291,8 @@ Public Class Formcursos_ver
                 VR_CONTRATO = "$ 860.000"
             Case "C2"
                 VR_CONTRATO = "$ 1.250.000"
+            Case "C2"
+                VR_CONTRATO = "$ 3.600.000"
             Case "RC1"
                 VR_CONTRATO = "$ 470.000"
         End Select
@@ -9891,6 +9893,365 @@ Public Class Formcursos_ver
         End If
 
         If ComboBoxCat.Text = "C2" Then
+
+            cellfirma.Colspan = 0
+            cellfirma.Phrase = New Phrase("1", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase(" ", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("Inspección Pre operacional", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("X", ArialBlack12b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            tablaFirma.CompleteRow()
+
+
+            cellfirma.Colspan = 0
+            cellfirma.Phrase = New Phrase("2", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase(" ", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("Conducción del vehículo en vía urbana.", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("X", ArialBlack12b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            tablaFirma.CompleteRow()
+
+            cellfirma.Colspan = 0
+            cellfirma.Phrase = New Phrase("3", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase(" ", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("Conducción del vehículo en carretera.", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("X", ArialBlack12b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            tablaFirma.CompleteRow()
+
+
+            cellfirma.Colspan = 0
+            cellfirma.Phrase = New Phrase("4", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase(" ", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("Conducción del vehículo en terreno plano.", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("X", ArialBlack12b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            tablaFirma.CompleteRow()
+
+
+            cellfirma.Colspan = 0
+            cellfirma.Phrase = New Phrase("5", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase(" ", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("Conducción del vehículo en pendiente", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("X", ArialBlack12b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            tablaFirma.CompleteRow()
+
+
+            cellfirma.Colspan = 0
+            cellfirma.Phrase = New Phrase("6", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase(" ", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("Maniobras de cruces y adelantamientos", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("X", ArialBlack12b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            tablaFirma.CompleteRow()
+
+
+
+            cellfirma.Colspan = 0
+            cellfirma.Phrase = New Phrase("7", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase(" ", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("Utilización de calzadas.", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("X", ArialBlack12b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            tablaFirma.CompleteRow()
+
+
+            cellfirma.Colspan = 0
+            cellfirma.Phrase = New Phrase("8", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase(" ", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("Distancia de reacción.", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("X", ArialBlack12b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            tablaFirma.CompleteRow()
+
+
+            cellfirma.Colspan = 0
+            cellfirma.Phrase = New Phrase("9", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase(" ", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("Distancia de frenado.", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("X", ArialBlack12b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            tablaFirma.CompleteRow()
+
+
+            cellfirma.Colspan = 0
+            cellfirma.Phrase = New Phrase("10", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase(" ", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("Maniobras de adelantamiento (derecha e izquierda).", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("X", ArialBlack12b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            tablaFirma.CompleteRow()
+
+            cellfirma.Colspan = 0
+            cellfirma.Phrase = New Phrase("11", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase(" ", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("Ejercicio de Conducción Dinámico.", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("X", ArialBlack12b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            tablaFirma.CompleteRow()
+
+            cellfirma.Colspan = 0
+            cellfirma.Phrase = New Phrase("12", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase(" ", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("Cargue y Descargue de Mercancías.", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("X", ArialBlack12b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            tablaFirma.CompleteRow()
+
+            cellfirma.Colspan = 0
+            cellfirma.Phrase = New Phrase("13", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase(" ", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("Normas de seguridad en el aseguramiento de la carga", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("X", ArialBlack12b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            tablaFirma.CompleteRow()
+
+            cellfirma.Colspan = 0
+            cellfirma.Phrase = New Phrase("14", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase(" ", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("Uso de salida de Emergencia", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("X", ArialBlack12b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            tablaFirma.CompleteRow()
+
+
+            cellfirma.Colspan = 0
+            cellfirma.Phrase = New Phrase(" ", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase(" ", ArialBlack10b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("EXAMEN PRACTICO SICOV", ArialBlack12b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            cellfirma.Phrase = New Phrase("X", ArialBlack12b)
+            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
+            cellfirma.BackgroundColor = BaseColor.WHITE
+            tablaFirma.AddCell(cellfirma)
+
+            tablaFirma.CompleteRow()
+
+        End If
+
+        If ComboBoxCat.Text = "C3" Then
 
             cellfirma.Colspan = 0
             cellfirma.Phrase = New Phrase("1", ArialBlack10b)

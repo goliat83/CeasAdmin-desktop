@@ -1495,6 +1495,8 @@ Public Class Formcursos_ver
                 VR_CONTRATO = "$ 860.000"
             Case "C2"
                 VR_CONTRATO = "$ 1.250.000"
+            Case "C3"
+                VR_CONTRATO = "$ 3.600.000"
             Case "RC1"
                 VR_CONTRATO = "$ 470.000"
         End Select
@@ -6807,6 +6809,906 @@ Public Class Formcursos_ver
         End If
 
         If ComboBoxCat.Text = "C2" Then
+
+            'CELDA SIN BUTTON WIDTH
+            cellhome3.Colspan = 0
+            cellhome3.BorderWidth = 1
+            cellhome3.BorderWidthBottom = 0
+            cellhome3.BorderWidthTop = 1
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("X", ArialBlack12b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.BorderWidthBottom = 0
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("X", ArialBlack12b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            tablahome3.CompleteRow()
+
+            'CELDA SIN BUTTON WIDTH
+            cellhome3.Colspan = 0
+            cellhome3.BorderWidth = 1
+            cellhome3.BorderWidthBottom = 1
+            cellhome3.BorderWidthTop = 1
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("X", ArialBlack12b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.BorderWidthBottom = 1
+            cellhome3.BorderWidthTop = 0
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+
+            cellhome3.Phrase = New Phrase("", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            tablahome3.CompleteRow()
+
+            'CELDA SIN BUTTON WIDTH
+            cellhome3.Colspan = 0
+            cellhome3.BorderWidth = 1
+            cellhome3.BorderWidthBottom = 0
+            cellhome3.BorderWidthTop = 1
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("X", ArialBlack12b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.BorderWidthBottom = 0
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("X", ArialBlack12b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            tablahome3.CompleteRow()
+
+            'CELDA SIN BUTTON WIDTH
+            cellhome3.Colspan = 0
+            cellhome3.BorderWidth = 1
+            cellhome3.BorderWidthBottom = 1
+            cellhome3.BorderWidthTop = 1
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("X", ArialBlack12b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.BorderWidthBottom = 1
+            cellhome3.BorderWidthTop = 0
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+
+            cellhome3.Phrase = New Phrase("", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            tablahome3.CompleteRow()
+
+            'CELDA SIN BUTTON WIDTH
+            cellhome3.Colspan = 0
+            cellhome3.BorderWidth = 1
+            cellhome3.BorderWidthBottom = 0
+            cellhome3.BorderWidthTop = 1
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("X", ArialBlack12b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.BorderWidthBottom = 0
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("X", ArialBlack12b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            tablahome3.CompleteRow()
+
+            'CELDA SIN BUTTON WIDTH
+            cellhome3.Colspan = 0
+            cellhome3.BorderWidth = 1
+            cellhome3.BorderWidthBottom = 1
+            cellhome3.BorderWidthTop = 1
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("X", ArialBlack12b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.BorderWidthBottom = 1
+            cellhome3.BorderWidthTop = 0
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+
+            cellhome3.Phrase = New Phrase("", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            tablahome3.CompleteRow()
+
+
+            'CELDA SIN BUTTON WIDTH
+            cellhome3.Colspan = 0
+            cellhome3.BorderWidth = 1
+            cellhome3.BorderWidthBottom = 0
+            cellhome3.BorderWidthTop = 1
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("X", ArialBlack12b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.BorderWidthBottom = 0
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("X", ArialBlack12b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            tablahome3.CompleteRow()
+
+            'CELDA SIN BUTTON WIDTH
+            cellhome3.Colspan = 0
+            cellhome3.BorderWidth = 1
+            cellhome3.BorderWidthBottom = 1
+            cellhome3.BorderWidthTop = 1
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("X", ArialBlack12b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.BorderWidthBottom = 1
+            cellhome3.BorderWidthTop = 0
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+
+            cellhome3.Phrase = New Phrase("", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            tablahome3.CompleteRow()
+
+            'CELDA SIN BUTTON WIDTH
+            cellhome3.Colspan = 0
+            cellhome3.BorderWidth = 1
+            cellhome3.BorderWidthBottom = 0
+            cellhome3.BorderWidthTop = 1
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("X", ArialBlack12b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.BorderWidthBottom = 0
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("X", ArialBlack12b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            tablahome3.CompleteRow()
+
+            'CELDA SIN BUTTON WIDTH
+            cellhome3.Colspan = 0
+            cellhome3.BorderWidth = 1
+            cellhome3.BorderWidthBottom = 1
+            cellhome3.BorderWidthTop = 1
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("X", ArialBlack12b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.BorderWidthBottom = 1
+            cellhome3.BorderWidthTop = 0
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+
+            cellhome3.Phrase = New Phrase("", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            tablahome3.CompleteRow()
+
+
+
+            'CELDA SIN BUTTON WIDTH
+            cellhome3.Colspan = 4
+            cellhome3.BorderWidth = 1
+            cellhome3.BorderWidthBottom = 1
+            cellhome3.BorderWidthTop = 1
+            cellhome3.Phrase = New Phrase("TALLER", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_CENTER
+            cellhome3.BackgroundColor = BaseColor.LIGHT_GRAY
+            tablahome3.AddCell(cellhome3)
+
+
+            cellhome3.Colspan = 0
+            cellhome3.BorderWidthBottom = 0
+            cellhome3.BorderWidthTop = 1
+            cellhome3.BorderWidthBottom = 0
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.AddElement(firmaimg)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            tablahome3.CompleteRow()
+
+            'CELDA SIN BUTTON WIDTH
+            cellhome3.Colspan = 0
+            cellhome3.BorderWidth = 1
+            cellhome3.BorderWidthBottom = 1
+            cellhome3.BorderWidthTop = 1
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("X", ArialBlack12b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.BorderWidthBottom = 1
+            cellhome3.BorderWidthTop = 0
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            tablahome3.CompleteRow()
+
+            'CELDA SIN BUTTON WIDTH
+            cellhome3.Colspan = 0
+            cellhome3.BorderWidth = 1
+            cellhome3.BorderWidthBottom = 1
+            cellhome3.BorderWidthTop = 1
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("X", ArialBlack12b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.BorderWidthBottom = 0
+            cellhome3.BorderWidthTop = 1
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.AddElement(firmaimg)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            tablahome3.CompleteRow()
+
+
+            'CELDA SIN BUTTON WIDTH
+            cellhome3.Colspan = 0
+            cellhome3.BorderWidth = 1
+            cellhome3.BorderWidthBottom = 1
+            cellhome3.BorderWidthTop = 1
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("X", ArialBlack12b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.BorderWidthBottom = 1
+            cellhome3.BorderWidthTop = 0
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            tablahome3.CompleteRow()
+
+            'CELDA SIN BUTTON WIDTH
+            cellhome3.Colspan = 0
+            cellhome3.BorderWidth = 1
+            cellhome3.BorderWidthBottom = 1
+            cellhome3.BorderWidthTop = 1
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("X", ArialBlack12b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.BorderWidthBottom = 0
+            cellhome3.BorderWidthTop = 1
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.AddElement(firmaimg)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+
+            cellhome3.Phrase = New Phrase("1", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            tablahome3.CompleteRow()
+
+
+            'CELDA SIN BUTTON WIDTH
+            cellhome3.Colspan = 0
+            cellhome3.BorderWidth = 1
+            cellhome3.BorderWidthBottom = 1
+            cellhome3.BorderWidthTop = 1
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("X", ArialBlack12b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase("2", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.BorderWidthBottom = 1
+            cellhome3.BorderWidthTop = 0
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            cellhome3.Phrase = New Phrase(" ", ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            tablahome3.CompleteRow()
+
+
+
+
+            cellhome3.FixedHeight = -1
+            cellhome3.Colspan = 9
+            cellhome3.BorderWidth = 1
+            cellhome3.BorderWidthBottom = 1
+            cellhome3.BorderWidthTop = 1
+            cellhome3.Phrase = New Phrase("OBSERVACIONES " & Chr(13) & Chr(13) & Chr(13) & Chr(13), ArialBlack10b)
+            cellhome3.HorizontalAlignment = Element.ALIGN_LEFT
+            cellhome3.BackgroundColor = BaseColor.WHITE
+            tablahome3.AddCell(cellhome3)
+
+            tablahome3.CompleteRow()
+
+        End If
+
+        If ComboBoxCat.Text = "C3" Then
 
             'CELDA SIN BUTTON WIDTH
             cellhome3.Colspan = 0

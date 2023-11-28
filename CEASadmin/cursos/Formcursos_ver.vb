@@ -12344,7 +12344,7 @@ Public Class Formcursos_ver
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
 
-            cellfirma.Phrase = New Phrase("Inspección Pre operacional", ArialBlack10b)
+            cellfirma.Phrase = New Phrase("Alistamiento Preoperacional del Vehículo", ArialBlack10b)
             cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
@@ -12368,7 +12368,7 @@ Public Class Formcursos_ver
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
 
-            cellfirma.Phrase = New Phrase("Conducción del vehículo en vía urbana.", ArialBlack10b)
+            cellfirma.Phrase = New Phrase("Adaptación viso espacial.", ArialBlack10b)
             cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
@@ -12391,7 +12391,7 @@ Public Class Formcursos_ver
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
 
-            cellfirma.Phrase = New Phrase("Conducción del vehículo en carretera.", ArialBlack10b)
+            cellfirma.Phrase = New Phrase("Utilización elementos de seguridad", ArialBlack10b)
             cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
@@ -12415,7 +12415,7 @@ Public Class Formcursos_ver
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
 
-            cellfirma.Phrase = New Phrase("Conducción del vehículo en terreno plano.", ArialBlack10b)
+            cellfirma.Phrase = New Phrase("Puesta en marcha del motor diesel y lectura del tacometro y RPMs", ArialBlack10b)
             cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
@@ -12439,7 +12439,7 @@ Public Class Formcursos_ver
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
 
-            cellfirma.Phrase = New Phrase("Conducción del vehículo en pendiente", ArialBlack10b)
+            cellfirma.Phrase = New Phrase("Selector de velocidades y multiplicador", ArialBlack10b)
             cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
@@ -12463,7 +12463,7 @@ Public Class Formcursos_ver
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
 
-            cellfirma.Phrase = New Phrase("Maniobras de cruces y adelantamientos", ArialBlack10b)
+            cellfirma.Phrase = New Phrase("Acople y desacople de Unidad Tractora  -Puesta en marcha del vehículo con motor diesel ", ArialBlack10b)
             cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
@@ -12488,7 +12488,7 @@ Public Class Formcursos_ver
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
 
-            cellfirma.Phrase = New Phrase("Utilización de calzadas.", ArialBlack10b)
+            cellfirma.Phrase = New Phrase("Coordinación. Aceleración-freno-embrague- Utilizacion de señales acusticas, lunimosas y corporales", ArialBlack10b)
             cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
@@ -12512,7 +12512,7 @@ Public Class Formcursos_ver
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
 
-            cellfirma.Phrase = New Phrase("Distancia de reacción.", ArialBlack10b)
+            cellfirma.Phrase = New Phrase("Aceleración y desaceleración con motor diesel - Ejercicio de sincronizacion y Control de Manejo con RPMs.", ArialBlack10b)
             cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
@@ -12536,7 +12536,7 @@ Public Class Formcursos_ver
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
 
-            cellfirma.Phrase = New Phrase("Distancia de frenado.", ArialBlack10b)
+            cellfirma.Phrase = New Phrase("Maniobras de Conduccion en reversa en pista.", ArialBlack10b)
             cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
@@ -12560,7 +12560,7 @@ Public Class Formcursos_ver
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
 
-            cellfirma.Phrase = New Phrase("Maniobras de adelantamiento (derecha e izquierda).", ArialBlack10b)
+            cellfirma.Phrase = New Phrase("Maniobras de Conduccion del vehículo en vía urbana", ArialBlack10b)
             cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
@@ -12583,7 +12583,7 @@ Public Class Formcursos_ver
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
 
-            cellfirma.Phrase = New Phrase("Ejercicio de Conducción Dinámico.", ArialBlack10b)
+            cellfirma.Phrase = New Phrase("Maniobras de Conduccion  Conducción del vehículo en carretera.", ArialBlack10b)
             cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
@@ -12606,7 +12606,7 @@ Public Class Formcursos_ver
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
 
-            cellfirma.Phrase = New Phrase("Cargue y Descargue de Mercancías.", ArialBlack10b)
+            cellfirma.Phrase = New Phrase("Maniobras de Conduccion del vehículo en terreno plano.", ArialBlack10b)
             cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
@@ -12629,7 +12629,7 @@ Public Class Formcursos_ver
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
 
-            cellfirma.Phrase = New Phrase("Normas de seguridad en el aseguramiento de la carga", ArialBlack10b)
+            cellfirma.Phrase = New Phrase("Maniobras de  Conducción del vehículo en pendiente.", ArialBlack10b)
             cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
@@ -12652,7 +12652,7 @@ Public Class Formcursos_ver
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
 
-            cellfirma.Phrase = New Phrase("Uso de salida de Emergencia", ArialBlack10b)
+            cellfirma.Phrase = New Phrase("Maniobras de cruces y adelantamientos", ArialBlack10b)
             cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
@@ -12676,7 +12676,7 @@ Public Class Formcursos_ver
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
 
-            cellfirma.Phrase = New Phrase("Clase Práctica", ArialBlack10b)
+            cellfirma.Phrase = New Phrase("Maniobras de parqueo y estacionamiento frontal, parqueo en reversa, en paralelo al anden y en linea recta", ArialBlack10b)
             cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
@@ -12700,7 +12700,7 @@ Public Class Formcursos_ver
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
 
-            cellfirma.Phrase = New Phrase("Clase Práctica", ArialBlack10b)
+            cellfirma.Phrase = New Phrase("Utilización de calzadas  Maniobras de adelantamiento (derecha e izquierda) - Entrada y Salida de Curvas respeto de las marcas viales y señales de Trasnito ", ArialBlack10b)
             cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
@@ -12722,7 +12722,7 @@ Public Class Formcursos_ver
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
 
-            cellfirma.Phrase = New Phrase("Clase Práctica", ArialBlack10b)
+            cellfirma.Phrase = New Phrase("Distancia de frenado - Ejercicio de Conducción Dinámico", ArialBlack10b)
             cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
@@ -12746,7 +12746,7 @@ Public Class Formcursos_ver
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
 
-            cellfirma.Phrase = New Phrase("Clase Práctica", ArialBlack10b)
+            cellfirma.Phrase = New Phrase("Cargue y Descargue de Mercancías.", ArialBlack10b)
             cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
@@ -12770,7 +12770,7 @@ Public Class Formcursos_ver
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
 
-            cellfirma.Phrase = New Phrase("Clase Práctica", ArialBlack10b)
+            cellfirma.Phrase = New Phrase("Normas de seguridad en el aseguramiento de la carga", ArialBlack10b)
             cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
@@ -12794,7 +12794,7 @@ Public Class Formcursos_ver
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
 
-            cellfirma.Phrase = New Phrase("Clase Práctica", ArialBlack10b)
+            cellfirma.Phrase = New Phrase("EXAMEN PRACTICA", ArialBlack10b)
             cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
             cellfirma.BackgroundColor = BaseColor.WHITE
             tablaFirma.AddCell(cellfirma)
@@ -12807,28 +12807,6 @@ Public Class Formcursos_ver
             tablaFirma.CompleteRow()
 
 
-            cellfirma.Colspan = 0
-            cellfirma.Phrase = New Phrase(" ", ArialBlack10b)
-            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
-            cellfirma.BackgroundColor = BaseColor.WHITE
-            tablaFirma.AddCell(cellfirma)
-
-            cellfirma.Phrase = New Phrase(" ", ArialBlack10b)
-            cellfirma.HorizontalAlignment = Element.ALIGN_CENTER
-            cellfirma.BackgroundColor = BaseColor.WHITE
-            tablaFirma.AddCell(cellfirma)
-
-            cellfirma.Phrase = New Phrase("EXAMEN PRACTICO SICOV", ArialBlack12b)
-            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
-            cellfirma.BackgroundColor = BaseColor.WHITE
-            tablaFirma.AddCell(cellfirma)
-
-            cellfirma.Phrase = New Phrase("X", ArialBlack12b)
-            cellfirma.HorizontalAlignment = Element.ALIGN_LEFT
-            cellfirma.BackgroundColor = BaseColor.WHITE
-            tablaFirma.AddCell(cellfirma)
-
-            tablaFirma.CompleteRow()
 
 
         End If

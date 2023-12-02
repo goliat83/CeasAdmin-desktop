@@ -314,7 +314,7 @@ Public Class FormRC
                                      "$ " & TextBox_valor.Text, MsgBoxStyle.Question + MsgBoxStyle.YesNo)
             If RTA2 = "6" Then
                 sql = "INSERT INTO recibos_caja(fecha,curso,doc,alumno,dir,tel,concepto,descripcion,valor,usuario,turno,idmediopago,mediopago,idcaja,caja,estado,docinterno) 
-        VALUES('" & DateTime.Now.ToShortDateString & "','','" & TXT_DOC_CLIENTE.Text & "','" & TXT_NOM_CLIENTE.Text & "','" & TXT_DIR_CLIENTE.Text & "','" & TXT_TELS_CLIENTE.Text & "','" & ComboBox_tipo_ingreso.Text & "','" & TextBox_DESCRIPCION.Text & "','" & TextBox_valor.Text & "','" & usrdoc & "|" & usrnom & "','" & Formprincipal.TurnoActualGlobal.id & "','" & ComboBox_MEDIOPAGO.SelectedIndex & "','" & ComboBox_MEDIOPAGO.Text & "','" & ComboBox_caja.SelectedValue & "','" & ComboBox_caja.Text & "','RECAUDO','" & TextBoxDocInterno.Text & "')"
+                VALUES('" & DateTime.Now.ToShortDateString & "','','" & TXT_DOC_CLIENTE.Text & "','" & TXT_NOM_CLIENTE.Text & "','" & TXT_DIR_CLIENTE.Text & "','" & TXT_TELS_CLIENTE.Text & "','" & ComboBox_tipo_ingreso.Text & "','" & TextBox_DESCRIPCION.Text & "','" & TextBox_valor.Text & "','" & usrdoc & "|" & usrnom & "','" & Formprincipal.TurnoActualGlobal.id & "','" & ComboBox_MEDIOPAGO.SelectedIndex & "','" & ComboBox_MEDIOPAGO.Text & "','" & ComboBox_caja.SelectedValue & "','" & ComboBox_caja.Text & "','RECAUDO','" & TextBoxDocInterno.Text & "')"
                 da = New MySqlDataAdapter(sql, conex)
                 dt = New DataTable
                 Try
@@ -351,6 +351,7 @@ Public Class FormRC
                 ' da.Dispose()
                 ' dt.Dispose()
                 ' conex.Close()
+
 
                 Button_anular.Enabled = True
                 ButtonImprimir.Enabled = True
@@ -1468,7 +1469,7 @@ ON cu.num=cr.curso WHERE alumno_doc='" & TXT_DOC_CLIENTE.Text & "' AND cu.num='"
         If ComboBox_MEDIOPAGO.Text = "TARJETA DE CREDITO" Then TIPO = "5"
         If ComboBox_MEDIOPAGO.Text = "TRANSFERENCIA" Then TIPO = "BANCO"
         If ComboBox_MEDIOPAGO.Text = "CONSIGNACION" Then TIPO = "BANCO"
-        If ComboBox_MEDIOPAGO.Text = "SISTECREDITO" Then TIPO = "BANCO"
+        If ComboBox_MEDIOPAGO.Text = "SISTECREDITO" Then TIPO = "12"
 
         If IsNumeric(TIPO) Then
             SQL = "Select cons, concat(tipo,' - ',nombre,' ',numero) AS nombre FROM cajasybancos WHERE estado='SI' and cons='" & TIPO & "'"

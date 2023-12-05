@@ -1469,7 +1469,8 @@ ON cu.num=cr.curso WHERE alumno_doc='" & TXT_DOC_CLIENTE.Text & "' AND cu.num='"
         If ComboBox_MEDIOPAGO.Text = "TARJETA DE CREDITO" Then TIPO = "5"
         If ComboBox_MEDIOPAGO.Text = "TRANSFERENCIA" Then TIPO = "BANCO"
         If ComboBox_MEDIOPAGO.Text = "CONSIGNACION" Then TIPO = "BANCO"
-        If ComboBox_MEDIOPAGO.Text = "SISTECREDITO" Then TIPO = "12"
+        If ComboBox_MEDIOPAGO.Text = "RECAUDO SISTECREDITO" Then TIPO = "12"
+        If ComboBox_MEDIOPAGO.Text = "PAYNET" Then TIPO = "13"
 
         If IsNumeric(TIPO) Then
             SQL = "Select cons, concat(tipo,' - ',nombre,' ',numero) AS nombre FROM cajasybancos WHERE estado='SI' and cons='" & TIPO & "'"

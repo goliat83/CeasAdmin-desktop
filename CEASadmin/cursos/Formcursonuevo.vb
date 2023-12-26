@@ -21,7 +21,7 @@ Public Class Formcursonuevo
     Dim DT_Instructores As DataTable
     Dim DA_Instructores As MySqlDataAdapter
 
-    Dim prmt_hteor, prmt_hpract, prmt_htaller As Integer
+    Dim prmt_hteor, prmt_hpract, prmt_htaller, prmt_hped As Integer
     Dim prmt_comision, prmt_utilidad, prmt_vrservicio, prmt_vrmedico, prmt_costomedico, prmt_vrderechos, prmt_PIN, prmt_paq, prmt_vrprioridad, prmt_vrcomasesor, prmt_vrasesor As Long
     Dim prmt_cat, prmt_med, prmt_dertran, prmt_vrhoraadd, prmt_vrdescuento As String
     Dim vr_tcturso, vr_certif, vr_dertra, vr_med, vr_horasadd As Double
@@ -115,6 +115,8 @@ Public Class Formcursonuevo
             Me.TextBox_prmt_Practic.Text = 0
             Me.textbox_prmt_hteor.Text = 0
             Me.textbox_prmt_htaller.Text = 0
+            Me.textbox_prmt_hped.Text = 0
+
             Label_TotalTotal.Text = 0
             prmt_vrservicio = 0
             prmt_vrdescuento = 0
@@ -139,6 +141,7 @@ Public Class Formcursonuevo
         prmt_hpract = 0
         prmt_hteor = 0
         prmt_htaller = 0
+        prmt_hped = 0
         prmt_cat = 0
         prmt_med = 0
         prmt_dertran = 0
@@ -156,6 +159,9 @@ Public Class Formcursonuevo
         Me.TextBox_prmt_Practic.Text = prmt_hpract
         Me.textbox_prmt_hteor.Text = prmt_hteor
         Me.textbox_prmt_htaller.Text = prmt_htaller
+        Me.textbox_prmt_hped.Text = prmt_hped
+
+
 
         ComboBoxPIN.SelectedItem = "NO"
         Me.ComboBoxPaqClases.Text = "NO"
@@ -1003,6 +1009,10 @@ Public Class Formcursonuevo
 
     End Sub
 
+    Private Sub textbox_prmt_htaller_TextChanged(sender As Object, e As EventArgs) Handles textbox_prmt_htaller.TextChanged
+
+    End Sub
+
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
         Me.Cursor = Cursors.WaitCursor
         prmt_vrderechos = 0
@@ -1070,6 +1080,7 @@ Public Class Formcursonuevo
         conex.Close()
     End Sub
     Private Sub parametros_servicios_load(ByVal serv_cod As String)
+        MsgBox(serv_cod, vbInformation)
         sql = "SELECT * FROM servicios_parametros WHERE cod='" & serv_cod & "'"
         da = New MySqlDataAdapter(sql, conex)
         dt = New DataTable
@@ -1078,6 +1089,7 @@ Public Class Formcursonuevo
             prmt_hpract = CInt(lin.Item("hpractica"))
             prmt_hteor = CInt(lin.Item("hteoria"))
             prmt_htaller = CInt(lin.Item("htaller"))
+            prmt_hped = CInt(lin.Item("hped"))
             prmt_cat = CStr(lin.Item("cat"))
             prmt_med = CStr(lin.Item("med"))
             prmt_dertran = CStr(lin.Item("dertran"))

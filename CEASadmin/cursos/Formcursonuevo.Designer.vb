@@ -112,6 +112,8 @@ Partial Class Formcursonuevo
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.textbox_prmt_hped = New System.Windows.Forms.TextBox()
+        Me.Label36 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.numericUpUtilidad, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1025,11 +1027,11 @@ Partial Class Formcursonuevo
         '
         Me.Label18.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label18.BackColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(187, Byte), Integer), CType(CType(212, Byte), Integer))
-        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.Color.DimGray
-        Me.Label18.Location = New System.Drawing.Point(813, 262)
+        Me.Label18.Location = New System.Drawing.Point(893, 262)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(194, 34)
+        Me.Label18.Size = New System.Drawing.Size(114, 34)
         Me.Label18.TabIndex = 81
         Me.Label18.Text = "Inf. de Hrs a reportar al RUNT Decreto 1500 Res. 3245"
         '
@@ -1298,12 +1300,39 @@ Partial Class Formcursonuevo
         Me.PictureBox2.TabIndex = 95
         Me.PictureBox2.TabStop = False
         '
+        'textbox_prmt_hped
+        '
+        Me.textbox_prmt_hped.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.textbox_prmt_hped.Enabled = False
+        Me.textbox_prmt_hped.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.textbox_prmt_hped.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.textbox_prmt_hped.Location = New System.Drawing.Point(811, 268)
+        Me.textbox_prmt_hped.Name = "textbox_prmt_hped"
+        Me.textbox_prmt_hped.Size = New System.Drawing.Size(73, 20)
+        Me.textbox_prmt_hped.TabIndex = 1052
+        Me.textbox_prmt_hped.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label36
+        '
+        Me.Label36.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label36.AutoSize = True
+        Me.Label36.BackColor = System.Drawing.Color.Transparent
+        Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.ForeColor = System.Drawing.Color.Black
+        Me.Label36.Location = New System.Drawing.Point(810, 253)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(56, 13)
+        Me.Label36.TabIndex = 1053
+        Me.Label36.Text = "Hrs. Ped"
+        '
         'Formcursonuevo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(187, Byte), Integer), CType(CType(212, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1018, 587)
+        Me.Controls.Add(Me.textbox_prmt_hped)
+        Me.Controls.Add(Me.Label36)
         Me.Controls.Add(Me.Label29)
         Me.Controls.Add(Me.ButtonClienteNuevo)
         Me.Controls.Add(Me.ButtonUpdateCli)
@@ -1448,4 +1477,6 @@ Partial Class Formcursonuevo
     Friend WithEvents Label33 As Label
     Friend WithEvents Label35 As Label
     Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents textbox_prmt_hped As TextBox
+    Friend WithEvents Label36 As Label
 End Class
